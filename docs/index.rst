@@ -10,11 +10,17 @@ Welcome to Vistacare communications plugin docs's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   introduction.md
+   configuration.md
+   pole_profile.md
+   spidacalc_to_db.md
+   vertical_separation.md
 
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. Indices and tables
+.. ==================
+
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`
