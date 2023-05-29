@@ -16,8 +16,6 @@ Welcome to Vistacare communications plugin docs's documentation!
    spidacalc_to_db.md
    vertical_separation.md
 
-
-
 .. Indices and tables
 .. ==================
 
