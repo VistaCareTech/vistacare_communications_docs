@@ -13,7 +13,7 @@ author = 'Jhon Galindo'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-master_doc = 'index'
+root_doc = 'index'
 
 extensions = ["myst_parser"]
 
