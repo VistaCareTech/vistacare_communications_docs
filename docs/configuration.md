@@ -1,1 +1,1 @@
-# Introduction
+# Configuration

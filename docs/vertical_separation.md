@@ -1,1 +1,1 @@
-# Introduction
+# Vertical Separation
