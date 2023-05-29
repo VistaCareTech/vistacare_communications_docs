@@ -5,6 +5,9 @@
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+import sys 
+
+sys.path.insert(0, "..")
 
 project = 'Vistacare communications plugin docs'
 copyright = '2023, Jhon Galindo'
