@@ -12,9 +12,9 @@ Welcome to Vistacare communications plugin docs's documentation!
 
    introduction.md
    configuration.md
-   pole_profile.md
-   spidacalc_to_db.md
-   vertical_separation.md
+   bracebridge.md
+   ETLs.md
+   Tools.md
 
 .. Indices and tables
 .. ==================
