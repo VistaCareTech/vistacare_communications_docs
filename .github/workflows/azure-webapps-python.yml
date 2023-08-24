@@ -56,7 +56,7 @@ jobs:
       - name: Build Sphinx
         uses: ammaraskar/sphinx-action@master
         with:
-          build-command: "sphinx-build -b html . _build"
+          build-command: "sphinx-build -b html . build"
           docs-folder: "docs/"
 
       - name: Upload artifact for deployment jobs
