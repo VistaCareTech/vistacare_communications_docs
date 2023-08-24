@@ -62,6 +62,9 @@ jobs:
             .
             !venv/
 
+  sphinx:
+    configuration: docs/conf.py
+
   deploy:
     permissions:
       contents: none
