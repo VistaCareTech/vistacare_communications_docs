@@ -22,6 +22,49 @@ The following steps will allow you to execute the Extract and Pack functionality
 
 ## Katapult Importer
 ## SpidaCalc Validator
+
+Plugin to extract information from SPIDACALC JSON and generate PDF, XLS report for required missing information.
+
+1. Access the plugins here: 
+   
+   ![sv_access_plugin](_static/spidacalc_validator/sv_access_plugin.png)
+
+2. Choose application to validate SpidaCalc JSON file.
+   * A.) Pole Profile
+   * B.) Anchor Importer (SpidaCalc to DB)
+   * C.) Vertical Separation
+   * List will add up as we develop more plugins applications 
+
+    ![sv_choose_application](_static/spidacalc_validator/sv_choose_application.png)
+
+3. On user interface: 
+   * A.) Input JSON file location. 
+   * B.) Text box to show important messages
+   * C.) **(Optional)** Output file location where reports are saved. If empty, reports generated will be saved to where input JSON file is located 
+
+    ![sv_ui](_static/spidacalc_validator/sv_ui.png)
+
+4. Brief Description in Text Box: 
+   **JSON validation for Pole Profile Application**
+   * Validated JSON file has 10 poles
+   * 10 poles have pole names
+   * 10 poles have proposed layer
+   * *extracted information from PROPOSED Layer:*
+     * 3 out of 10 poles have missing pole nodes (unique pole identifier in Katapult)
+     * 1 out of 10 poles have missing pole coordinates (coordinates can be use to determine pole location in Katapult)
+     * 1 out of 10 poles have missing pole height (information to calculate pole feature coordinates in pole)
+     * 1 out of 10 poles have missing pole class
+     * 1 out of 10 poles have missing pole species (information to determine pole material)
+     * 1 out of 10 poles have missing pole owner (required information in pole profile)
+   * *same information goes to EXISTING Layer*
+
+    ![sv_quick_explanation](_static/spidacalc_validator/sv_quick_explanation.png)
+
+<div class="note">
+<p class="admonition-title">IMPORTANT</p>
+<p>Any specific information can be seen on both reports.</p>
+</div>
+
 ## Layout Modifier
 
 The Layout modifier module allows us to modify the page's Layer and the Layout for the Atlas configuration to exchange the Layers IDs and the Layour components between each field selected.
