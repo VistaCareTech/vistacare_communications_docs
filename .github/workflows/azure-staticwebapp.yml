@@ -51,7 +51,7 @@ jobs:
         run: pip install -r docs/requirements.txt
 
       - name: Install Poetry
-        run: poetry install
+        uses: snok/install-poetry@v1
 
       - name: Build docs with Sphinx
         run: poetry run sphinx-build -b html docs/ docs/_build  
