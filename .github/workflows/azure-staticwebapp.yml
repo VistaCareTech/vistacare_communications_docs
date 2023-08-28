@@ -47,14 +47,11 @@ jobs:
         with:
           python-version: 3.11
 
-      - name: Install dependencies
-        run: pip install -r docs/requirements.txt
-
-      - name: Install Poetry
-        uses: snok/install-poetry@v1
-
-      - name: Build docs with Sphinx
-        run: poetry run sphinx-build -b html docs/ docs/_build  
+      - name: Build Sphinx
+        uses: ammaraskar/sphinx-action@master
+        with:
+          build-command: "sphinx-build -b html . _build"
+          docs-folder: "docs/" 
 
       - name: Build And Deploy
         id: builddeploy
