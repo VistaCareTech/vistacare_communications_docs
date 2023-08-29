@@ -2,47 +2,72 @@
 
 ## QGIS Installation
 
+<div class="warning">
+<p class="admonition-title">WARNING</p>
+<p>To prevent any plugin issues, make sure only QGIS 3.28 version is installed on your system.</p>
+</div>
+
 1. Go to <a href="https://trac.osgeo.org/osgeo4w/" target="_blank">OSGeo4W</a> official installer page.
-2. Download the OSGeo4W network installer.
-
-![Download_OSGeo4W](_static/pole_profile_img/Download_OSGeo4W.png)
-    
+2. Download the OSGeo4W network installer.   
 3. Choose `Advanced Install` then `Next`.
-
-![Advanced_Install](_static/pole_profile_img/Advanced_Install.png)
-
 4. Choose `Install from Internet` then `Next`.
-
-![Install_from_internet](_static/pole_profile_img/Install_from_internet.png)
-
 5. Click `Create icon on Desktop` then `Next`.
-
-![icon_desktop](_static/pole_profile_img/icon_desktop.png)
-
 6. Leave as is the setting. Click `Next`.
-
-![as_is_1](_static/pole_profile_img/as_is_1.png)
-![as_is_2](_static/pole_profile_img/as_is_2.png)
-   
 7. On Select Package:
 
    * Search `QGIS`, look for `qgis-ltr` package as shown in the image. 
    Click the yellow highlighted on <u>New</u> column until <u>3.28</u> appears 
    and make sure column **<u>Bin?</u>** Was crossed out by clicking the tick box. 
 
-   ![QGIS_desktop](_static/pole_profile_img/QGIS_desktop.png)
-
    * Search `pip`,  look for `python3-pip` package as shown in the image. 
    Click the yellow highlighted on <u>New</u> column until the latest version appears
    and make sure column **<u>Bin?</u>** Was crossed out by clicking the tick box.
-   
-   ![install_pip](_static/pole_profile_img/install_pip.png)
-      
+        
    * Click `Next` and QGIS version 3.28 will be installed together with necessary 
    package to run the plugin.
 
-
-8. To prevent any plugin issues, make sure only QGIS 3.28 version is installed on your system.
+<a class="" data-lightbox="QGIS Install" href="_static/install_qgis.gif" title="QGIS Install" data-title="QGIS Install"><img src="_static/install_qgis.gif" class="align-center" width="800px" height="500px" alt="QGIS Install">
+</a>
 
 ## VistaCare Plugin Installation
 
+### Minimum requirements
+
+To use the VistaCare plugin is necessary the following:
+
+* Operative system
+
+   * Windows 
+   * GNU\Linux
+   * macOS
+
+* Python libraries
+
+   * openpyxl
+   * pycairo
+   * jmespath
+   * pandas
+
+<div class="note">
+<p class="admonition-title">IMPORTANT</p>
+<p>The Python libraries will be installed by the plugin in the administrator mode.</p>
+</div>
+
+## Installation Process:
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>It is recommended to use the QGIS version 3.28.</p>
+</div>
+
+1. Go to the start button and find QGIS.
+2. Right Click and choose `Run as administrator`.
+3. Click on `Yes` to allow open the app as administrator.  
+4. Go in the top bar to `Plugins -> Manage and Install Plugins`.
+5. When the Plugins screen appear, choose the option `Install from ZIP` on the right of the interface.
+6. Click on the dots `...`, choose the zip file.
+7. Finally click on `Install Plugin` and wait until all the process finished.
+8. Close the interface and now the VistaCare Plugin is installed.
+
+<a class="" data-lightbox="VistaCare Install" href="_static/vistacare_install.gif" title="VistaCare Install" data-title="VistaCare Install"><img src="_static/vistacare_install.gif" class="align-center" width="800px" height="500px" alt="VistaCare Install">
+</a>
