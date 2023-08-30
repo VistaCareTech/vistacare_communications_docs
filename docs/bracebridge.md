@@ -1,6 +1,31 @@
 # Bracebridge
 
 ## Bracebridge Tracker
+
+The Bracebridge Tracker module 
+
+The following steps will allow you to execute the Bracebridge Tracker functionality:
+
+1. On the VistaCare Plugin go to `Bracebridge --> Bracebridge Tracker`.
+2. Fill the following options:
+
+    * FSA Layer: FSA Layer with the database structure.
+    * Plans Layer: Plans Layer with the database structure.
+    * Cables Layer: Cables Layer with the database structure.
+    * Conduit Layer: Conduit Layer with the database structure.
+    * Fibre drops Layer: Fibre drops Layer with the database structure.
+    * Splices Layer: Splices Layer with the database structure.
+    * UG Structures Layer: UG Structures Layer with the database structure.
+    * Strands Layer: Strands Layer with the database structure.
+    * Anchors Layer: Anchors Layer with the database structure.
+    * Poles Layer: Poles Layer with the database structure.
+    * Folder for export: Choose the place where the excel file will be exported.
+
+3. Click on `OK` and wait until the module finishes the execution. 
+
+<a class="" data-lightbox="Bracebridge Tracker" href="_static/bracebridge_tracker.gif" title="Bracebridge Tracker" data-title="Bracebridge Tracker"><img src="_static/bracebridge_tracker.gif" class="align-center" width="800px" height="500px" alt="Bracebridge Tracker">
+</a>
+
 ## Pole Profile
 
 SVG 2D image generator for Pole Profile P'Eng Reports.
@@ -24,11 +49,10 @@ SVG 2D image generator for Pole Profile P'Eng Reports.
 CSV generator for P'Eng Report Exhibit 1 DESIGN DATA Vertical Separation (At Pole) 
 
 2. Open the plugin here:
-  ![access_plugin](../resources/vertical_separation_img/access_plugin.png)
-
+  ![access_plugin](_static/vertical_separation_img/access_plugin.png)
 
 3. Open the JSON file
-  ![open_file](../resources/vertical_separation_img/open_file.png)
+  ![open_file](_static/vertical_separation_img/open_file.png)
    * a. Open file directory
    * b. Select the JSON file
    * c. Click the Open Button

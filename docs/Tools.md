@@ -21,6 +21,27 @@ The following steps will allow you to execute the Extract and Pack functionality
 </a>
 
 ## Katapult Importer
+
+The Katapult module allow the user to transfor and load  information from Katapult to the database. this operation is soported for *Poles, Anchors, Civics, Spans*.
+
+The following steps will allow you to execute the Katapult Importer functionality:
+
+1. On the VistaCare Plugin go to `Tools --> Katapult Importer`.
+2. Choose the project where you want to import the data.
+3. Choose which kind of Layer are you going to import (Anchors example).
+4. Fill the options available for each Layer case (Anchors example):
+
+    * Shapefile Anchors: Information extracted from Katapult that contain the Anchors data.
+    * Shapefile Guys: Information extracted from Katapult that contain the Guys data.
+    * Anchors: Anchors Layer with the database structure.
+    * Guys: Guys Layer with the database structure.
+
+3. Click on `Import Data` and wait until the module finishes the execution. 
+4. Click on `Finish`.
+
+<a class="" data-lightbox="Katapult Importer" href="_static/katapult_importer.gif" title="Katapult Importer" data-title="Katapult Importer"><img src="_static/katapult_importer.gif" class="align-center" width="800px" height="500px" alt="Katapult Importer">
+</a>
+
 ## SpidaCalc Validator
 
 Plugin to extract information from SPIDACALC JSON and generate PDF, XLS report for required missing information.
