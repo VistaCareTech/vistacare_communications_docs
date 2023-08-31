@@ -46,26 +46,24 @@ The following steps will allow you to execute the Katapult Importer functionalit
 
 Plugin to extract information from SPIDACALC JSON and generate PDF, XLS report for required missing information.
 
-1. Access the plugins here: 
-   
-   ![sv_access_plugin](_static/spidacalc_validator/sv_access_plugin.png)
+The following steps will allow you to execute the SpidaCalc Validator functionality:
 
+1. On the VistaCare Plugin go to `Tools --> SpidaCalc Validator`.
 2. Choose application to validate SpidaCalc JSON file.
-   * A.) Pole Profile
-   * B.) Anchor Importer (SpidaCalc to DB)
-   * C.) Vertical Separation
-   * List will add up as we develop more plugins applications 
 
-    ![sv_choose_application](_static/spidacalc_validator/sv_choose_application.png)
+    * Pole Profile
+    * Anchor Importer (SpidaCalc to DB)
+    * Vertical Separation
 
-3. On user interface: 
-   * A.) Input JSON file location. 
-   * B.) Text box to show important messages
-   * C.) **(Optional)** Output file location where reports are saved. If empty, reports generated will be saved to where input JSON file is located 
+3. On user interface, select JSON file to work on.
+4. **(Optional)** Choose folder location you want to save your reports.
+5. Click `OK` button to generate table
 
-    ![sv_ui](_static/spidacalc_validator/sv_ui.png)
+<a class="" data-lightbox="Spidacalc Validator" href="_static/spidacalc_validator_gif.gif" title="Spidacalc Validator" data-title="Spidacalc Validator"><img src="_static/spidacalc_validator_gif.gif" class="align-center" width="800px" height="500px" alt="Spidacalc Validator">
+</a>
 
-4. Brief Description in Text Box: 
+
+Brief Description in Text Box: 
    **JSON validation for Pole Profile Application**
    * Validated JSON file has 10 poles
    * 10 poles have pole names

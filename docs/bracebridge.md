@@ -40,7 +40,7 @@ The following steps will allow you to execute Pole Profile
 6. Click `OK` button to generate the profiles.
 
 
-<a class="" data-lightbox="Bracebridge Tracker" href="_static/pole_profile_gif.gif" title="Pole Profile" data-title="Pole Profile"><img src="_static/pole_profile_gif.gif" class="align-center" width="800px" height="500px" alt="Pole Profile">
+<a class="" data-lightbox="Pole Profile" href="_static/pole_profile_gif.gif" title="Pole Profile" data-title="Pole Profile"><img src="_static/pole_profile_gif.gif" class="align-center" width="800px" height="500px" alt="Pole Profile">
 </a> 
 
 ## Vertical Separation
@@ -56,7 +56,7 @@ The following steps will allow you to execute Vertical Separation
 4. **(Optional)** Choose folder location you want to save your table.
 5. Click `OK` button to generate table
 
-<a class="" data-lightbox="Bracebridge Tracker" href="_static/vertical_separation_gif.gif" title="Vertical Separation" data-title="Vertical Separation"><img src="_static/vertical_separation_gif.gif" class="align-center" width="800px" height="500px" alt="Vertical Separation">
+<a class="" data-lightbox="Vertical Separation" href="_static/vertical_separation_gif.gif" title="Vertical Separation" data-title="Vertical Separation"><img src="_static/vertical_separation_gif.gif" class="align-center" width="800px" height="500px" alt="Vertical Separation">
 </a> 
 
 
