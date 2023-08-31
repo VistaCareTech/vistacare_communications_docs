@@ -53,22 +53,12 @@ The following steps will allow you to execute Vertical Separation
 1. On the VistaCare Plugin go to `Bracebridge --> Vertical Separation`.
 2. Select the JSON file to work on.
 3. Tick the checkbox which pole you want to generate .
-4. **(Optional)** Choose folder location you want to save your profiles.
+4. **(Optional)** Choose folder location you want to save your table.
 5. Click `OK` button to generate table
 
+<a class="" data-lightbox="Bracebridge Tracker" href="_static/vertical_separation_gif.gif" title="Vertical Separation" data-title="Vertical Separation"><img src="_static/vertical_separation_gif.gif" class="align-center" width="800px" height="500px" alt="Vertical Separation">
+</a> 
 
-6. Open the plugin here:
-  ![access_plugin](_static/vertical_separation_img/access_plugin.png)
-
-1. Open the JSON file
-  ![open_file](_static/vertical_separation_img/open_file.png)
-   * a. Open file directory
-   * b. Select the JSON file
-   * c. Click the Open Button
-   * d. **(Optional)** Select the directory and file name to save the CSV file to be generated.
-     *If Save File Directory was left empty, CSV generated file will be saved where
-     JSON file is located at and with the same JSON file name*.
-   * e. Once OK button is pressed, script will run 
 
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>
