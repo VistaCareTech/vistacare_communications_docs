@@ -77,7 +77,9 @@ Brief Description in Text Box:
      * 1 out of 10 poles have missing pole owner (required information in pole profile)
    * *same information goes to EXISTING Layer*
 
-    ![sv_quick_explanation](_static/spidacalc_validator/sv_quick_explanation.png)
+<a class="" data-lightbox="Spidacalc Validator" href="_static/spidacalc_validator/sv_quick_explanation.png" title="Spidacalc Validator" data-title="Spidacalc Validator"><img src="_static/spidacalc_validator/sv_quick_explanation.png" class="align-center" width="658px" height="619px" alt="Spidacalc Validator">
+</a>
+
 
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>
