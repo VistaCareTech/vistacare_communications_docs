@@ -30,28 +30,37 @@ The following steps will allow you to execute the Bracebridge Tracker functional
 
 SVG 2D image generator for Pole Profile P'Eng Reports.
 
-1. Open the plugin here:
-   
-![pp_access_plugin](_static/pole_profile_img/pp_access_plugin.png)
+The following steps will allow you to execute Pole Profile
 
-2. On pole profile interface, the following can be done:<br>
-  ![pole_profile_ui](_static/pole_profile_img/pole_profile_ui.png)
+1. On the VistaCare Plugin go to `Bracebridge --> Pole Profile`.
+2. Select the JSON file to work on.
+3. Tick the checkbox which pole you want to generate the profile.
+4. Fill in Direction column for pole bearing with respect to roadside, default value is 0 degrees.
+5. **(Optional)** Choose folder location you want to save your profiles.
+6. Click `OK` button to generate the profiles.
 
-   * A.) Select the JSON file to work on
-   * B.) Choose which pole profile format to use
-   * C.) Tick the checkbox which pole you want to generate the profile
-   * D.) Pole bearing with respect to roadside, default value is 0 degrees
-   * E.) **(Optional)** Folder location you want to save your profiles. If left blank, it will save to where the input JSON file is located at
-   * F.) Click **OK** button to generate the profiles.
+
+<a class="" data-lightbox="Bracebridge Tracker" href="_static/pole_profile_gif.gif" title="Pole Profile" data-title="Pole Profile"><img src="_static/pole_profile_gif.gif" class="align-center" width="800px" height="500px" alt="Pole Profile">
+</a> 
 
 ## Vertical Separation
 
 CSV generator for P'Eng Report Exhibit 1 DESIGN DATA Vertical Separation (At Pole) 
 
-2. Open the plugin here:
+The following steps will allow you to execute Vertical Separation
+
+
+1. On the VistaCare Plugin go to `Bracebridge --> Vertical Separation`.
+2. Select the JSON file to work on.
+3. Tick the checkbox which pole you want to generate .
+4. **(Optional)** Choose folder location you want to save your profiles.
+5. Click `OK` button to generate table
+
+
+6. Open the plugin here:
   ![access_plugin](_static/vertical_separation_img/access_plugin.png)
 
-3. Open the JSON file
+1. Open the JSON file
   ![open_file](_static/vertical_separation_img/open_file.png)
    * a. Open file directory
    * b. Select the JSON file
@@ -60,3 +69,8 @@ CSV generator for P'Eng Report Exhibit 1 DESIGN DATA Vertical Separation (At Pol
      *If Save File Directory was left empty, CSV generated file will be saved where
      JSON file is located at and with the same JSON file name*.
    * e. Once OK button is pressed, script will run 
+
+<div class="note">
+<p class="admonition-title">IMPORTANT</p>
+<p>For Pole Profile and Vertical Separation if output folder location is left empty, output files will be save at input json folder location </p>
+</div>
