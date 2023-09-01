@@ -6,7 +6,7 @@ The Extract and Pack module as the name implies filters the selected layers by t
 
 The following steps will allow you to execute the Extract and Pack functionality:
 
-1. On the VistaCare Plugin go to `Tools --> Extract and Pack`.
+1. On the VistaCare Communications Plugin go to `Tools --> Extract and Pack`.
 2. Fill the following options:
 
     * Boundary Layer: A Polygon layer with the features will be used as a boundary.
@@ -26,7 +26,7 @@ The Katapult module allow the user to transfor and load  information from Katapu
 
 The following steps will allow you to execute the Katapult Importer functionality:
 
-1. On the VistaCare Plugin go to `Tools --> Katapult Importer`.
+1. On the VistaCare Communications Plugin go to `Tools --> Katapult Importer`.
 2. Choose the project where you want to import the data.
 3. Choose which kind of Layer are you going to import (Anchors example).
 4. Fill the options available for each Layer case (Anchors example):
@@ -92,7 +92,7 @@ The Layout modifier module allows us to modify the page's Layer and the Layout f
 
 The following steps will allow you to execute the Layout Modifier functionality:
 
-1. On the VistaCare Plugin go to `Tools --> Layout Modifier`.
+1. On the VistaCare Communications Plugin go to `Tools --> Layout Modifier`.
 2. Fill the following options:
 
     * Layout: Layout to be modified.

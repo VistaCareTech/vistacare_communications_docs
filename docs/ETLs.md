@@ -11,7 +11,7 @@ SpidaCalc to DB allows us to extract the information from the SpidaCalc JSON fil
 
 The following steps will allow you to execute the SpidaCalc to DB functionality:
 
-1. On the VistaCare Plugin go to `ETLs --> SpidaCalc To DB`.
+1. On the VistaCare Communications Plugin go to `ETLs --> SpidaCalc To DB`.
 2. Fill the following options:
 
     * Anchor P Eng: Line Layer with the Archor P Eng structure.

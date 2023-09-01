@@ -6,7 +6,7 @@ The Bracebridge Tracker module
 
 The following steps will allow you to execute the Bracebridge Tracker functionality:
 
-1. On the VistaCare Plugin go to `Bracebridge --> Bracebridge Tracker`.
+1. On the VistaCare Communications Plugin go to `Bracebridge --> Bracebridge Tracker`.
 2. Fill the following options:
 
     * FSA Layer: FSA Layer with the database structure.
