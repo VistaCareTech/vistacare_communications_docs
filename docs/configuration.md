@@ -29,6 +29,15 @@
 <a class="" data-lightbox="QGIS Install" href="_static/install_qgis.gif" title="QGIS Install" data-title="QGIS Install"><img src="_static/install_qgis.gif" class="align-center" width="800px" height="500px" alt="QGIS Install">
 </a>
 
+## VistaCare Plugin Download
+
+1. Go to the <a href="https://vistacaretech.sharepoint.com/:u:/s/engineering/ESMc89FC5gVMgCMP3-ZwmcsBqj1ZhxJAaUFBePpcfIIiPA?e=zrSU0V" target="_blank">VistaCare Plugin</a>
+2. Click `Download` on the top part of the web page.
+3. save it in the folder of your choice.
+
+<a class="" data-lightbox="Plugin Download" href="_static/plugin_download.gif" title="Plugin Download" data-title="Plugin Download"><img src="_static/plugin_download.gif" class="align-center" width="800px" height="500px" alt="Plugin Download">
+</a>
+
 ## VistaCare Plugin Installation
 
 ### Minimum requirements
@@ -53,7 +62,7 @@ To use the VistaCare plugin is necessary the following:
 <p>The Python libraries will be installed by the plugin in the administrator mode.</p>
 </div>
 
-## Installation Process:
+### Installation Process:
 
 <div class="seealso">
 <p class="admonition-title">TIP</p>
