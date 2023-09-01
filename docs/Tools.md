@@ -80,10 +80,9 @@ Brief Description in Text Box:
 <a class="" data-lightbox="Spidacalc Validator" href="_static/spidacalc_validator/sv_quick_explanation.png" title="Spidacalc Validator" data-title="Spidacalc Validator"><img src="_static/spidacalc_validator/sv_quick_explanation.png" class="align-center" width="658px" height="619px" alt="Spidacalc Validator">
 </a>
 
-
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>
-<p>Any specific information can be seen on both reports.</p>
+<p>Specific information can all the reports generated.</p>
 </div>
 
 ## Layout Modifier

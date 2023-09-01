@@ -28,6 +28,11 @@ The following steps will allow you to execute the Bracebridge Tracker functional
 
 ## Pole Profile
 
+<div class="note">
+<p class="admonition-title">IMPORTANT</p>
+<p>If output folder location is empty, output files will be save at input json folder location </p>
+</div>
+
 SVG 2D image generator for Pole Profile P'Eng Reports.
 
 The following steps will allow you to execute Pole Profile
@@ -49,6 +54,10 @@ CSV generator for P'Eng Report Exhibit 1 DESIGN DATA Vertical Separation (At Pol
 
 The following steps will allow you to execute Vertical Separation
 
+<div class="note">
+<p class="admonition-title">IMPORTANT</p>
+<p>If output folder location is empty, output files will be save at input json folder location </p>
+</div>
 
 1. On the VistaCare Plugin go to `Bracebridge --> Vertical Separation`.
 2. Select the JSON file to work on.
@@ -58,9 +67,3 @@ The following steps will allow you to execute Vertical Separation
 
 <a class="" data-lightbox="Vertical Separation" href="_static/vertical_separation_gif.gif" title="Vertical Separation" data-title="Vertical Separation"><img src="_static/vertical_separation_gif.gif" class="align-center" width="800px" height="500px" alt="Vertical Separation">
 </a> 
-
-
-<div class="note">
-<p class="admonition-title">IMPORTANT</p>
-<p>For Pole Profile and Vertical Separation if output folder location is left empty, output files will be save at input json folder location </p>
-</div>
