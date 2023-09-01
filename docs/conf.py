@@ -9,7 +9,7 @@ import sys
 
 sys.path.insert(0, "..")
 
-project = 'Vistacare communications plugin docs'
+project = 'VistaCare Communications plugin docs'
 copyright = '2023, Jhon Galindo'
 author = 'Jhon Galindo'
 
@@ -46,7 +46,8 @@ html_css_files = ["custom.css"]
 
 html_theme_options = {
     'display_version': 'true',
-    'sticky_navigation': 'true'
+    'sticky_navigation': 'true',
+    'style_nav_header_background': '#a9c6e9'
 }
 
 html_logo = '_static/VistaCare_Logo.png'
