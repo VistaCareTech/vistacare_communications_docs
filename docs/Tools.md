@@ -85,6 +85,21 @@ Brief Description in Text Box:
 <p>Specific information can all the reports generated.</p>
 </div>
 
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>
+
+1. For PDF report, missing information from JSON or any other information source will have its value as `None` and font color to 'RED'
+<a class="" data-lightbox="Spidacalc Validator" href="_static/spidacalc_validator/sv_pdf_missing_info.png" title="PDF missing information" data-title="PDF missing information"><img src="_static/spidacalc_validator/sv_pdf_missing_info.png" class="align-center" width="800px" height="500px" alt="PDF missing information">
+</a>
+<br>
+
+2. For XLS report, missing information from JSON or any other information source will have a value of `None` and its cell font color to 'RED'. Also, if a layer is missing, rest of the row of layer and pole will be empty.
+<a class="" data-lightbox="Spidacalc Validator" href="_static/spidacalc_validator/sv_xls_missing_info.png" title="XLS missing information" data-title="XLS missing information"><img src="_static/spidacalc_validator/sv_xls_missing_info.png" class="align-center" width="800px" height="500px" alt="XLS missing information">
+</a>
+</p>
+</div>
+
 ## Layout Modifier
 
 The Layout modifier module allows us to modify the page's Layer and the Layout for the Atlas configuration to exchange the Layers IDs and the Layour components between each field selected.
