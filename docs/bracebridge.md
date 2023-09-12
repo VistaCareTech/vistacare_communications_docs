@@ -44,9 +44,24 @@ The following steps will allow you to execute Pole Profile
 5. **(Optional)** Choose folder location you want to save your profiles.
 6. Click `OK` button to generate the profiles.
 
-
 <a class="" data-lightbox="Pole Profile" href="_static/pole_profile_gif.gif" title="Pole Profile" data-title="Pole Profile"><img src="_static/pole_profile_gif.gif" class="align-center" width="800px" height="500px" alt="Pole Profile">
 </a> 
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>Bar message will show if wrong JSON file is used (non SpidaCalc json file). Make sure to use SpidaCalc generated JSON file.</p>
+<a class="" data-lightbox="Pole Profile" href="_static/pole_profile_img/pp_bar_wrong_json_short.png" title="Wrong JSON file" data-title="Wrong JSON file"><img src="_static/pole_profile_img/pp_bar_wrong_json_short.png" class="align-center" width="800px" height="500px" alt="Wrong JSON file">
+</a>
+</div>
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>Bar message will show if JSON file has missing layers (`Existing` or `Proposed`) and script will not proceed.</p>
+<a class="" data-lightbox="Pole Profile" href="_static/pole_profile_img/pp_bar_missing_layer_short.png" title="Wrong JSON file" data-title="Wrong JSON file"><img src="_static/pole_profile_img/pp_bar_missing_layer_short.png" class="align-center" width="800px" height="500px" alt="Wrong JSON file">
+</a>
+</div>
+
+
 
 <div class="seealso">
 <p class="admonition-title">TIP</p>
