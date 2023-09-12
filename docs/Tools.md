@@ -62,6 +62,9 @@ The following steps will allow you to execute the SpidaCalc Validator functional
 <a class="" data-lightbox="Spidacalc Validator" href="_static/spidacalc_validator_gif.gif" title="Spidacalc Validator" data-title="Spidacalc Validator"><img src="_static/spidacalc_validator_gif.gif" class="align-center" width="800px" height="500px" alt="Spidacalc Validator">
 </a>
 
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>
 
 Brief Description in Text Box: 
    **JSON validation for Pole Profile Application**
@@ -75,10 +78,10 @@ Brief Description in Text Box:
      * 1 out of 10 poles have missing pole class
      * 1 out of 10 poles have missing pole species (information to determine pole material)
      * 1 out of 10 poles have missing pole owner (required information in pole profile)
-   * *same information goes to EXISTING Layer*
-
-<a class="" data-lightbox="Spidacalc Validator" href="_static/spidacalc_validator/sv_quick_explanation.png" title="Spidacalc Validator" data-title="Spidacalc Validator"><img src="_static/spidacalc_validator/sv_quick_explanation.png" class="align-center" width="658px" height="619px" alt="Spidacalc Validator">
+   * *same information goes to EXISTING Layer*</p>
+<a class="" data-lightbox="Spidacalc Validator" href="_static/spidacalc_validator/sv_quick_explanation.png" title="Spidacalc Validator" data-title="Spidacalc Validator"><img src="_static/spidacalc_validator/sv_quick_explanation.png" class="align-center" width="800px" height="500px" alt="Spidacalc Validator">
 </a>
+</div>
 
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>
@@ -89,15 +92,18 @@ Brief Description in Text Box:
 <p class="admonition-title">TIP</p>
 <p>
 
-1. For PDF report, missing information from JSON or any other information source will have its value as `None` and font color to 'RED'
+For PDF report, missing information from JSON or any other information source will have its value as `None` and font color to 'RED'.</p>
 <a class="" data-lightbox="Spidacalc Validator" href="_static/spidacalc_validator/sv_pdf_missing_info.png" title="PDF missing information" data-title="PDF missing information"><img src="_static/spidacalc_validator/sv_pdf_missing_info.png" class="align-center" width="800px" height="500px" alt="PDF missing information">
 </a>
-<br>
+</div>
 
-2. For XLS report, missing information from JSON or any other information source will have a value of `None` and its cell font color to 'RED'. Also, if a layer is missing, rest of the row of layer and pole will be empty.
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>
+
+For XLS report, missing information from JSON or any other information source will have a value of `None` and its cell font color to 'RED'. Also, if a layer is missing, rest of the row of layer and pole will be empty.</p>
 <a class="" data-lightbox="Spidacalc Validator" href="_static/spidacalc_validator/sv_xls_missing_info.png" title="XLS missing information" data-title="XLS missing information"><img src="_static/spidacalc_validator/sv_xls_missing_info.png" class="align-center" width="800px" height="500px" alt="XLS missing information">
 </a>
-</p>
 </div>
 
 ## Layout Modifier

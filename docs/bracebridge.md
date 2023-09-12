@@ -56,36 +56,27 @@ The following steps will allow you to execute Pole Profile
 
 <div class="seealso">
 <p class="admonition-title">TIP</p>
-<p>Bar message will show if JSON file has missing layers (`Existing` or `Proposed`) and script will not proceed.</p>
-<a class="" data-lightbox="Pole Profile" href="_static/pole_profile_img/pp_bar_missing_layer_short.png" title="Wrong JSON file" data-title="Wrong JSON file"><img src="_static/pole_profile_img/pp_bar_missing_layer_short.png" class="align-center" width="800px" height="500px" alt="Wrong JSON file">
+<p>
+
+Bar message will show if JSON file has missing layers (`Existing` or `Proposed`) and script will not proceed.</p>
+<a class="" data-lightbox="Pole Profile" href="_static/pole_profile_img/pp_bar_missing_layer_short.png" title="Missing Layer" data-title="Missing Layer"><img src="_static/pole_profile_img/pp_bar_missing_layer_short.png" class="align-center" width="800px" height="500px" alt="Missing Layer">
 </a>
 </div>
-
-
 
 <div class="seealso">
 <p class="admonition-title">TIP</p>
 <p>
 
-1. Bar message will show if wrong JSON file is used (non SpidaCalc json file). Make sure to use SpidaCalc generated JSON file.
-<a class="" data-lightbox="Pole Profile" href="_static/pole_profile_img/pp_bar_wrong_json.png" title="Wrong JSON file" data-title="Wrong JSON file"><img src="_static/pole_profile_img/pp_bar_wrong_json.png" class="align-center" width="800px" height="500px" alt="Wrong JSON file">
-</a>
-<br>
-
-2. Bar message will show if JSON file has missing layers (`Existing` or `Proposed`) and script will not proceed 
-<a class="" data-lightbox="Pole Profile" href="_static/pole_profile_img/pp_bar_missing_layer.png" title="Missing Layer" data-title="Missing Layer"><img src="_static/pole_profile_img/pp_bar_missing_layer.png" class="align-center" width="800px" height="500px" alt="Missing Layer">
-</a>
-<br>
-
-3. Bar message will show how many poles have error during populating table information after selecting JSON file(**A**). It will also specify the pole name with its error on the text box (**B**).
+Bar message will show how many poles have error during populating table information after selecting JSON file(**A**). It will also specify the pole name with its error on the text box (**B**).</p>
 <a class="" data-lightbox="Pole Profile" href="_static/pole_profile_img/pp_exclude_poles_with_errors.png" title="Poles with errors" data-title="Poles with errors"><img src="_static/pole_profile_img/pp_exclude_poles_with_errors.png" class="align-center" width="800px" height="500px" alt="Poles with errors">
 </a>
-<br>
+</div>
 
-4. If any pole in the table have error during pole profile creation, it will specify the pole with its error on the text box.
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>If any pole in the table have error during pole profile creation, it will specify the pole with its error on the text box.</p>
 <a class="" data-lightbox="Pole Profile" href="_static/pole_profile_img/pp_error_during_generation.png" title="Errors during generation" data-title="Errors during generation"><img src="_static/pole_profile_img/pp_error_during_generation.png" class="align-center" width="800px" height="500px" alt="Errors during generation">
 </a>
-</p>
 </div>
 
 ## Vertical Separation
@@ -110,29 +101,39 @@ The following steps will allow you to execute Vertical Separation
 
 <div class="seealso">
 <p class="admonition-title">TIP</p>
-<p>
-
-1. All poles are listed on table and user can select poles for table output.
+<p>All poles are listed on table and user can select poles for table output.</p>
 <a class="" data-lightbox="Vertical Separation" href="_static/vertical_separation_img/vs_table_widget.png" title="Table Widget" data-title="Table Widget"><img src="_static/vertical_separation_img/vs_table_widget.png" class="align-center" width="800px" height="500px" alt="Table Widget">
 </a>
-<br>
+</div>
 
-2. Bar message will show if wrong JSON file is used (non SpidaCalc json file). Make sure to use SpidaCalc generated JSON file.
-<a class="" data-lightbox="Vertical Separation" href="_static/vertical_separation_img/vs_bar_msg_wrong_json.png" title="Wrong JSON file" data-title="Wrong JSON file"><img src="_static/vertical_separation_img/vs_bar_msg_wrong_json.png" class="align-center" width="800px" height="500px" alt="Wrong JSON file">
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>Bar message will show if wrong JSON file is used (non SpidaCalc json file). Make sure to use SpidaCalc generated JSON file</p>
+<a class="" data-lightbox="Vertical Separation" href="_static/vertical_separation_img/vs_bar_msg_wrong_json_short.png" title="Wrong JSON file" data-title="Wrong JSON file"><img src="_static/vertical_separation_img/vs_bar_msg_wrong_json_short.png" class="align-center" width="800px" height="500px" alt="Wrong JSON file">
 </a>
-<br>
+</div>
 
-3. Bar message will show if `Proposed` layer has an issue and script will not proceed.
-<a class="" data-lightbox="Vertical Separation" href="_static/vertical_separation_img/vs_bar_msg_layer_issue.png" title="Layer issue" data-title="Layer issue"><img src="_static/vertical_separation_img/vs_bar_msg_layer_issue.png" class="align-center" width="800px" height="500px" alt="Layer issue">
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>
+
+Bar message will show if `Proposed` layer has an issue and script will not proceed.</p>
+<a class="" data-lightbox="Vertical Separation" href="_static/vertical_separation_img/vs_bar_msg_layer_issue_short.png" title="Layer issue" data-title="Layer issue"><img src="_static/vertical_separation_img/vs_bar_msg_layer_issue_short.png" class="align-center" width="800px" height="500px" alt="Layer issue">
 </a>
-<br>
+</div>
 
-4. If selected pole was unable to extract information due to an error, it will display the pole and its error in the textbox. A hyperlink of the output will be displayed in the textbox.
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>If selected pole was unable to extract information due to an error, it will display the pole and its error in the textbox. A hyperlink of the output will be displayed in the textbox.</p>
 <a class="" data-lightbox="Vertical Separation" href="_static/vertical_separation_img/vs_textbox_information.png" title="Textbox information" data-title="Textbox information"><img src="_static/vertical_separation_img/vs_textbox_information.png" class="align-center" width="800px" height="500px" alt="Textbox information">
 </a>
-<br> 
+</div>
 
-5. Empty cell is replaced by `N/A`. 
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>
+
+Empty cell is replaced by `N/A`.</p>
 <a class="" data-lightbox="Vertical Separation" href="_static/vertical_separation_img/vs_added_headers_na.png" title="Empty cell is N/A" data-title="Empty cell is N/A"><img src="_static/vertical_separation_img/vs_added_headers_na.png" class="align-center" width="800px" height="500px" alt="Empty cell is N/A">
 </a>
-</p>
+</div>
