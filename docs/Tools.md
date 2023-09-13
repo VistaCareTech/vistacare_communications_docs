@@ -66,44 +66,17 @@ The following steps will allow you to execute the SpidaCalc Validator functional
 <p class="admonition-title">TIP</p>
 <p>
 
-Brief Description in Text Box: 
-   **JSON validation for Pole Profile Application**
-   * Validated JSON file has 10 poles
-   * 10 poles have pole names
-   * 10 poles have proposed layer
-   * *extracted information from PROPOSED Layer:*
-     * 3 out of 10 poles have missing pole nodes (unique pole identifier in Katapult)
-     * 1 out of 10 poles have missing pole coordinates (coordinates can be use to determine pole location in Katapult)
-     * 1 out of 10 poles have missing pole height (information to calculate pole feature coordinates in pole)
-     * 1 out of 10 poles have missing pole class
-     * 1 out of 10 poles have missing pole species (information to determine pole material)
-     * 1 out of 10 poles have missing pole owner (required information in pole profile)
-   * *same information goes to EXISTING Layer*</p>
-<a class="" data-lightbox="Spidacalc Validator" href="_static/spidacalc_validator/sv_quick_explanation.png" title="Spidacalc Validator" data-title="Spidacalc Validator"><img src="_static/spidacalc_validator/sv_quick_explanation.png" class="align-center" width="800px" height="500px" alt="Spidacalc Validator">
-</a>
+1. Brief Description in Text Box: 
+   * Description in <span style="color: #000000; font-weight:bold">'BLACK'</span> font color are general information
+   * Description in <span style="color: #FF0000; font-weight:bold">'RED'</span> font color are pole feature missing information
+   * Description in <span style="color: #008000; font-weight:bold">'GREEN'</span> font color are completed reports
+2. For **PDF report**, missing information from JSON or any other information source will have its value as `None` and font color to <span style="color: #FF0000; font-weight:bold">'RED'</span>.
+3. For **XLS report**, missing information from JSON or any other information source will have a value of `None` and its cell font color to <span style="color: #FF0000; font-weight:bold">'RED'</span>. Also, if a layer is missing, rest of the row of layer and pole will be empty.
 </div>
 
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>
-<p>Specific information can all the reports generated.</p>
-</div>
-
-<div class="seealso">
-<p class="admonition-title">TIP</p>
-<p>
-
-For PDF report, missing information from JSON or any other information source will have its value as `None` and font color to 'RED'.</p>
-<a class="" data-lightbox="Spidacalc Validator" href="_static/spidacalc_validator/sv_pdf_missing_info.png" title="PDF missing information" data-title="PDF missing information"><img src="_static/spidacalc_validator/sv_pdf_missing_info.png" class="align-center" width="800px" height="500px" alt="PDF missing information">
-</a>
-</div>
-
-<div class="seealso">
-<p class="admonition-title">TIP</p>
-<p>
-
-For XLS report, missing information from JSON or any other information source will have a value of `None` and its cell font color to 'RED'. Also, if a layer is missing, rest of the row of layer and pole will be empty.</p>
-<a class="" data-lightbox="Spidacalc Validator" href="_static/spidacalc_validator/sv_xls_missing_info.png" title="XLS missing information" data-title="XLS missing information"><img src="_static/spidacalc_validator/sv_xls_missing_info.png" class="align-center" width="800px" height="500px" alt="XLS missing information">
-</a>
+<p>All the detailed information can be found in the generated reports.</p>
 </div>
 
 ## Layout Modifier
