@@ -115,3 +115,24 @@ The following steps will allow you to execute Vertical Separation
 
 <a class="" data-lightbox="Vertical Separation" href="_static/vertical_separation_img/vs_textbox_information.png" title="Textbox information" data-title="Textbox information"><img src="_static/vertical_separation_img/vs_textbox_information.png" class="align-center" width="800px" height="500px" alt="Textbox information">
 </a>
+
+## Mr Automation
+
+The Mr Automation Plugin is designed to simplify the assessment of different make ready conditions. It imports data from SPIDA Calc JSON files and Katapult API which automatically evaluates the conditions to generate a well-structured Excel report.
+
+<div class="note">
+<p class="admonition-title">IMPORTANT</p>
+<p>If output folder location is empty, output files will be save at input json folder location </p>
+</div>
+
+The following steps will allow you to execute Mr Automation
+
+1. On the VistaCare Plugin go to `Bracebridge --> Mr Automation`.
+2. Select the JSON file to work on.
+3. Select the Katapult API file to work on. 
+4. Tick the checkbox which pole you want to generate .
+5. **(Optional)** Choose folder location you want to save your table.
+6. Click `OK` button to generate excel report.
+
+<a class="" data-lightbox="Mr Automation" href="_static/MR_gif.gif" title="Mr Automation" data-title="Mr Automation"><img src="_static/MR_gif.gif" class="align-center" width="800px" height="500px" alt="Mr Automation">
+</a> 
