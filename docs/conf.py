@@ -24,7 +24,7 @@ extensions = [
     'sphinxcontrib.images',
     'sphinx.ext.viewcode',
     'sphinx.ext.autodoc',
-     'myst_parser'
+    'myst_parser'
 ]
 
 templates_path = ['_templates']

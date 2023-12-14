@@ -8,7 +8,13 @@ Welcome to VistaCare Communications plugin docs's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents
+   :caption: Contribute
+
+   style_guide.md
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Coding
 
    introduction.md
    configuration.md
@@ -16,9 +22,8 @@ Welcome to VistaCare Communications plugin docs's documentation!
    ETLs.md
    Tools.md
 
-.. Indices and tables
-.. ==================
+.. toctree::
+   :maxdepth: 2
+   :caption: SharePoint
 
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`
+   flows.md
