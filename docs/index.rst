@@ -26,4 +26,4 @@ Welcome to VistaCare Communications plugin docs's documentation!
    :maxdepth: 2
    :caption: SharePoint
 
-   flows.md
+   flows.rst
