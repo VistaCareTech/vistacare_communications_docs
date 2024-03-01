@@ -21,6 +21,7 @@ Welcome to VistaCare Communications plugin docs's documentation!
    bracebridge.md
    ETLs.md
    Tools.md
+   Layout.md
 
 .. toctree::
    :maxdepth: 2
