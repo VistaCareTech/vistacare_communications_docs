@@ -1,21 +1,21 @@
-## Bell - St Charles - Date Calculator [Dependent]
+# Bell - St Charles - Date Calculator [Dependent]
 
-### Description (What the workflow does?)
-
-
-### How can you start the workflow? (Trigger Action)
+## Description
 
 
-### Which are the decision points?
+## Trigger Action
 
 
-### How does the workflow end?
+## Decision Points
 
 
-### What SharePoint lists are going to be affected by the workflow?
+## Workflow End
 
 
-### What excel spreadsheets are involved in the process?
+## SharePoint Lists Affected by Workflow
 
 
-### Video to GIF (Example of execution)
+## Excel Spreadsheets Involved in the Process
+
+
+## Video to GIF (Example of execution)

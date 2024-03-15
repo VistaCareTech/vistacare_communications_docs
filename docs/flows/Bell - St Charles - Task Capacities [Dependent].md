@@ -1,15 +1,21 @@
-## Bell - St Charles - Task Capacities [Dependent]
+# Bell - St Charles - Task Capacities [Dependent]
 
-### Description (What the workflow does?)
+## Description
 
-### How can you start the workflow? (Trigger Action)
 
-### Which are the decision points?
+## Trigger Action
 
-### How does the workflow end?
 
-### What SharePoint lists are going to be affected by the workflow?
+## Decision Points
 
-### What excel spreadsheets are involved in the process?
 
-### Video to GIF (Example of execution)
+## Workflow End
+
+
+## SharePoint Lists Affected by Workflow
+
+
+## Excel Spreadsheets Involved in the Process
+
+
+## Video to GIF (Example of execution)
