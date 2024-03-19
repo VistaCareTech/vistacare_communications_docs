@@ -1,7 +1,7 @@
 # Bell - St Charles - Task List Backup [Schedule]
 
 ## Description
-Daily saves the information contained in the Task List in an Excel spreadsheet located in <a href="https://vistacaretech.sharepoint.com/:f:/s/engineering/Bell/StCharles/ElH9AaTWHopImN8vPjMknOIB9QoHmYEQ4KhiSmpveaxM9Q?e=QUhLcU" target="_blank">Backup</a> folder on the <a href="https://vistacaretech.sharepoint.com/sites/engineering/Bell/StCharles/default.aspx" target="_blank">Bell/St Charles</a> subsite.
+Daily saves the information contained in the <a href="https://vistacaretech.sharepoint.com/sites/engineering/Bell/StCharles/Lists/Tasks/1000%20Tasks.aspx" target="_blank">Task List</a> in an Excel spreadsheet located in <a href="https://vistacaretech.sharepoint.com/:f:/s/engineering/Bell/StCharles/ElH9AaTWHopImN8vPjMknOIB9QoHmYEQ4KhiSmpveaxM9Q?e=QUhLcU" target="_blank">Backup</a> folder on the <a href="https://vistacaretech.sharepoint.com/sites/engineering/Bell/StCharles/default.aspx" target="_blank">Bell/St Charles</a> subsite.
 
 ## Trigger Action
 Flow is automatically activated daily at 1 AM.
