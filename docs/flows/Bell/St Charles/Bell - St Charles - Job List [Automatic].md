@@ -36,8 +36,29 @@ When an item is created or modified in the <a href="https://vistacaretech.sharep
 
 ## SharePoint Lists Affected by Workflow
 * <a href="https://vistacaretech.sharepoint.com/sites/engineering/Bell/StCharles/Lists/Job%20List/AllItems.aspx" target="_blank">Job List</a>
+* <a href="https://vistacaretech.sharepoint.com/sites/engineering/Bell/StCharles/Lists/Tasks/1000%20Tasks.aspx" target="_blank">Task List</a>
 
 ## Excel Spreadsheets Involved in the Process
 
 
-## Video to GIF (Example of execution)
+## Example of Execution
+
+<div class="note">
+<p class="admonition-title">IMPORTANT</p>
+<p>Triggering and executing Flow takes a few minutes to complete, although in the demonstrations below it appears to take less time.</p>
+</div>
+
+* **Adding new Jobs to the Job List**
+
+<a class="" data-lightbox="Adding new Jobs to the Job List" href="../../../_static/flows/Bell - St Charles - Job List [Automatic]_Adding New Jobs.gif" title="Adding new Jobs to the Job List" data-title="Adding new Jobs to the Job List"><img src="../../../_static/flows/Bell - St Charles - Job List [Automatic]_Adding New Jobs.gif" class="align-center" width="800px" height="500px" alt="Adding new Jobs to the Job List">
+</a>
+
+* **Adding a Job and its Tasks to the Task List**
+
+<div class="note">
+<p class="admonition-title">IMPORTANT</p>
+<p>The flows "Bell - St Charles - Task Capacities [Dependent]" and "Bell - St Charles - Date Calculator [Dependent]" participate in this process.</p>
+</div>
+
+<a class="" data-lightbox="Adding a Job and its Tasks to the Task List" href="../../../_static/flows/Bell - St Charles - Job List [Automatic]_Adding New Tasks.gif" title="Adding a Job and its Tasks to the Task List" data-title="Adding a Job and its Tasks to the Task List"><img src="../../../_static/flows/Bell - St Charles - Job List [Automatic]_Adding New Tasks.gif" class="align-center" width="800px" height="500px" alt="Adding a Job and its Tasks to the Task List">
+</a>

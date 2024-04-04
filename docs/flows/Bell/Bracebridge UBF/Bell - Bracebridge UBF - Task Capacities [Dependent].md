@@ -36,4 +36,17 @@ When an HTTP request is received from:
 ## Excel Spreadsheets Involved in the Process
 
 
-## Video to GIF (Example of execution)
+## Example of Execution
+
+<div class="note">
+<p class="admonition-title">IMPORTANT</p>
+<p>Triggering and executing Flow takes a few minutes to complete, although in the demonstrations below it appears to take less time.</p>
+</div>
+
+<div class="note">
+<p class="admonition-title">IMPORTANT</p>
+<p>This Flow is only triggered by "Bell - Bracebridge UBF - Job List [Automatic]" or by "Bell - Bracebridge UBF - Task List [Automatic]".</p>
+</div>
+
+<a class="" data-lightbox="Adding a Job and its Tasks to the Task List" href="../../../_static/flows/Bell - Bracebridge UBF - Job List [Automatic]_Adding New Tasks.gif" title="Adding a Job and its Tasks to the Task List" data-title="Adding a Job and its Tasks to the Task List"><img src="../../../_static/flows/Bell - Bracebridge UBF - Job List [Automatic]_Adding New Tasks.gif" class="align-center" width="800px" height="500px" alt="Adding a Job and its Tasks to the Task List">
+</a>

@@ -32,4 +32,17 @@ Flow is automatically activated daily at 1 AM.
 <p>The names of Excel spreadsheets are generated automatically taking into account the date and time.</p>
 </div>
 
-## Video to GIF (Example of execution)
+## Example of Execution
+
+<div class="note">
+<p class="admonition-title">IMPORTANT</p>
+<p>Triggering and executing Flow takes a few minutes to complete, although in the demonstrations below it appears to take less time.</p>
+</div>
+
+<div class="note">
+<p class="admonition-title">IMPORTANT</p>
+<p>This Flow is scheduled to trigger automatically every day, however in the demonstration below it was triggered manually.</p>
+</div>
+
+<a class="" data-lightbox="Task List Backup" href="../../../_static/flows/Bell - Bracebridge UBF - Task List Backup [Schedule].gif" title="Task List Backup" data-title="Task List Backup"><img src="../../../_static/flows/Bell - Bracebridge UBF - Task List Backup [Schedule].gif" class="align-center" width="800px" height="500px" alt="Task List Backup">
+</a>
