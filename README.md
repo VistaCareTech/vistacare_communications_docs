@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 To compile the documentation run the following command:
 
-sphinx-build -b html . _build --keep-going --no-color -w /tmp/sphinx-log
+sphinx-build -b html ./docs ./docs/_build --keep-going --no-color -w /tmp/sphinx-log
 
 ***To visualize the documentation go to the folder _build and open the index.html on your Browser.***
 
