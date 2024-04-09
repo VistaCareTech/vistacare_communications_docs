@@ -1,10 +1,8 @@
 # Bell - Bracebridge UBF - Recovery From Backup [Manual]
 
-<a href="https://make.powerautomate.com/environments/Default-a5273f41-687e-4e5e-9fba-18c6ce465b41/flows/shared/5a84d83b-c283-4dd7-adda-cfe8641a1c18/details" target="_blank">Flow Link</a>
-
-<div class="note">
-<p class="admonition-title">IMPORTANT</p>
-<p>notify.engineering account owns this Flow. If you are not a co-owner you will not be able to access it.</p>
+<div class="warning">
+<p class="admonition-title">WARNING</p>
+<p>notify.engineering account owns this <a href="https://make.powerautomate.com/environments/Default-a5273f41-687e-4e5e-9fba-18c6ce465b41/flows/shared/5a84d83b-c283-4dd7-adda-cfe8641a1c18/details" target="_blank">Flow</a>. If you are not a co-owner you will not be able to access it.</p>
 </div>
 
 ## Description
