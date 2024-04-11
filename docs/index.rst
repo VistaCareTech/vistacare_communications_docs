@@ -22,6 +22,7 @@ Welcome to VistaCare Communications plugin docs's documentation!
    ETLs.md
    Tools.md
    Layout.md
+   Database.md
 
 .. toctree::
    :maxdepth: 2
