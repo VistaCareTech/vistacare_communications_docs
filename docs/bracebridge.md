@@ -33,18 +33,22 @@ The following steps will allow you to execute the Bracebridge Tracker functional
 <p>If output folder location is empty, output files will be save at input json folder location </p>
 </div>
 
-SVG 2D image generator for Pole Profile P'Eng Reports.
+Image generator for Pole Profile P'Eng Reports. This plugin lets you create a 2D image for pole profile
+in an SVG or DXF format. SVG format gives the user a scalable vector graphic that maintains high quality 
+image and can be easily edited with various vector graphic software. DXF format provides compatibility 
+with numerous CAD applications.
 
 The following steps will allow you to execute Pole Profile
 
 1. On the VistaCare Plugin go to `Bracebridge --> Pole Profile`.
 2. Select the JSON file to work on.
-3. Tick the checkbox which pole you want to generate the profile.
-4. Fill in Direction column for pole bearing with respect to roadside, default value is 0 degrees.
-5. **(Optional)** Choose folder location you want to save your profiles.
-6. Click `OK` button to generate the profiles.
+3. Choose the pole profile format and pole profile file type. 
+4. Tick the checkbox which pole you want to generate the profile.
+5. Fill in Direction column for pole bearing with respect to roadside, default value is 0 degrees.
+6. **(Optional)** Choose folder location you want to save your profiles.
+7. Click `OK` button to generate the profiles.
 
-<a class="" data-lightbox="Pole Profile" href="_static/pole_profile_gif.gif" title="Pole Profile" data-title="Pole Profile"><img src="_static/pole_profile_gif.gif" class="align-center" width="800px" height="500px" alt="Pole Profile">
+<a class="" data-lightbox="Pole Profile" href="_static/pole_profile_gif.gif" title="Pole Profile" data-title="Pole Profile"><img src="_static/new_pole_profile_gif.gif" class="align-center" width="800px" height="500px" alt="Pole Profile">
 </a> 
 
 ### Pole Profiles Errors
