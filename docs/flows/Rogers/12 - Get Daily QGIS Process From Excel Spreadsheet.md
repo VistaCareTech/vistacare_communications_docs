@@ -45,4 +45,4 @@ When a file is created or modified in the <a href="https://vistacaretech.sharepo
 * <a href="https://vistacaretech.sharepoint.com/:x:/s/engineering/EYj9SwCVdHhIv3rZjQQXnxgB_Rsc3-7IgdEpJZRSVI-99g?e=1e9RrU" target="_blank">DailyHLD.xlsx</a>
 * <a href="https://vistacaretech.sharepoint.com/:x:/s/engineering/EdqvLrhXdCZPutcLHu9g4KMBZ1jeqKZErf8Ov486PyKOSw?e=J8HXiU" target="_blank">DailyHLDQC.xlsx</a>
 
-## Video to GIF (Example of execution)
+## Example of execution
