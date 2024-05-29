@@ -1,4 +1,4 @@
-# Daily Update of Field Survey Lists [Schedule]
+# Daily Update of Lists by Subsite [Schedule]
 
 <div class="warning">
 <p class="admonition-title">WARNING</p>
@@ -11,9 +11,40 @@ Flow used to add **Daily Field Collection** data contained in Excel spreadsheets
 ## Trigger Action
 Flow is automatically activated daily at sunset.
 
+<div class="note">
+<p class="admonition-title">IMPORTANT</p>
+<p>If necessary, it can be configured to trigger several times a day at different times.</p>
+</div>
+
 ## Variables
-* **parameters**: **Array** type variable that stores the initial **siteAddress** and **katapultFolder** values ​​in **Object** format.
+* **parameters**: **Array** type variable that stores the **siteAddress**, **katapultFolder**, **timeToStart** and **startDateRule** values ​​in **Object** format.
 <br></br>
+    * Type: Switch
+    * Cases - Case 1: DailyFieldCollections, Case 2: DailyUpdatedJobList
+    * siteAddress: Switch
+    * katapultFolder:
+    * timeToStart: Switch
+    * startDateRule:
+
+    is the address of the subsite to have its lists updated
+
+This is the address of Katapult, the folder where the project jobs are located.
+
+This is the rule that determines the time for the update to start
+
+This is the rule that determines which days of the week Flow will also update the previous days and the number of previous days to be updated.
+<br></br>
+
+
+    "siteAddress": "https://vistacaretech.sharepoint.com/sites/engineering/",
+    "katapultFolder": "Xplore/Elgin",
+    "timeToStart": "
+",
+    "startDateRule": {
+      "0": -7,
+      "3": -1
+    }
+
 
 * **path**: **String** type variable that stores the path where Excel files are saved.
 <br></br>
@@ -37,27 +68,7 @@ Flow is automatically activated daily at sunset.
 <br></br>
 
 ## Decision Points
-* **Switch - Extracted files**: Identifies which of the 2 possible Excel spreadsheets was created and directs Flow to the actions relating to each case.
-<br></br>
-    * Type: Switch
-    * Cases - Case 1: DailyFieldCollections, Case 2: DailyUpdatedJobList
-<br></br>
-
-* **Switch - DailyFieldCollections Status**: Identifies which of the 3 possible collection status the field collection belongs to and directs Flow to actions relating to each case.
-<br></br>
-    * Type: Switch
-    * Cases - Case 1: Collected, Case 2: Recollected, Case 3: Missed
-<br></br>
-
-* **Condition - Is Date of the Obtained Data Equal to Current Date**: Condition used to prevent the **Job List** from being updated with outdated data.
-<br></br>
-    * Type: If
-<br></br>
-
-* **Condition - Job is already in Job List**: Condition used to identify whether the Job is already present in the **Job List**. If so, the Job is just updated in the **Job List**. If not, the Job is created in the **Job List**.
-<br></br>
-    * Type: If
-<br></br>
+* There is no decision point.
 
 ## Workflow End
 * "**Do until** - Variable date eq Current Date" > "**Apply to each** file extracted in the extract folder action" > "**Switch** - Extracted files" >  "**Case** DailyFieldCollections.xlsx" > "**Apply to each** DailyFieldCollections row" > "**Switch** - DailyFieldCollections Status" > "**Case** Collected" > "**Create item** - Daily Field Collections" AND "**Create item** - Field Pre QC"
@@ -68,6 +79,10 @@ Flow is automatically activated daily at sunset.
 * Create Item action (<a href="https://vistacaretech.sharepoint.com/sites/engineering/Lists/QGIS%20Import/AllItems.aspx" target="_blank">QGIS Import</a>)
 * Create Item action (<a href="https://vistacaretech.sharepoint.com/sites/engineering/Lists/HLD/AllItems.aspx" target="_blank">HLD</a>)
 * Create Item action (<a href="https://vistacaretech.sharepoint.com/sites/engineering/Lists/HLD%20QC/AllItems.aspx" target="_blank">HLD QC</a>)
+
+## Other Flows Triggered
+[a relative link](Update of Lists related to Field Survey [Dependent].md)
+* <a href="Update of Lists related to Field Survey [Dependent].md" target="_blank">Update of Lists related to Field Survey [Dependent]</a>
 
 ## SharePoint Lists Affected by the Workflow
 * <a href="https://vistacaretech.sharepoint.com/sites/engineering/Lists/Job%20List/AllItems.aspx" target="_blank">Job List</a>
