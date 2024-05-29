@@ -81,8 +81,7 @@ This is the rule that determines which days of the week Flow will also update th
 * Create Item action (<a href="https://vistacaretech.sharepoint.com/sites/engineering/Lists/HLD%20QC/AllItems.aspx" target="_blank">HLD QC</a>)
 
 ## Other Flows Triggered
-[a relative link](Update of Lists related to Field Survey [Dependent].md)
-* <a href="Update of Lists related to Field Survey [Dependent].md" target="_blank">Update of Lists related to Field Survey [Dependent]</a>
+[Update of Lists related to Field Survey [Dependent]](../General/Update%20of%20Lists%20related%20to%20Field%20Survey%20[Dependent].md)
 
 ## SharePoint Lists Affected by the Workflow
 * <a href="https://vistacaretech.sharepoint.com/sites/engineering/Lists/Job%20List/AllItems.aspx" target="_blank">Job List</a>
