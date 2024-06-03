@@ -25,7 +25,10 @@ Welcome to VistaCare Communications plugin docs's documentation!
    Database.md
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: SharePoint
 
-   flows.rst
+   flows/General/Update of Field Collection Lists.md
+   flows/General/Update of Task Lists.md
+   flows/General/Backup and Recovery of Tasks Lists.md
+   flows/General/Auxiliary Flows

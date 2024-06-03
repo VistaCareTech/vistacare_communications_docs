@@ -27,4 +27,4 @@ User needs to select the backup file they want to recover in the "List rows pres
 <p>The names of Excel spreadsheets are generated automatically taking into account the date and time.</p>
 </div>
 
-## Example of execution
+## Example of Execution

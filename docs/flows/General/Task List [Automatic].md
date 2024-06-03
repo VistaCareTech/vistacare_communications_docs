@@ -35,4 +35,4 @@ When an item is created or modified in the <a href="https://vistacaretech.sharep
 ## Excel Spreadsheets Involved in the Process
 
 
-## Example of execution
+## Example of Execution
