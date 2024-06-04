@@ -1,4 +1,4 @@
-Flowiis
+Flows
 ======
 
 .. toctree::

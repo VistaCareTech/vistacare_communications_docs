@@ -4,6 +4,10 @@
 Set of Flows responsible for adding new tasks to the **Task List** as well as updating existing tasks based on the data present in the **Job List**, **Task Capacities**, **PENG Task Capacities**, and **Task List** SharePoint lists.
 
 ## Flowchart
+<a class="" data-lightbox="Flowchart" href="../../../_static/flows/Update_of_Task_Lists_-_Flowchart.png" title="Update of Task Lists Flowchart" data-title="Update of Task Lists Flowchart">
+<img src="../../../_static/flows/Update_of_Task_Lists_-_Flowchart.png" class="align-center" width="500px" alt="Update of Task Lists Flowchart">
+</a>
+<br></br>
 
 ## How It Works
 This set of Flows can be initiated by one of the two Flows below:
@@ -12,7 +16,6 @@ This set of Flows can be initiated by one of the two Flows below:
 <br></br>
 
 - **Task List [Automatic]**: by adding a new Task or changing the Status attribute of a Task already existing in the Task List.
-<br></br>
 
 The Flow that was triggered will then call **Task Capacities [Dependent]** which will then call **Date Calculator [Dependent]**.
 

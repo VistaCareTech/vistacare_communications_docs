@@ -9,7 +9,7 @@
 Daily saves the information contained in the <a href="https://vistacaretech.sharepoint.com/sites/engineering/Bell/BracebridgeUBF/Lists/Task%20List/1000%20Tasks.aspx" target="_blank">Task List</a> in an Excel spreadsheet located in <a href="https://vistacaretech.sharepoint.com/:f:/s/engineering/Bell/BracebridgeUBF/EgRg0ZhAsQJItve9WdAy6XABT1AvCXZymwdqJwo48O8cZg?e=CVuG5f" target="_blank">Backup</a> folder on the <a href="https://vistacaretech.sharepoint.com/sites/engineering/Bell/BracebridgeUBF/default.aspx" target="_blank">Bell/Bracebridge UBF</a> subsite.
 
 ## Trigger Action
-Flow is automatically activated daily at 1 AM.
+Flow is automatically activated daily at 10 PM.
 
 ## Decision Points
 * **Condition**: Condition used to control the maximum number of backups kept in the directory. If there are more than 30 versions of the backup saved in that directory, then the oldest version is deleted to free up space for the most recent version.

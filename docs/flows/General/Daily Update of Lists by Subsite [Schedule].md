@@ -2,11 +2,11 @@
 
 <div class="warning">
 <p class="admonition-title">WARNING</p>
-<p>notify.engineering account owns this <a href="https://make.powerautomate.com/environments/Default-a5273f41-687e-4e5e-9fba-18c6ce465b41/flows/shared/d575c968-e542-47d7-9bfd-91c8a389f683/details" target="_blank">Flow</a>. If you are not a co-owner you will not be able to access it.</p>
+<p>notify.engineering account owns this <a href="https://make.powerautomate.com/environments/Default-a5273f41-687e-4e5e-9fba-18c6ce465b41/flows/7d8c6806-8952-4cd7-824b-c26c6d712bc8/details" target="_blank">Flow</a>. If you are not a co-owner you will not be able to access it.</p>
 </div>
 
 ## Description
-Flow used to add **Daily Field Collection** data contained in Excel spreadsheets to Sharepoint lists. The data contained in Excel spreadsheets is obtained through the **KatapultTracker.py** code.
+Flow used to trigger the execution of other Flows on a daily basis, which are responsible for updating Sharepoint List. Also responsible for passing on the necessary parameters for the execution of these other Flows.
 
 ## Trigger Action
 Flow is automatically activated daily at sunset.
@@ -42,8 +42,8 @@ Flow is automatically activated daily at sunset.
 ## Decision Points
 * There is no decision point.
 
-## Other Flows Triggered
-* [Update of Lists related to Field Survey [Dependent]](../General/Update%20of%20Lists%20related%20to%20Field%20Survey%20[Dependent].md)
+## Related Flows
+* [Update of Lists related to Field Survey [Dependent]](../General/Update%20of%20Lists%20Related%20to%20Field%20Survey%20[Dependent].md)
 
 ## Workflow End
 1. "**Apply to each** siteAddress" > "**HTTP** - Update of Lists related to Field Survey [Dependent]"
