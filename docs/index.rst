@@ -29,3 +29,9 @@ Welcome to VistaCare Communications plugin docs's documentation!
    :caption: SharePoint
 
    flows.rst
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Database
+
+   logging.md
