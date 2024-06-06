@@ -2,29 +2,32 @@ Flows
 ======
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Rogers
-
-   flows/Rogers/12 - Get Daily QGIS Process From Excel Spreadsheet.md
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Bracebridge UBF
+   :maxdepth: 10
+   :caption: Flows related to updating field collection data
    
-   flows/Bell/Bracebridge UBF/Bell - Bracebridge UBF - Date Calculator [Dependent].md
-   flows/Bell/Bracebridge UBF/Bell - Bracebridge UBF - Job List [Automatic].md
-   flows/Bell/Bracebridge UBF/Bell - Bracebridge UBF - Recovery From Backup [Manual].md
-   flows/Bell/Bracebridge UBF/Bell - Bracebridge UBF - Task Capacities [Dependent].md
-   flows/Bell/Bracebridge UBF/Bell - Bracebridge UBF - Task List [Automatic].md
-   flows/Bell/Bracebridge UBF/Bell - Bracebridge UBF - Task List Backup [Schedule].md
+   flows/General/Update of Field Collection Lists.md
+
+
 
 .. toctree::
-   :maxdepth: 2
-   :caption: St Charles
+   :maxdepth: 10
+   :caption: Flows related to the operation of Task Lists
 
-   flows/Bell/St Charles/Bell - St Charles - Date Calculator [Dependent].md
-   flows/Bell/St Charles/Bell - St Charles - Job List [Automatic].md
-   flows/Bell/St Charles/Bell - St Charles - Recovery From Backup [Manual].md
-   flows/Bell/St Charles/Bell - St Charles - Task Capacities [Dependent].md
-   flows/Bell/St Charles/Bell - St Charles - Task List [Automatic].md
-   flows/Bell/St Charles/Bell - St Charles - Task List Backup [Schedule].md
+   flows/General/Job List [Automatic].md
+   flows/General/Task List [Automatic].md
+   flows/General/Task Capacities [Dependent].md
+   flows/General/Date Calculator [Dependent].md
+
+.. toctree::
+   :maxdepth: 10
+   :caption: Flows related to Task Lists Backup
+
+   flows/General/Task List Backup [Schedule].md
+   flows/General/Recovery From Backup [Manual].md
+
+.. toctree::
+   :maxdepth: 10
+   :caption: Auxiliary Flows used in several flows in different projects
+
+   flows/General/Get SharePoint Lists IDs [Dependent].md
+   flows/General/Update Job List With New Jobs [Dependent].md
