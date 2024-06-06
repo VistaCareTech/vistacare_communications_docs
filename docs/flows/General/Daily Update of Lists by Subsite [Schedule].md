@@ -53,9 +53,9 @@ There is no decision point.
 
 
 ## Workflow End
-1. "**Apply to each** siteAddress"  
-    **->** "**HTTP** - Update of Lists related to Field Survey [Dependent]"
-<br></br>
+A. First End:  
+    &emsp; 1. "**Apply to each** siteAddress"  
+    &emsp; 2. "**HTTP** - Update of Lists related to Field Survey [Dependent]"
 
 
 ## SharePoint Lists Affected by the Workflow
@@ -67,7 +67,7 @@ There is no decision point.
 
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>
-<p>The links above point to the lists present on the **Engineering** subsite, however Flow will update the equivalent lists in each set subsite.</p>
+<p>The links above point to the lists present on the <b>Engineering</b> subsite, however Flow will update the equivalent lists in each set subsite.</p>
 </div>
 
 

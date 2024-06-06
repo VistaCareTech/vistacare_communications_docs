@@ -48,15 +48,15 @@ When an item is created or modified in the **Task List**.
 
 
 ## Workflow End
-1. "**Condition** - If Task Had Its Status, StartDate or DueDate changed"  
-    **->** "**Case** True"
-    **->** "**HTTP** - Task Capacities [Dependent]"  
-<br></br>
+A. First End:  
+    &emsp; 1. "**Condition** - If Task Had Its Status, StartDate or DueDate changed"  
+    &emsp; 2. "**Case** True"  
+    &emsp; 3. "**HTTP** - Task Capacities [Dependent]"  
 
-2. "**Condition** - If Task Had Its Status, StartDate or DueDate changed"  
-    **->** "**Case** False"
-    **->** "Terminate"
-<br></br>
+B. Second End:  
+    &emsp; 1. "**Condition** - If Task Had Its Status, StartDate or DueDate changed"  
+    &emsp; 2. "**Case** False"  
+    &emsp; 3. "Terminate"
 
 
 ## SharePoint Lists Affected by Workflow
@@ -64,7 +64,7 @@ When an item is created or modified in the **Task List**.
 
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>
-<p>The links above point to the lists present on the **Bracebridge UBF** subsite, however Flow will update the equivalent lists in each set subsite.</p>
+<p>The links above point to the lists present on the <b>Bracebridge UBF</b> subsite, however Flow will update the equivalent lists in each set subsite.</p>
 </div>
 
 

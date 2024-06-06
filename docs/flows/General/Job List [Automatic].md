@@ -45,24 +45,24 @@ When an item is created or modified in the **Job List**.
 
 
 ## Workflow End
-1. "**Condition** - If a job was created with New as name"  
-    **->** "**Case** True"
-    **->** "**HTTP** - Update Job List With New Jobs [Dependent]"  
-<br></br>
+A. First End:  
+    &emsp; 1. "**Condition** - If a job was created with New as name"  
+    &emsp; 2. "**Case** True"  
+    &emsp; 3. "**HTTP** - Update Job List With New Jobs [Dependent]"  
 
-2. "**Condition** - If a job was created with New as name"  
-    **->** "**Case** False"
-    **->** "**Condition** - If the Job received a Start Date"  
-    **->** "**Case** True"  
-    **->** "**HTTP** - Task Capacities [Dependent]"  
-<br></br>
+B. Second End:  
+    &emsp; 1. "**Condition** - If a job was created with New as name"  
+    &emsp; 2. "**Case** False"  
+    &emsp; 3. "**Condition** - If the Job received a Start Date"  
+    &emsp; 4. "**Case** True"  
+    &emsp; 5. "**HTTP** - Task Capacities [Dependent]"  
 
-3. "**Condition** - If a job was created with New as name"  
-    **->** "**Case** False"
-    **->** "**Condition** - If the Job received a Start Date"  
-    **->** "**Case** False"  
-    **->** "Terminate"
-<br></br>
+C. Third End:  
+    &emsp; 1. "**Condition** - If a job was created with New as name"  
+    &emsp; 2. "**Case** False"  
+    &emsp; 3. "**Condition** - If the Job received a Start Date"  
+    &emsp; 4. "**Case** False"  
+    &emsp; 5. "Terminate"
 
 
 ## SharePoint Lists Affected by Workflow
@@ -70,7 +70,7 @@ When an item is created or modified in the **Job List**.
 
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>
-<p>The links above point to the lists present on the **Bracebridge UBF** subsite, however Flow will update the equivalent lists in each set subsite.</p>
+<p>The links above point to the lists present on the <b>Bracebridge UBF</b> subsite, however Flow will update the equivalent lists in each set subsite.</p>
 </div>
 
 

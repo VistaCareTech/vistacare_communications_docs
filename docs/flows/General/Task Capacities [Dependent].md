@@ -40,9 +40,9 @@ When an HTTP request is received from **Job List [Automatic]** or  **Task List [
 
 
 ## Workflow End
-1. "**HTTP** - Date Calculator [Dependent]"  
-    **->** "**Update item** - Job Name Row First Task on Task List"
-<br></br>
+A. First End:  
+    &emsp; 1. "**HTTP** - Date Calculator [Dependent]"  
+    &emsp; 2. "**Update item** - Job Name Row First Task on Task List"
 
 
 ## SharePoint Lists Affected by Workflow
@@ -52,7 +52,7 @@ When an HTTP request is received from **Job List [Automatic]** or  **Task List [
 
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>
-<p>The links above point to the lists present on the **Bracebridge UBF** subsite, however Flow will update the equivalent lists in each set subsite.</p>
+<p>The links above point to the lists present on the <b>Bracebridge UBF</b> subsite, however Flow will update the equivalent lists in each set subsite.</p>
 </div>
 
 
@@ -69,7 +69,7 @@ When an HTTP request is received from **Job List [Automatic]** or  **Task List [
 
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>
-<p>This Flow is only triggered by "Bell - Bracebridge UBF - Job List [Automatic]" or by "Bell - Bracebridge UBF - Task List [Automatic]".</p>
+<p>This Flow is only triggered by "Job List [Automatic]" or by "Task List [Automatic]".</p>
 </div>
 
 <a class="" data-lightbox="Adding a Job and its Tasks to the Task List" href="../../../_static/flows/Bell - Bracebridge UBF - Job List [Automatic]_Adding New Tasks.gif" title="Adding a Job and its Tasks to the Task List" data-title="Adding a Job and its Tasks to the Task List"><img src="../../../_static/flows/Bell - Bracebridge UBF - Job List [Automatic]_Adding New Tasks.gif" class="align-center" width="800px" height="500px" alt="Adding a Job and its Tasks to the Task List">

@@ -70,68 +70,69 @@ Flow is triggered from a call in another Flow.
 * [Daily Update of Lists by Subsite [Schedule]](Daily%20Update%20of%20Lists%20by%20Subsite%20[Schedule].md)
 
 ## Workflow End
-1. "**Do until** - Variable date eq Current Date"  
-    **->** "**Apply to each** file extracted in the extract folder action"  
-    **->** "**Switch** - Extracted files"  
-    **->** "**Case** DailyFieldCollections.xlsx"  
-    **->** "**Apply to each** DailyFieldCollections row"  
-    **->** "**Switch** - DailyFieldCollections Status"  
-    **->** "**Case** Collected"  
-    **->** "**Create item** - Daily Field Collections" & "**Create item** - Field Pre QC"
-<br></br>
+A. First End:  
+    &emsp; 1. "**Do until** - Variable date eq Current Date"  
+    &emsp; 2. "**Apply to each** file extracted in the extract folder action"  
+    &emsp; 3. "**Switch** - Extracted files"  
+    &emsp; 4. "**Case** DailyFieldCollections.xlsx"  
+    &emsp; 5. "**Apply to each** DailyFieldCollections row"  
+    &emsp; 6. "**Switch** - DailyFieldCollections Status"  
+    &emsp; 7. "**Case** Collected"  
+    &emsp; 8. "**Create item** - Daily Field Collections" & "**Create item** - Field Pre QC"
 
-2. "**Do until** - Variable date eq Current Date"  
-    **->** "**Apply to each** file extracted in the extract folder action"  
-    **->** "**Switch** - Extracted files"  
-    **->** "**Case** DailyFieldCollections.xlsx"  
-    **->** "**Apply to each** DailyFieldCollections row"  
-    **->** "**Switch** - DailyFieldCollections Status"  
-    **->** "**Case** Recollected"  
-    **->** "**Create item** - Deficiency Field Recollections"
-<br></br>
+B. Second End:  
+    &emsp; 1. "**Do until** - Variable date eq Current Date"  
+    &emsp; 2. "**Apply to each** file extracted in the extract folder action"  
+    &emsp; 3. "**Switch** - Extracted files"  
+    &emsp; 4. "**Case** DailyFieldCollections.xlsx"  
+    &emsp; 5. "**Apply to each** DailyFieldCollections row"  
+    &emsp; 6. "**Switch** - DailyFieldCollections Status"  
+    &emsp; 7. "**Case** Recollected"  
+    &emsp; 8. "**Create item** - Deficiency Field Recollections"
 
-3. "**Do until** - Variable date eq Current Date"  
-    **->** "**Apply to each** file extracted in the extract folder action"  
-    **->** "**Switch** - Extracted files"  
-    **->** "**Case** DailyFieldCollections.xlsx"  
-    **->** "**Apply to each** DailyFieldCollections row"  
-    **->** "**Switch** - DailyFieldCollections Status"  
-    **->** "**Case** Missed"  
-    **->** "**Create item** - Deficiency Field Recollections - Missed"
-<br></br>
+C. Third End:  
+    &emsp; 1. "**Do until** - Variable date eq Current Date"  
+    &emsp; 2. "**Apply to each** file extracted in the extract folder action"  
+    &emsp; 3. "**Switch** - Extracted files"  
+    &emsp; 4. "**Case** DailyFieldCollections.xlsx"  
+    &emsp; 5. "**Apply to each** DailyFieldCollections row"  
+    &emsp; 6. "**Switch** - DailyFieldCollections Status"  
+    &emsp; 7. "**Case** Missed"  
+    &emsp; 8. "**Create item** - Deficiency Field Recollections - Missed"
 
-4. "**Do until** - Variable date eq Current Date"  
-    **->** "**Apply to each** file extracted in the extract folder action"  
-    **->** "**Switch** - Extracted files"  
-    **->** "**Case** DailyUpdatedJobList.xlsx"  
-    **->** "**Condition** - Is Date of the Obtained Data Equal to Current Date"  
-    **->** "**Case** True"  
-    **->** "**Apply to each** - DailyUpdatedJobList Table"  
-    **->** "**Condition** - Job is already in Job List"  
-    **->** "**Case** True"  
-    **->** "**Update item** - Job List
-<br></br>
+D. Fourth End:  
+    &emsp; 1. "**Do until** - Variable date eq Current Date"  
+    &emsp; 2. "**Apply to each** file extracted in the extract folder action"  
+    &emsp; 3. "**Switch** - Extracted files"  
+    &emsp; 4. "**Case** DailyUpdatedJobList.xlsx"  
+    &emsp; 5. "**Condition** - Is Date of the Obtained Data Equal to Current Date"  
+    &emsp; 6. "**Case** True"  
+    &emsp; 7. "**Apply to each** - DailyUpdatedJobList Table"  
+    &emsp; 8. "**Condition** - Job is already in Job List"  
+    &emsp; 9. "**Case** True"  
+    &emsp; 10. "**Update item** - Job List
 
-5. "**Do until** - Variable date eq Current Date"  
-    **->** "**Apply to each** file extracted in the extract folder action"  
-    **->** "**Switch** - Extracted files"  
-    **->** "**Case** DailyUpdatedJobList.xlsx"  
-    **->** "**Condition** - Is Date of the Obtained Data Equal to Current Date"  
-    **->** "**Case** True"  
-    **->** "**Apply to each** - DailyUpdatedJobList Table"  
-    **->** "**Condition** - Job is already in Job List"  
-    **->** "**Case** False"  
-    **->** "**Create item** - Job List
-<br></br>
+E. Fifth End:  
+    &emsp; 1. "**Do until** - Variable date eq Current Date"  
+    &emsp; 2. "**Apply to each** file extracted in the extract folder action"  
+    &emsp; 3. "**Switch** - Extracted files"  
+    &emsp; 4. "**Case** DailyUpdatedJobList.xlsx"  
+    &emsp; 5. "**Condition** - Is Date of the Obtained Data Equal to Current Date"  
+    &emsp; 6. "**Case** True"  
+    &emsp; 7. "**Apply to each** - DailyUpdatedJobList Table"  
+    &emsp; 8. "**Condition** - Job is already in Job List"  
+    &emsp; 9. "**Case** False"  
+    &emsp; 10. "**Create item** - Job List
 
-6. "**Do until** - Variable date eq Current Date"  
-    **->** "**Apply to each** file extracted in the extract folder action"  
-    **->** "**Switch** - Extracted files"  
-    **->** "**Case** DailyUpdatedJobList.xlsx"  
-    **->** "**Condition** - Is Date of the Obtained Data Equal to Current Date"  
-    **->** "**Case** False"  
-    **->** "Terminate"
-<br></br>
+F. Sixth End:  
+    &emsp; 1. "**Do until** - Variable date eq Current Date"  
+    &emsp; 2. "**Apply to each** file extracted in the extract folder action"  
+    &emsp; 3. "**Switch** - Extracted files"  
+    &emsp; 4. "**Case** DailyUpdatedJobList.xlsx"  
+    &emsp; 5. "**Condition** - Is Date of the Obtained Data Equal to Current Date"  
+    &emsp; 6. "**Case** False"  
+    &emsp; 7. "Terminate"
+
 
 ## SharePoint Lists Affected by the Workflow
 * <a href="https://vistacaretech.sharepoint.com/sites/engineering/Lists/Field_Collection/Group%20Dates.aspx" target="_blank">Daily Field Collections</a>
@@ -142,7 +143,7 @@ Flow is triggered from a call in another Flow.
 
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>
-<p>The links above point to the lists present on the **Engineering** subsite, however Flow will update the equivalent lists in each set subsite.</p>
+<p>The links above point to the lists present on the <b>Engineering</b> subsite, however Flow will update the equivalent lists in each set subsite.</p>
 </div>
 
 ## Excel Spreadsheets Involved in the Process
