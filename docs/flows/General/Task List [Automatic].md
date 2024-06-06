@@ -30,11 +30,13 @@ When an item is created or modified in the **Task List**.
 <br></br>
     * Type: if
 <br></br>
-* **Condition**: Condition used to identify whether the Status attribute was changed to **Completed**, and then direct Flow to the appropriate action.
+
+* **Condition - If Task Has Status Completed**: Condition used to identify whether the Status attribute was changed to **Completed**, and then direct Flow to the appropriate action.
 <br></br>
     * Type: if
 <br></br>
-* **Condition 2**: Condition used to identify whether the Status attribute was changed to **In Progress**, and then direct Flow to the appropriate action.
+
+* **Condition - If Task Has Status In Progress**: Condition used to identify whether the Status attribute was changed to **In Progress**, and then direct Flow to the appropriate action.
 <br></br>
     * Type: if
 
@@ -42,12 +44,19 @@ When an item is created or modified in the **Task List**.
 ## Related Flows
 * [Task Capacities [Dependent]](Task%20Capacities%20[Dependent].md)
 * [Date Calculator [Dependent]](Date%20Calculator%20[Dependent].md)
+* [Get SharePoint Lists IDs [Dependent]](../General/Get%20SharePoint%20Lists%20IDs%20[Dependent].md)
 
 
 ## Workflow End
-* Condition - If Task Had Its Status, StartDate or DueDate changed > Case False > Terminate action
-* Condition > Case False > Condition 2 > Case False > Terminate action
-* HTTP action (***Bell - St Charles - Task Capacities [Dependent] Flow***)
+1. "**Condition** - If Task Had Its Status, StartDate or DueDate changed"  
+    **->** "**Case** True"
+    **->** "**HTTP** - Task Capacities [Dependent]"  
+<br></br>
+
+2. "**Condition** - If Task Had Its Status, StartDate or DueDate changed"  
+    **->** "**Case** False"
+    **->** "Terminate"
+<br></br>
 
 
 ## SharePoint Lists Affected by Workflow
@@ -55,7 +64,7 @@ When an item is created or modified in the **Task List**.
 
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>
-<p>The links above point to the lists present on the Bracebridge UBF subsite, however Flow will update the equivalent lists in each set subsite.</p>
+<p>The links above point to the lists present on the **Bracebridge UBF** subsite, however Flow will update the equivalent lists in each set subsite.</p>
 </div>
 
 

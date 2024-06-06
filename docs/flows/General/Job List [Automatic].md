@@ -41,6 +41,7 @@ When an item is created or modified in the **Job List**.
 * [Task Capacities [Dependent]](Task%20Capacities%20[Dependent].md)
 * [Date Calculator [Dependent]](Date%20Calculator%20[Dependent].md)
 * [Update Job List With New Jobs [Dependent]](Update%20Job%20List%20With%20New%20Jobs%20[Dependent].md)
+* [Get SharePoint Lists IDs [Dependent]](../General/Get%20SharePoint%20Lists%20IDs%20[Dependent].md)
 
 
 ## Workflow End
@@ -60,7 +61,7 @@ When an item is created or modified in the **Job List**.
     **->** "**Case** False"
     **->** "**Condition** - If the Job received a Start Date"  
     **->** "**Case** False"  
-    **->** Terminate"  
+    **->** "Terminate"
 <br></br>
 
 
@@ -69,12 +70,12 @@ When an item is created or modified in the **Job List**.
 
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>
-<p>The links above point to the lists present on the Bracebridge UBF subsite, however Flow will update the equivalent lists in each set subsite.</p>
+<p>The links above point to the lists present on the **Bracebridge UBF** subsite, however Flow will update the equivalent lists in each set subsite.</p>
 </div>
 
 
 ## Excel Spreadsheets Involved in the Process
-* There is no excel spreadsheets involved in the process.
+There is no excel spreadsheets involved in the process.
 
 
 ## Example of Execution

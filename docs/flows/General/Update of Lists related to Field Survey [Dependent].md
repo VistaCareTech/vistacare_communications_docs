@@ -9,7 +9,7 @@
 Flow used to add **Daily Field Collection** data contained in Excel spreadsheets to Sharepoint lists. The data contained in Excel spreadsheets is obtained through the **KatapultTracker.py** code.
 
 ## Trigger Action
-Flow is automatically activated daily at sunset.
+Flow is triggered from a call in another Flow.
 
 ## Variables
 * **siteAddress**: **String** type variable that stores the address of the SharePoint subsite.
@@ -130,7 +130,7 @@ Flow is automatically activated daily at sunset.
     **->** "**Case** DailyUpdatedJobList.xlsx"  
     **->** "**Condition** - Is Date of the Obtained Data Equal to Current Date"  
     **->** "**Case** False"  
-    **->** Terminate
+    **->** "Terminate"
 <br></br>
 
 ## SharePoint Lists Affected by the Workflow
@@ -142,7 +142,7 @@ Flow is automatically activated daily at sunset.
 
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>
-<p>The links above point to the lists present on the Engineering subsite, however Flow will update the equivalent lists in each set subsite.</p>
+<p>The links above point to the lists present on the **Engineering** subsite, however Flow will update the equivalent lists in each set subsite.</p>
 </div>
 
 ## Excel Spreadsheets Involved in the Process
