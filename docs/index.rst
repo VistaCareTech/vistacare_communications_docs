@@ -31,4 +31,6 @@ Welcome to VistaCare Communications plugin docs's documentation!
    flows/General/Update of Field Collection Lists.md
    flows/General/Update of Task Lists.md
    flows/General/Backup and Recovery of Tasks Lists.md
-   flows/General/Auxiliary Flows
+   flows/General/Auxiliary Flows.md
+   flows/General/Map SharePoint.md
+   
