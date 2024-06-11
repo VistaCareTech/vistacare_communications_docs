@@ -34,3 +34,8 @@ Welcome to VistaCare Communications plugin docs's documentation!
    flows/General/Auxiliary Flows.md
    flows/General/Map SharePoint.md
    
+.. toctree::
+   :maxdepth: 2
+   :caption: Database
+
+   logging.md
