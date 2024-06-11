@@ -33,19 +33,43 @@ The following steps will allow you to execute the Bracebridge Tracker functional
 <p>If output folder location is empty, output files will be save at input json folder location </p>
 </div>
 
-SVG 2D image generator for Pole Profile P'Eng Reports.
+Image generator for Pole Profile P'Eng Reports. This plugin lets you create a 2D image for pole profile
+in an SVG or DXF format. SVG format gives the user a scalable vector graphic that maintains high quality 
+image and can be easily edited with various vector graphic software. DXF format provides compatibility 
+with numerous CAD applications.
 
 The following steps will allow you to execute Pole Profile
 
 1. On the VistaCare Plugin go to `Bracebridge --> Pole Profile`.
 2. Select the JSON file to work on.
-3. Tick the checkbox which pole you want to generate the profile.
-4. Fill in Direction column for pole bearing with respect to roadside, default value is 0 degrees.
-5. **(Optional)** Choose folder location you want to save your profiles.
-6. Click `OK` button to generate the profiles.
+3. Choose the pole profile format and pole profile file type. 
+4. Tick the checkbox which pole you want to generate the profile.
+5. Fill in Direction column for pole bearing with respect to roadside, default value is 0 degrees.
+6. **(Optional)** Choose folder location you want to save your profiles.
+7. Click `OK` button to generate the profiles.
 
-<a class="" data-lightbox="Pole Profile" href="_static/pole_profile_gif.gif" title="Pole Profile" data-title="Pole Profile"><img src="_static/pole_profile_gif.gif" class="align-center" width="800px" height="500px" alt="Pole Profile">
+<a class="" data-lightbox="Pole Profile" href="_static/pole_profile_gif.gif" title="Pole Profile" data-title="Pole Profile"><img src="_static/new_pole_profile_gif.gif" class="align-center" width="800px" height="500px" alt="Pole Profile">
 </a> 
+
+<div class="note">
+<p class="admonition-title">IMPORTANT</p>
+<p>Format Summary Table</p>
+
+<!--Markdown Table Generator Data from https://tabletomarkdown.com/generate-markdown-table/ -->
+| Display                                                | **H1 Format**                                                                                                                    | **Lakeland Format**                                                         | **XCI Format**                                                              |
+| ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| Font Color                                             | RED for MR changes on Hydro space<br>Black on Telco space                                                                    | RED for MR changes on Hydro space<br>Black on Telco space               | RED for MR changes on Hydro space<br>Black on Telco space               |
+| Primary wires                                          | All wires are drawn                                                                                                          | Lowest primary height is drawn                                          | Lowest primary height is drawn                                          |
+| Primary wires with MR                                  | **'PRIM.'** will be in Bold, Red,<br>**Original Value** in Bold, Red<br>then **MR Value** in **'****()****'** ,Bold, Red | 'PRIM.' in Red<br>Original value in Red<br>then MR value in '()', Red   | 'PRIM.' in Red<br>Original value in '()' and Red<br>then MR value in Red   |
+| Neutral/Sec wire                                       | All wires are drawn                                                                                                          | All wires are drawn                                                     | All wires are drawn                                                     |
+| Neutral/Sec wire with MR                               | **'NEUT./SEC.'** in Bold, Red<br>**Original Value** in Bold, Red<br>**MR value** in **'****()****'**, Bold, Red          | 'NEUT./SEC.' in Red<br>Original Value in Red<br>MR value in '()', Red   | 'NEUT./SEC.' in  Red<br>Original Value in '()', Red<br>MR value in  Red |
+| Proposed guys with<br>Proposed Telco wire              | **'P.BELL/ P.D.G.'** in Bold                                                                                             | **'P.BELL/ P.D.G.'** in Bold                                        | **'P.XPLORE/ D.G.'** in Bold,<br>Blue font color                                  |
+| Proposed Telco wire and <br>proposed guy for represenation | Black Color \`DOT\`                                                                                                          | Black Color \`DOT\`                                                     | Blue Color \`DOT\`                                                      |
+| Feature in new heights<br>and Original height          | Original height in normal weight<br>New height in '()' in normal weight                                                      | Original height in normal weight<br>New height in '()' in normal weight | Original height in '()'<br>New height in Normal weight<br>              |
+| New Feature height value display                       | **New height** in Bold                                                                                                       | **New height** in Bold                                                  | **New height** in Bold                                                  |
+| Feature text display                                   | Display in upper case<br>eg. TRANSF.                                                                                         | Display in upper case<br>eg. TRANSF.                                    | Display in upper case<br>eg. TRANSF.                                    |
+| Feature height value display                           | Height Value in normal weight                                                                                                | Height Value in normal weight                                           | Height Value in normal weight                                           |
+</div>
 
 ### Pole Profiles Errors
 
