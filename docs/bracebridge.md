@@ -48,7 +48,18 @@ The following steps will allow you to execute Pole Profile
 6. **(Optional)** Choose folder location you want to save your profiles.
 7. Click `OK` button to generate the profiles.
 
-<a class="" data-lightbox="Pole Profile" href="_static/pole_profile_gif.gif" title="Pole Profile" data-title="Pole Profile"><img src="_static/new_pole_profile_gif.gif" class="align-center" width="800px" height="500px" alt="Pole Profile">
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>When selecting both <code>XCI</code> and <code>DXF</code> formats along with multiple poles, the plugin performs the following actions:</p>
+<ul>
+    <li>Generates a side-by-side image of the selected poles in a single AutoCAD file (named the same as the JSON file)</li>
+    <li>Creates individual AutoCAD files for each selected pole (named based on the pole label)</li>
+</ul>
+<p>Additionally, make sure to open the related QGS project file and select the <code>Poles</code> layer or a related layer from <code>Pole Information Source Layer</code> drop down to capture the table information accurately.</p>
+</div>
+
+
+<a class="" data-lightbox="Pole Profile" href="_static/new_pole_profile_gif.gif" title="Pole Profile" data-title="Pole Profile"><img src="_static/new_pole_profile_gif.gif" class="align-center" width="800px" height="500px" alt="Pole Profile">
 </a> 
 
 <div class="note">
