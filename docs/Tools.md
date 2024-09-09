@@ -98,3 +98,23 @@ The following steps will allow you to execute the Layout Modifier functionality:
 
 <a class="" data-lightbox="Layout Modifier" href="_static/layout_modifier.gif" title="Layout Modifier" data-title="Layout Modifier"><img src="_static/layout_modifier.gif" class="align-center" width="800px" height="500px" alt="Layout Modifier">
 </a>
+
+## Span Clearance Version 2
+
+The Span Clearance module allows the user to obtain an Excel spreadsheet with the results of the Wire to Wire and To Ground Clearance process executed in SpidaCalc.
+
+The following steps will allow you to execute the Span Clearance functionality:
+
+<div class="note">
+<p class="admonition-title">IMPORTANT</p>
+<p>If output folder location is empty, output files will be save at input json folder location </p>
+</div>
+
+1. On the VistaCare Communications Plugin go to `Tools --> Span Clearance Version 2`.
+2. Select the JSON file to work on.
+3. Tick the checkbox which pole you want to generate.
+4. **(Optional)** Choose folder location you want to save your table.
+5. Click `OK` button to generate table
+
+<a class="" data-lightbox="Span Clearance" href="_static/span_clearance.gif" title="Span Clearance" data-title="Span Clearance"><img src="_static/span_clearance.gif" class="align-center" width="800px" height="500px" alt="Span Clearance">
+</a>
