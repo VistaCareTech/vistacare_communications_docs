@@ -99,22 +99,44 @@ The following steps will allow you to execute the Layout Modifier functionality:
 <a class="" data-lightbox="Layout Modifier" href="_static/layout_modifier.gif" title="Layout Modifier" data-title="Layout Modifier"><img src="_static/layout_modifier.gif" class="align-center" width="800px" height="500px" alt="Layout Modifier">
 </a>
 
-## Span Clearance Version 2
+## Span Clearance And Vertical Separation
 
-The Span Clearance module allows the user to obtain an Excel spreadsheet with the results of the Wire to Wire and To Ground Clearance process executed in SpidaCalc.
+The Span Clearance And Vertical Separation module allows the user to obtain an Excel spreadsheet with the results of the Wire to Wire and To Ground Clearance process executed in SpidaCalc. Also is a CSV generator for P'Eng Report Exhibit 1 DESIGN DATA Vertical Separation (At Pole).
 
-The following steps will allow you to execute the Span Clearance functionality:
+The following steps will allow you to execute the Span Clearance And Vertical Separation functionality:
 
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>
 <p>If output folder location is empty, output files will be save at input json folder location </p>
 </div>
 
-1. On the VistaCare Communications Plugin go to `Tools --> Span Clearance Version 2`.
+1. On the VistaCare Communications Plugin go to `Tools --> Span Clearance And Vertical Separation`.
 2. Select the JSON file to work on.
 3. Tick the checkbox which pole you want to generate.
-4. **(Optional)** Choose folder location you want to save your table.
+4. **(Optional)** Choose folder location you want to save the files.
 5. Click `OK` button to generate table
 
-<a class="" data-lightbox="Span Clearance" href="_static/span_clearance.gif" title="Span Clearance" data-title="Span Clearance"><img src="_static/span_clearance.gif" class="align-center" width="800px" height="500px" alt="Span Clearance">
+<a class="" data-lightbox="Span Clearance" href="_static/span_clearance_vert_separation.gif" title="Span Clearance" data-title="Span Clearance"><img src="_static/span_clearance_vert_separation.gif" class="align-center" width="800px" height="500px" alt="Span Clearance">
+</a>
+
+### Span Clearance And Vertical Separation Errors
+
+<div class="warning">
+<p class="admonition-title">WARNING</p>
+<p>When running the functionality Span Clearance And Vertical Separation, it is possible to obtain one of the following messages.</p>
+</div>
+
+1. Bar message will show if wrong JSON file is used (non SpidaCalc json file). Make sure to use SpidaCalc generated JSON file.
+
+<a class="" data-lightbox="Vertical Separation" href="_static/vertical_separation_img/vs_bar_msg_wrong_json_short.png" title="Wrong JSON file" data-title="Wrong JSON file"><img src="_static/vertical_separation_img/vs_bar_msg_wrong_json_short.png" class="align-center" width="800px" height="500px" alt="Wrong JSON file">
+</a>
+
+2. Bar message will show if `Proposed` layer has an issue and script will not proceed.
+
+<a class="" data-lightbox="Vertical Separation" href="_static/vertical_separation_img/vs_bar_msg_layer_issue_short.png" title="Layer issue" data-title="Layer issue"><img src="_static/vertical_separation_img/vs_bar_msg_layer_issue_short.png" class="align-center" width="800px" height="500px" alt="Layer issue">
+</a>
+
+3. If selected pole was unable to extract information due to an error, it will display the pole and its error in the textbox. A hyperlink of the output will be displayed in the textbox.
+
+<a class="" data-lightbox="Vertical Separation" href="_static/vertical_separation_img/vs_textbox_information.png" title="Textbox information" data-title="Textbox information"><img src="_static/vertical_separation_img/vs_textbox_information.png" class="align-center" width="800px" height="500px" alt="Textbox information">
 </a>
