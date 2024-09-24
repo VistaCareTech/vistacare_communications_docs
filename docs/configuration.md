@@ -4,7 +4,7 @@
 
 <div class="warning">
 <p class="admonition-title">WARNING</p>
-<p>To prevent any plugin issues, make sure only QGIS 3.28 version is installed on your system.</p>
+<p>To prevent any plugin issues, make sure only QGIS 3.34 version is installed on your system.</p>
 </div>
 
 1. Go to <a href="https://trac.osgeo.org/osgeo4w/" target="_blank">OSGeo4W</a> official installer page.
@@ -16,14 +16,14 @@
 7. On Select Package:
 
    * Search `QGIS`, look for `qgis-ltr` package as shown in the image. 
-   Click the yellow highlighted on <u>New</u> column until <u>3.28</u> appears 
+   Click the yellow highlighted on <u>New</u> column until <u>3.34</u> appears 
    and make sure column **<u>Bin?</u>** Was crossed out by clicking the tick box. 
 
    * Search `pip`,  look for `python3-pip` package as shown in the image. 
    Click the yellow highlighted on <u>New</u> column until the latest version appears
    and make sure column **<u>Bin?</u>** Was crossed out by clicking the tick box.
         
-   * Click `Next` and QGIS version 3.28 will be installed together with necessary 
+   * Click `Next` and QGIS version 3.34 will be installed together with necessary 
    package to run the plugin.
 
 <a class="" data-lightbox="QGIS Install" href="_static/install_qgis.gif" title="QGIS Install" data-title="QGIS Install"><img src="_static/install_qgis.gif" class="align-center" width="800px" height="500px" alt="QGIS Install">
@@ -66,7 +66,7 @@ To use the VistaCare Communications Plugin is necessary the following:
 
 <div class="seealso">
 <p class="admonition-title">TIP</p>
-<p>It is recommended to use the QGIS version 3.28.</p>
+<p>It is recommended to use the QGIS version 3.34.</p>
 </div>
 
 1. Go to the start button and find QGIS.
