@@ -40,3 +40,9 @@ Welcome to VistaCare Communications plugin docs's documentation!
    :caption: Database
 
    logging.md
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Zoom to Feature
+
+   Zoom.md
