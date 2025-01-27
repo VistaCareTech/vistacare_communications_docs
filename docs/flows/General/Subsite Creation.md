@@ -80,7 +80,7 @@ If you do not have access, please contact the <b>programming team</b> so that a 
 </ul>
 </div>
 
-<a class="" data-lightbox="Sharepoint Subsite Creation - Step 10" href="../../../_static/flows/subsite_creation/subsite_creation_step_9.gif" title="Sharepoint Subsite Creation - Step 10" data-title="Sharepoint Subsite Creation - Step 10"><img src="../../../_static/flows/subsite_creation/subsite_creation_step_9.gif" class="align-center" width="800px" height="500px" alt="Sharepoint Subsite Creation - Step 10">
+<a class="" data-lightbox="Sharepoint Subsite Creation - Step 10" href="../../../_static/flows/subsite_creation/subsite_creation_step_10.gif" title="Sharepoint Subsite Creation - Step 10" data-title="Sharepoint Subsite Creation - Step 10"><img src="../../../_static/flows/subsite_creation/subsite_creation_step_10.gif" class="align-center" width="800px" height="500px" alt="Sharepoint Subsite Creation - Step 10">
 </a>
 
 11.  After the Flow completes and tasks are added for an FSA, indent tasks within their respective groups. Go to the **Task List**, click on **edit**, select tasks related to an FSA using **Shift key**, expand the **Tasks** tab at the top of the screen, and click on **Indent**. Repeat to group tasks.
