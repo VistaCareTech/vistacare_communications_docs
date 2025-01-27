@@ -24,7 +24,6 @@ extensions = [
     'sphinxcontrib.images',
     'sphinx.ext.viewcode',
     'sphinx.ext.autodoc',
-    'sphinxemoji.sphinxemoji',
     'myst_parser'
 ]
 
