@@ -33,6 +33,7 @@ Welcome to VistaCare Communications plugin docs's documentation!
    flows/General/Backup and Recovery of Tasks Lists.md
    flows/General/Auxiliary Flows.md
    flows/General/Map SharePoint.md
+   flows/General/Subsite Creation.md
    
 .. toctree::
    :maxdepth: 2
