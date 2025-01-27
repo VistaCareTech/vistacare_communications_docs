@@ -4,6 +4,8 @@ Below you will find the list of triggers currently implemented in the database.
 
 ## Elgin
 
+**Folder location:** `K:\ENGINEERING\Xplornet Communications Inc (XCI)\Ontario\QGIS\Scripts\Triggers`
+
 | **Table/Folder Name** |               **Trigger Name**              | **Manipulation** |
 |:---------------------:|:-------------------------------------------:|:----------------:|
 |        anchors        | trigger_insert_anchor_pole_scid             | INSERT           |
