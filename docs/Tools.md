@@ -206,3 +206,21 @@ The following steps will allow you to execute PAR Profile.
 </ul>
 <p>Additionally, make sure to open the related QGS project file and select the <code>Poles</code> layer or a related layer from <code>Pole Information Source Layer</code> drop down to capture the table information accurately.</p>
 </div>
+
+## Katapult Profiles
+
+Similar with `Pole Profiles` and `PAR Profiles`, this module allows the user to generate a CAD format pole profiles using the information from Katapult. The module interface allows the user to choose some or all of poles to be generated. This also has a search bar wherein the user can narrow down the poles from the table.
+
+The following steps will allow you to generate pole profiles using Katapult:
+1. In the VistaCare Communications Plugin go to `Tools --> Katapult Profiles`.
+2. From browser, copy the Katapult job id and paste it in the line edit. 
+   <a class="" data-lightbox="Katapult Profiles" href="_static/katapult_job_id.png" title="Katapult job id" data-title="Katapult job id"><img src="_static/katapult_job_id.png" class="align-center" width="800px" height="500px" alt="Katapult job id">
+    </a>
+3. Select the poles to be generated.
+4. **(Optional)** Choose folder location you want to save your profiles. Default location is at C:/Users/{username}/Desktop/{Katapult Job Name}
+5. Click `OK` button to generate the profiles.
+
+### How it Works
+
+<a class="" data-lightbox="Katapult Profiles" href="_static/katapult_profiles.gif" title="Katapult Profiles" data-title="Katapult Profiles"><img src="_static/katapult_profiles.gif" class="align-center" width="800px" height="500px" alt="Katapult Profiles">
+</a>
