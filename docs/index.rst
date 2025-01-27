@@ -23,6 +23,7 @@ Welcome to VistaCare Communications plugin docs's documentation!
    Tools.md
    Layout.md
    Database.md
+   zoom_to_feature.md
 
 .. toctree::
    :maxdepth: 3
@@ -39,10 +40,5 @@ Welcome to VistaCare Communications plugin docs's documentation!
    :maxdepth: 2
    :caption: Database
 
-   logging.md
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Zoom to Feature
-
-   Zoom.md
+   database/triggers.md
+   database/logging.md
