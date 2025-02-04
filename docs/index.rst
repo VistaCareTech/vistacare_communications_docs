@@ -23,6 +23,7 @@ Welcome to VistaCare Communications plugin docs's documentation!
    Tools.md
    Layout.md
    Database.md
+   cad_plan.md
    zoom_to_feature.md
 
 .. toctree::
