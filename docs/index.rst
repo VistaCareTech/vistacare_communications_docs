@@ -43,3 +43,9 @@ Welcome to VistaCare Communications plugin docs's documentation!
 
    database/triggers.md
    database/logging.md
+
+.. toctree::
+   :maxdepth: 2
+   :caption: viewers
+
+   viewers/qgis_server.md

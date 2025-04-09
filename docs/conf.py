@@ -10,7 +10,7 @@ import sys
 sys.path.insert(0, "..")
 
 project = 'VistaCare Communications plugin docs'
-copyright = '2023, Jhon Galindo'
+copyright = '2025, Jhon Galindo'
 author = 'Jhon Galindo'
 
 # -- General configuration ---------------------------------------------------
@@ -24,8 +24,12 @@ extensions = [
     'sphinxcontrib.images',
     'sphinx.ext.viewcode',
     'sphinx.ext.autodoc',
+    'sphinx_copybutton',
     'myst_parser'
 ]
+
+myst_enable_extensions = ["deflist",
+                          "colon_fence"]
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -66,4 +70,3 @@ images_config = {
 gettext_compact = False
 gettext_enables = ['index']
 gettext_ignore_index = False
-

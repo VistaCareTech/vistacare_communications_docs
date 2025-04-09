@@ -224,3 +224,31 @@ The following steps will allow you to generate pole profiles using Katapult:
 
 <a class="" data-lightbox="Katapult Profiles" href="_static/katapult_profiles.gif" title="Katapult Profiles" data-title="Katapult Profiles"><img src="_static/katapult_profiles.gif" class="align-center" width="800px" height="500px" alt="Katapult Profiles">
 </a>
+
+## Counts Calculator
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>Counts Calculator can be excecute from CSP or Splice layers</p>
+</div>
+
+It uses a tree structure to traverse the nodes along the cable structure. As it moves through each node, it uses the *total_distribution_demand* variable to calculate the counts and update or create the necessary counts.
+
+The following steps will allow you to execute the Counts Calculator functionality:
+
+1. On the VistaCare Communications Plugin go to `Tools --> Counts Calculator`.
+2. Fill the following options:
+
+    * CSP Layer: A Point layer with the features will be used as a Start point.
+    * Splice Layer: A Point layer with the features will be used as a Start point.
+    * FSA Layer: A Polygon layer with the features will be used as a boundary.
+    * Cables Layer: A Line layer with the features will be used as a network.
+    * Counts Layer: A Text layer where it is going to be storage the information calculated.
+    * Invert Start Cables: Radio button that allows to invert the start of the cables excecution.
+
+3. Click on `Select a CSP` or `Select a Splice` to choose the feature where is going to start the calculation.
+
+3. Click on `OK` and wait until the module finishes the execution. 
+
+<a class="" data-lightbox="Counts calculator" href="_static/counts_calculator.gif" title="Counts calculator" data-title="Counts calculator"><img src="_static/counts_calculator.gif" class="align-center" width="800px" height="500px" alt="Counts calculator">
+</a>
