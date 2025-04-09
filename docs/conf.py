@@ -24,12 +24,11 @@ extensions = [
     'sphinxcontrib.images',
     'sphinx.ext.viewcode',
     'sphinx.ext.autodoc',
-    'sphinx_copybutton',
     'myst_parser'
 ]
 
-myst_enable_extensions = ["deflist",
-                          "colon_fence"]
+'''myst_enable_extensions = ["deflist",
+                          "colon_fence"]'''
 
 templates_path = ['_templates']
 exclude_patterns = []
