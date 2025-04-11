@@ -48,12 +48,6 @@ jobs:
         with:
           python-version: 3.11
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --target=".python_packages/lib/site-packages" -r requirements.txt
-          echo "" > requirements.txt # blank out requirements.txt so it doesn't get installed again
-        working-directory: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-
       - name: Build Sphinx
         uses: ammaraskar/sphinx-action@master
         with:
