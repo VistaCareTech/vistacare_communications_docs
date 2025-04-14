@@ -1,29 +1,18 @@
-# Cad Plan
+# CAD Plan
 
 ## CAD Plan Block Export
 
 CAD Plan Block export is designed to streamline export of GIS information into CAD blocks with attributes and layer. Integrating with UI this gives user the flexibility of handling multiple entities such as Poles, Splice, MPT's, Civic, Cables, etc. This functionality also ensures the CRS are transformed uniformly while using memory data without affecting the original data. 
 
-This development currently support exports for the following entities:
-- Pole
-- Splice
-- MPT
-- Cable
-- Drop Cable
-- Civic
-- Underground Structures such as Handhole(GLB), Flowerpot, DIP
-- Slack Loop
-- Strand
-- Conduit
-- Span
-- Arbs
-- Road
-- Wiring Limit
-- Anchor: including downguy and overhead guy
-- Tie in
-- CSP
-- Plan Page
-- FSA Boundary
+| Supported Entities                                           |            |                                            |
+| ------------------------------------------------------------ | ---------- | ------------------------------------------ |
+| Pole                                                         | Slack Loop | Wiring Limit                               |
+| Splice                                                       | Strand     | Anchor: including downguy and overhead guy |
+| MPT                                                          | Conduit    | Tie in                                     |
+| Cable                                                        | Span       | CSP                                        |
+| Drop Cable                                                   | Arbs       | Plan Page                                  |
+| Civic                                                        | Road       | FSA Boundary                               |
+| Underground Structures:<br>Handhole(GLB),<br> Flowerpot,<br> DIP |
 
 ### How It Works
 
@@ -37,7 +26,7 @@ This development currently support exports for the following entities:
 
 <div class="seealso">
 <p class="admonition-title">TIP</p>
-<p>NL Project CAD export Field name Guide </p>
+<p>NL Project CAD Export Field Name Guide </p>
 </div>
 
 | **Page**                                                     | **Layer Table to use**        | **Attribute - Field**                                                                                                                                                                                                                                             |
