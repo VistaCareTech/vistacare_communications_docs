@@ -1,17 +1,13 @@
-# Database Tracking Documentation 
+# Tracking 
 
 The development of a tracking system in the database is crucial for maintaining the integrity, security, and traceability of data. This system allows for the recording of all modifications made to database tables, providing a detailed history of each change, including the action performed, the user who carried it out, and the exact time of the change. This information is vital for auditing activities, debugging issues, and recovering data in case of errors or accidental deletions. 
 
-## Database Tracking 
-
-
-
 The following steps will allow you to execute the database tracking functionality, On the AZURE - XCI server, specifically on the Postgres database:
 
-<a class="" data-lightbox="Overview_Database_logging" href="../_static/Logging_database/Overview_Database_logging.png" title="QGIS Install" data-title="QGIS Install"><img src="../_static/Logging_database/Overview_Database_logging.png" class="align-center" width="800px" height="500px" alt="Overview_Database_logging">
+<a class="" data-lightbox="overview_database_logging" href="../_static/logging_database/overview_database_logging.png" title="QGIS Install" data-title="QGIS Install"><img src="../_static/logging_database/overview_database_logging.png" class="align-center" width="800px" height="500px" alt="overview_database_logging">
 </a>
 
-### 1. Creating the Logging Table
+## 1. Creating the Logging Table
 
  we create the tracking_history table in the logging schema. This table records details of change operations (inserts, updates, and deletes) in other database tables. Each column has a specific purpose:
 
@@ -29,10 +25,10 @@ CREATE TABLE public.tracking_history (
 ); 
 ```
 
-<a class="" data-lightbox="Creating_Tracking_table" href="../_static/Logging_database/Creating_Tracking_table.png" title="Creating_Tracking_table" data-title="Creating_Tracking_table"><img src="../_static/Logging_database/Creating_Tracking_table.png" class="align-center" width="800px" height="500px" alt="Creating_Tracking_table">
+<a class="" data-lightbox="creating_tracking_table" href="../_static/logging_database/creating_tracking_table.png" title="creating_tracking_table" data-title="creating_tracking_table"><img src="../_static/logging_database/creating_tracking_table.png" class="align-center" width="800px" height="500px" alt="creating_tracking_table">
 </a>
 
-### 2. Creating the Trigger Function
+## 2. Creating the Trigger Function
 
 We define a trigger function that logs changes in the monitored tables. Depending on the type of operation (INSERT, UPDATE, DELETE), the function inserts a record into the tracking_history table with the details of the change:
 
@@ -81,7 +77,7 @@ END;
 $$;
 
 ```
-### 3. Creating Triggers for Specific Tables
+## 3. Creating Triggers for Specific Tables
 
 We create triggers for any target table, so that any insert, update, or delete operation on these tables is recorded in tracking_history.
 
@@ -90,7 +86,7 @@ CREATE TRIGGER tracking_trigger_cables
 AFTER INSERT OR UPDATE OR DELETE ON public.cables
 FOR EACH ROW EXECUTE FUNCTION public.tracking_trigger_function();
 ```
-### 4. Checking Results in the Logging Table
+## 4. Checking Results in the Logging Table
 
 To verify the records in the audit table, you can use the following query to order the results by audit_id:
 
@@ -98,7 +94,7 @@ To verify the records in the audit table, you can use the following query to ord
 SELECT * FROM public.tracking_history
 ORDER BY audit_id ASC;
 ```
-<a class="" data-lightbox="QGIS Install" href="../_static/Logging_database/Cheking_results_Tracking_table.png" title="QGIS Install" data-title="QGIS Install"><img src="../_static/Logging_database/Cheking_results_Tracking_table.png" class="align-center" width="800px" height="500px" alt="Cheking_results_Tracking_table">
+<a class="" data-lightbox="QGIS Install" href="../_static/logging_database/cheking_results_tracking_table.png" title="QGIS Install" data-title="QGIS Install"><img src="../_static/logging_database/cheking_results_tracking_table.png" class="align-center" width="800px" height="500px" alt="cheking_results_tracking_table">
 </a>
 
 
@@ -110,9 +106,10 @@ FROM public.tracking_history
 WHERE change_time BETWEEN '2024-06-07 00:00:00' AND '2024-06-07 23:59:59'
 AND username = 'jonathan.diaz';
 ```
-<a class="" data-lightbox="QGIS Install" href="../_static/Logging_database/Filter_by_time.png" title="QGIS Install" data-title="QGIS Install"><img src="../_static/Logging_database/Filter_by_time.png" class="align-center" width="800px" height="500px" alt="select_data_from_tracking_table">
+<a class="" data-lightbox="QGIS Install" href="../_static/logging_database/filter_by_time.png" title="QGIS Install" data-title="QGIS Install"><img src="../_static/logging_database/filter_by_time.png" class="align-center" width="800px" height="500px" alt="select_data_from_tracking_table">
 </a>
-### 5. Recovering Deleted Data
+
+## 5. Recovering Deleted Data
 
 To Recover deleted data in cables_test, select the relevant data from the audit table using the audit_id and reinsert it into the original table.
 
@@ -183,7 +180,7 @@ AND audit_id = 33 -- this is an example for audit_id
 AND table_name = 'cables_test';
 ```
 
-### 6. Recovering Updated Data
+## 6. Recovering Updated Data
 
 To recover updated data in cables_test, select the relevant data from the audit table and insert or update it in the original table using ON CONFLICT.
 
@@ -313,6 +310,5 @@ SET
     placement = EXCLUDED.placement,
     terminal_mc = EXCLUDED.terminal_mc;
 ```
-<a class="" data-lightbox="logging_database" href="../_static/Logging_database/logging_database.gif" title="logging_database" data-title="Bracebridge Tracker"><img src="../_static/Logging_database/logging_database.gif" class="align-center" width="800px" height="500px" alt="logging_database">
+<a class="" data-lightbox="logging_database" href="../_static/logging_database/logging_database.gif" title="logging_database" data-title="Bracebridge Tracker"><img src="../_static/logging_database/logging_database.gif" class="align-center" width="800px" height="500px" alt="logging_database">
 </a>
-

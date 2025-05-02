@@ -14,20 +14,20 @@ Welcome to VistaCare Communications plugin docs's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Coding
+   :caption: QGIS Plugins
 
-   introduction.md
-   configuration.md
-   bracebridge.md
-   ETLs.md
-   Tools.md
-   Layout.md
-   Database.md
-   cad_plan.md
-   zoom_to_feature.md
+   qgis_plugins/introduction.md
+   qgis_plugins/configuration.md
+   qgis_plugins/cad.md
+   qgis_plugins/database.md
+   qgis_plugins/design.md
+   qgis_plugins/etls.md
+   qgis_plugins/peng.md
+   qgis_plugins/trackers.md
+   qgis_plugins/zoom_to_feature.md
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: SharePoint
 
    flows/General/Update of Field Collection Lists.md
@@ -41,8 +41,8 @@ Welcome to VistaCare Communications plugin docs's documentation!
    :maxdepth: 2
    :caption: Database
 
+   database/tracking.md
    database/triggers.md
-   database/logging.md
 
 .. toctree::
    :maxdepth: 2

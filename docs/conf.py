@@ -21,7 +21,7 @@ root_doc = 'index'
 extensions = [
     'sphinx.ext.githubpages',
     'sphinx.ext.todo',
-    'sphinxcontrib.images',
+    #'sphinxcontrib.images',
     'sphinx.ext.viewcode',
     'sphinx.ext.autodoc',
     'sphinx_copybutton',
