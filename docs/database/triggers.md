@@ -1,4 +1,4 @@
-# Database Triggers Documentation 
+# Triggers 
 
 Below you will find the list of triggers currently implemented in the database. 
 
