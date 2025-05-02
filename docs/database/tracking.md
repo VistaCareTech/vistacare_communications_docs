@@ -4,7 +4,7 @@ The development of a tracking system in the database is crucial for maintaining 
 
 The following steps will allow you to execute the database tracking functionality, On the AZURE - XCI server, specifically on the Postgres database:
 
-<a class="" data-lightbox="Overview_Database_logging" href="../_static/Logging_database/Overview_Database_logging.png" title="QGIS Install" data-title="QGIS Install"><img src="../_static/Logging_database/Overview_Database_logging.png" class="align-center" width="800px" height="500px" alt="Overview_Database_logging">
+<a class="" data-lightbox="overview_database_logging" href="../_static/logging_database/overview_database_logging.png" title="QGIS Install" data-title="QGIS Install"><img src="../_static/logging_database/overview_database_logging.png" class="align-center" width="800px" height="500px" alt="overview_database_logging">
 </a>
 
 ## 1. Creating the Logging Table
@@ -25,7 +25,7 @@ CREATE TABLE public.tracking_history (
 ); 
 ```
 
-<a class="" data-lightbox="Creating_Tracking_table" href="../_static/Logging_database/Creating_Tracking_table.png" title="Creating_Tracking_table" data-title="Creating_Tracking_table"><img src="../_static/Logging_database/Creating_Tracking_table.png" class="align-center" width="800px" height="500px" alt="Creating_Tracking_table">
+<a class="" data-lightbox="creating_tracking_table" href="../_static/logging_database/creating_tracking_table.png" title="creating_tracking_table" data-title="creating_tracking_table"><img src="../_static/logging_database/creating_tracking_table.png" class="align-center" width="800px" height="500px" alt="creating_tracking_table">
 </a>
 
 ## 2. Creating the Trigger Function
@@ -94,7 +94,7 @@ To verify the records in the audit table, you can use the following query to ord
 SELECT * FROM public.tracking_history
 ORDER BY audit_id ASC;
 ```
-<a class="" data-lightbox="QGIS Install" href="../_static/Logging_database/Cheking_results_Tracking_table.png" title="QGIS Install" data-title="QGIS Install"><img src="../_static/Logging_database/Cheking_results_Tracking_table.png" class="align-center" width="800px" height="500px" alt="Cheking_results_Tracking_table">
+<a class="" data-lightbox="QGIS Install" href="../_static/logging_database/cheking_results_tracking_table.png" title="QGIS Install" data-title="QGIS Install"><img src="../_static/logging_database/cheking_results_tracking_table.png" class="align-center" width="800px" height="500px" alt="cheking_results_tracking_table">
 </a>
 
 
@@ -106,7 +106,7 @@ FROM public.tracking_history
 WHERE change_time BETWEEN '2024-06-07 00:00:00' AND '2024-06-07 23:59:59'
 AND username = 'jonathan.diaz';
 ```
-<a class="" data-lightbox="QGIS Install" href="../_static/Logging_database/Filter_by_time.png" title="QGIS Install" data-title="QGIS Install"><img src="../_static/Logging_database/Filter_by_time.png" class="align-center" width="800px" height="500px" alt="select_data_from_tracking_table">
+<a class="" data-lightbox="QGIS Install" href="../_static/logging_database/filter_by_time.png" title="QGIS Install" data-title="QGIS Install"><img src="../_static/logging_database/filter_by_time.png" class="align-center" width="800px" height="500px" alt="select_data_from_tracking_table">
 </a>
 
 ## 5. Recovering Deleted Data
@@ -310,5 +310,5 @@ SET
     placement = EXCLUDED.placement,
     terminal_mc = EXCLUDED.terminal_mc;
 ```
-<a class="" data-lightbox="logging_database" href="../_static/Logging_database/logging_database.gif" title="logging_database" data-title="Bracebridge Tracker"><img src="../_static/Logging_database/logging_database.gif" class="align-center" width="800px" height="500px" alt="logging_database">
+<a class="" data-lightbox="logging_database" href="../_static/logging_database/logging_database.gif" title="logging_database" data-title="Bracebridge Tracker"><img src="../_static/logging_database/logging_database.gif" class="align-center" width="800px" height="500px" alt="logging_database">
 </a>
