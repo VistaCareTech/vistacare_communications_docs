@@ -38,5 +38,4 @@ The following steps will allow you to execute `Database Functions`:
 | Project   | Layer Table to Use | Field Name |
 | --------- | ------------------ | ---------- |
 | NL Xplore | fdsa_boundaries    | name       |
-| Elgin     | fdsa_boundaries    | name       |
    
