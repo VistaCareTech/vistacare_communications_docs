@@ -29,4 +29,14 @@ The following steps will allow you to execute `Database Functions`:
 
 <a class="" data-lightbox="Database Functions" href="_static/database_function.gif" title="Database Functions" data-title="Database Functions"><img src="_static/database_function.gif" class="align-center" width="800px" height="500px" alt="Database Functions">
 </a> 
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>Cables and Strand Construction Notes Guide</p>
+</div>
+
+| Project   | Layer Table to Use | Field Name |
+| --------- | ------------------ | ---------- |
+| NL Xplore | fdsa_boundaries    | name       |
+| Elgin     | fdsa_boundaries    | name       |
    
