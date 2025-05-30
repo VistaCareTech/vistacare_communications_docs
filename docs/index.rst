@@ -22,8 +22,8 @@ Welcome to VistaCare Communications plugin docs's documentation!
    ETLs.md
    Tools.md
    Layout.md
-   Database.md
    cad_plan.md
+   Database.md
    zoom_to_feature.md
 
 .. toctree::
