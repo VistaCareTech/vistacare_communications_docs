@@ -22,7 +22,7 @@ The following steps will allow you to execute the Extract and Pack functionality
 
 ## Katapult Importer
 
-The Katapult module allow the user to transfor and load  information from Katapult to the database. this operation is soported for *Poles, Anchors, Civics, Spans*.
+The Katapult module allow the user to transfor and load  information from Katapult to the database. this operation is supported for *Poles, Anchors, Civics, Spans*.
 
 The following steps will allow you to execute the Katapult Importer functionality:
 
@@ -40,6 +40,91 @@ The following steps will allow you to execute the Katapult Importer functionalit
 4. Click on `Finish`.
 
 <a class="" data-lightbox="Katapult Importer" href="_static/katapult_importer.gif" title="Katapult Importer" data-title="Katapult Importer"><img src="_static/katapult_importer.gif" class="align-center" width="800px" height="500px" alt="Katapult Importer">
+</a>
+
+## BOM Report
+
+This plugin extract BOM and BOL information and generates a report in .xlxs format. 
+
+The following steps will allow you to execute BOM Report functionality:
+
+1. Open `fdsa_boundaries` attribute table and select fsa needed for BOM Report.
+2. On the VistaCare Communications Plugin go to `Tools --> BOM Report`.
+3. Fill in the drop down menu. Follow the table below for recommended menu and layer to select.
+4. Select BOM template Excel file from directory.
+5. **Optional** Select where to save the .xlxs file result
+6. Click `OK`
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>BOM Report Dropdown menu and Layer Guide</p>
+</div>
+
+| Drop down Menu                                               | **Layer Table to use**        |                                                                                                                                                                                                                              
+| ------------------------------------------------------------ | ----------------------------- | 
+| FSA Layer                                                    | fdsa_boundaries			   | 
+| Splice Layer                                                 | splice                        |
+| Poles Layer                                                  | poles                         |
+| Cable Layer                                                  | cables                        |
+| Conduit Layer                                                | conduit                       |
+| UG Layer                                                     | UG_structure				   |
+| Strand Layer												   | Strand			               |
+| CSP Layer													   | csp						   |
+| Anchor Layer												   | anchors					   |
+| Guys Layer												   | guys						   |
+| Peng Layer												   | peng_scope					   |
+| Span Layer												   | spans						   |
+| Slack Layer												   | slack 						   |
+| Arbs														   | arbs_m						   |
+| Wiring Limits												   | wire_limits				   |
+| BOM Sheet Name											   | BOM-(with *BOM* keyword)	   |
+| BOL Sheet Name											   | BOL-(with *BOL* keyword)	   |
+
+
+### How it works
+
+<a class="" data-lightbox="Katapult Importer" href="_static/bom_report.gif" title="BOM Report" data-title="BOM Report"><img src="_static/bom_report.gif" class="align-center" width="800px" height="500px" alt="BOM Report">
+</a>
+
+## Consumable List
+
+This plugin extract BOM Consumable list and generates individual .xlxs per fsa selected.
+
+The following steps will allow you to execute Consumable List functionality:
+
+1. Open `fdsa_boundaries` attribute table and select fsa needed for Consumable List.
+2. On the VistaCare Communications Plugin go to `Tools --> Consumable List`.
+3. Fill in the drop down menu. Follow the table below for recommended menu and layer to select.
+4. Select Consumable List template Excel file from directory.
+5. **Optional** Select where to save the .xlxs file result
+6. Click `OK`
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>Consumable List Dropdown menu and Layer Guide</p>
+</div>
+
+| Drop down Menu                                               | **Layer Table to use**        |                                                                                                                                                                                                                       
+| ------------------------------------------------------------ | ----------------------------- | 
+| FSA Layer                                                    | fdsa_boundaries			   | 
+| Splice Layer                                                 | splice                        |
+| Poles Layer                                                  | poles                         |
+| Cable Layer                                                  | cables                        |
+| Conduit Layer                                                | conduit                       |
+| UG Layer                                                     | UG_structure				   |
+| Strand Layer												   | Strand			               |
+| CSP Layer													   | csp						   |
+| Anchor Layer												   | anchors					   |
+| Guys Layer												   | guys						   |
+| Peng Layer												   | peng_scope					   |
+| Span Layer												   | spans						   |
+| Slack Layer												   | slack 						   |
+| Arbs														   | arbs_m						   |
+| Sheet Name										           | Material Order Form    	   |
+
+### How it works
+
+<a class="" data-lightbox="Katapult Importer" href="_static/bom_report.gif" title="BOM Report" data-title="BOM Report"><img src="_static/bom_report.gif" class="align-center" width="800px" height="500px" alt="BOM Report">
 </a>
 
 ## SpidaCalc Validator
@@ -79,25 +164,7 @@ The following steps will allow you to execute the SpidaCalc Validator functional
 <p>All the detailed information can be found in the generated reports.</p>
 </div>
 
-## Layout Modifier
 
-The Layout modifier module allows us to modify the page's Layer and the Layout for the Atlas configuration to exchange the Layers IDs and the Layour components between each field selected.
-
-The following steps will allow you to execute the Layout Modifier functionality:
-
-1. On the VistaCare Communications Plugin go to `Tools --> Layout Modifier`.
-2. Fill the following options:
-
-    * Layout: Layout to be modified.
-    * Page Layer: Layer that is used to create the Atlas.
-    * Field Page Layer: The field that is used to order the pages on the Atlas.
-    * Initial ID: the ID that will be migrated.
-    * Final ID: the Target ID to be replaced.
-
-3. Click on `OK` and wait until the module finishes the execution. 
-
-<a class="" data-lightbox="Layout Modifier" href="_static/layout_modifier.gif" title="Layout Modifier" data-title="Layout Modifier"><img src="_static/layout_modifier.gif" class="align-center" width="800px" height="500px" alt="Layout Modifier">
-</a>
 
 ## Span Clearance And Vertical Separation
 
