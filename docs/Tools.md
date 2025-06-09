@@ -42,6 +42,44 @@ The following steps will allow you to execute the Katapult Importer functionalit
 <a class="" data-lightbox="Katapult Importer" href="_static/katapult_importer.gif" title="Katapult Importer" data-title="Katapult Importer"><img src="_static/katapult_importer.gif" class="align-center" width="800px" height="500px" alt="Katapult Importer">
 </a>
 
+## SpidaCalc Validator
+
+Plugin to extract information from SPIDACALC JSON and generate PDF, XLS report for required missing information.
+
+The following steps will allow you to execute the SpidaCalc Validator functionality:
+
+1. On the VistaCare Plugin go to `Tools --> SpidaCalc Validator`.
+2. Choose application to validate SpidaCalc JSON file.
+
+    * Pole Profile
+    * Anchor Importer (SpidaCalc to DB)
+    * Vertical Separation
+
+3. On user interface, select JSON file to work on.
+4. **(Optional)** Choose folder location you want to save your reports.
+5. Click `OK` button to generate table
+
+<a class="" data-lightbox="Spidacalc Validator" href="_static/spidacalc_validator_gif.gif" title="Spidacalc Validator" data-title="Spidacalc Validator"><img src="_static/spidacalc_validator_gif.gif" class="align-center" width="800px" height="500px" alt="Spidacalc Validator">
+</a>
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>
+
+1. Brief Description in Text Box: 
+   * Description in <span style="color: #000000; font-weight:bold">'BLACK'</span> font color are general information
+   * Description in <span style="color: #FF0000; font-weight:bold">'RED'</span> font color are pole feature missing information
+   * Description in <span style="color: #008000; font-weight:bold">'GREEN'</span> font color are completed reports
+2. For **PDF report**, missing information from JSON or any other information source will have its value as `None` and font color to <span style="color: #FF0000; font-weight:bold">'RED'</span>.
+3. For **XLS report**, missing information from JSON or any other information source will have a value of `None` and its cell font color to <span style="color: #FF0000; font-weight:bold">'RED'</span>. Also, if a layer is missing, rest of the row of layer and pole will be empty.
+</div>
+
+<div class="note">
+<p class="admonition-title">IMPORTANT</p>
+<p>All the detailed information can be found in the generated reports.</p>
+</div>
+
+
 ## BOM Report
 
 This plugin extract BOM and BOL information and generates a report in .xlxs format. 
@@ -85,86 +123,6 @@ The following steps will allow you to execute BOM Report functionality:
 
 <a class="" data-lightbox="Katapult Importer" href="_static/bom_report.gif" title="BOM Report" data-title="BOM Report"><img src="_static/bom_report.gif" class="align-center" width="800px" height="500px" alt="BOM Report">
 </a>
-
-## Consumable List
-
-This plugin extract BOM Consumable list and generates individual .xlxs per fsa selected.
-
-The following steps will allow you to execute Consumable List functionality:
-
-1. Open `fdsa_boundaries` attribute table and select fsa needed for Consumable List.
-2. On the VistaCare Communications Plugin go to `Tools --> Consumable List`.
-3. Fill in the drop down menu. Follow the table below for recommended menu and layer to select.
-4. Select Consumable List template Excel file from directory.
-5. **Optional** Select where to save the .xlxs file result
-6. Click `OK`
-
-<div class="seealso">
-<p class="admonition-title">TIP</p>
-<p>Consumable List Dropdown menu and Layer Guide</p>
-</div>
-
-| Drop down Menu                                               | **Layer Table to use**        |                                                                                                                                                                                                                       
-| ------------------------------------------------------------ | ----------------------------- | 
-| FSA Layer                                                    | fdsa_boundaries			   | 
-| Splice Layer                                                 | splice                        |
-| Poles Layer                                                  | poles                         |
-| Cable Layer                                                  | cables                        |
-| Conduit Layer                                                | conduit                       |
-| UG Layer                                                     | UG_structure				   |
-| Strand Layer												   | Strand			               |
-| CSP Layer													   | csp						   |
-| Anchor Layer												   | anchors					   |
-| Guys Layer												   | guys						   |
-| Peng Layer												   | peng_scope					   |
-| Span Layer												   | spans						   |
-| Slack Layer												   | slack 						   |
-| Arbs														   | arbs_m						   |
-| Sheet Name										           | Material Order Form    	   |
-
-### How it works
-
-<a class="" data-lightbox="Katapult Importer" href="_static/bom_report.gif" title="BOM Report" data-title="BOM Report"><img src="_static/bom_report.gif" class="align-center" width="800px" height="500px" alt="BOM Report">
-</a>
-
-## SpidaCalc Validator
-
-Plugin to extract information from SPIDACALC JSON and generate PDF, XLS report for required missing information.
-
-The following steps will allow you to execute the SpidaCalc Validator functionality:
-
-1. On the VistaCare Plugin go to `Tools --> SpidaCalc Validator`.
-2. Choose application to validate SpidaCalc JSON file.
-
-    * Pole Profile
-    * Anchor Importer (SpidaCalc to DB)
-    * Vertical Separation
-
-3. On user interface, select JSON file to work on.
-4. **(Optional)** Choose folder location you want to save your reports.
-5. Click `OK` button to generate table
-
-<a class="" data-lightbox="Spidacalc Validator" href="_static/spidacalc_validator_gif.gif" title="Spidacalc Validator" data-title="Spidacalc Validator"><img src="_static/spidacalc_validator_gif.gif" class="align-center" width="800px" height="500px" alt="Spidacalc Validator">
-</a>
-
-<div class="seealso">
-<p class="admonition-title">TIP</p>
-<p>
-
-1. Brief Description in Text Box: 
-   * Description in <span style="color: #000000; font-weight:bold">'BLACK'</span> font color are general information
-   * Description in <span style="color: #FF0000; font-weight:bold">'RED'</span> font color are pole feature missing information
-   * Description in <span style="color: #008000; font-weight:bold">'GREEN'</span> font color are completed reports
-2. For **PDF report**, missing information from JSON or any other information source will have its value as `None` and font color to <span style="color: #FF0000; font-weight:bold">'RED'</span>.
-3. For **XLS report**, missing information from JSON or any other information source will have a value of `None` and its cell font color to <span style="color: #FF0000; font-weight:bold">'RED'</span>. Also, if a layer is missing, rest of the row of layer and pole will be empty.
-</div>
-
-<div class="note">
-<p class="admonition-title">IMPORTANT</p>
-<p>All the detailed information can be found in the generated reports.</p>
-</div>
-
-
 
 ## Span Clearance And Vertical Separation
 
