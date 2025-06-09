@@ -121,7 +121,48 @@ The following steps will allow you to execute BOM Report functionality:
 
 ### How it works
 
-<a class="" data-lightbox="Katapult Importer" href="_static/bom_report.gif" title="BOM Report" data-title="BOM Report"><img src="_static/bom_report.gif" class="align-center" width="800px" height="500px" alt="BOM Report">
+<a class="" data-lightbox="BOM Report" href="_static/bom_report.gif" title="BOM Report" data-title="BOM Report"><img src="_static/bom_report.gif" class="align-center" width="800px" height="500px" alt="BOM Report">
+</a>
+
+## Consumable List
+
+This plugin extract BOM Consumable list and generates individual .xlxs per fsa selected.
+
+The following steps will allow you to execute Consumable List functionality:
+
+1. Open `fdsa_boundaries` attribute table and select fsa needed for Consumable List.
+2. On the VistaCare Communications Plugin go to `Tools --> Consumable List`.
+3. Fill in the drop down menu. Follow the table below for recommended menu and layer to select.
+4. Select Consumable List template Excel file from directory.
+5. **Optional** Select where to save the .xlxs file result
+6. Click `OK`
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>Consumable List Dropdown menu and Layer Guide</p>
+</div>
+
+| Drop down Menu                                               | **Layer Table to use**        |                                                                                                                                                                                                                       
+| ------------------------------------------------------------ | ----------------------------- | 
+| FSA Layer                                                    | fdsa_boundaries			   | 
+| Splice Layer                                                 | splice                        |
+| Poles Layer                                                  | poles                         |
+| Cable Layer                                                  | cables                        |
+| Conduit Layer                                                | conduit                       |
+| UG Layer                                                     | UG_structure				   |
+| Strand Layer												   | Strand			               |
+| CSP Layer													   | csp						   |
+| Anchor Layer												   | anchors					   |
+| Guys Layer												   | guys						   |
+| Peng Layer												   | peng_scope					   |
+| Span Layer												   | spans						   |
+| Slack Layer												   | slack 						   |
+| Arbs														   | arbs_m						   |
+| Sheet Name										           | Material Order Form    	   |
+
+### How it works
+
+<a class="" data-lightbox="Consumable List" href="_static/consumable_list.gif" title="Consumable List" data-title="Consumable List"><img src="_static/consumable_list.gif" class="align-center" width="800px" height="500px" alt="Consumable List">
 </a>
 
 ## Span Clearance And Vertical Separation
