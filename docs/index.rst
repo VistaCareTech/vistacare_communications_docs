@@ -49,3 +49,4 @@ Welcome to VistaCare Communications plugin docs's documentation!
    :caption: viewers
 
    viewers/qgis_server.md
+   viewers/qgis_project_files_main.md
