@@ -46,7 +46,13 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-html_css_files = ["custom.css"]
+html_css_files = ["custom.css",
+                  "fancybox.css"]
+
+html_js_files = [
+    'fancybox.umd.js', 
+    'custom_lightbox_init.js',
+]
 
 html_theme_options = {
     'display_version': 'true',
