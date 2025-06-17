@@ -84,32 +84,20 @@ The videos should be added with the following code:
 </a>
 ```
 
-<div class="note">
-<p class="admonition-title">IMPORTANT</p>
-<p>It is necessary generate a Thumbnail, to do it please excuse the following command.</p>
-<code>
+It is necessary generate a Thumbnail, to do it please excuse the following command.
+
+The play_icon.ong image can be found on ***.docs/_static/resources***
+
+```bash
 ffmpeg -i qgis_project_files_admin_side.mp4 -i play_icon.png -ss 00:00:02 -vframes 1 -filter_complex "[1:v]scale=200:-1[play_scaled];[0:v][play_scaled]overlay=(W-w)/2:(H-h)/2" -q:v 2 qgis_project_files_admin_side_thumbnail.jpg
-</code>
-<br>
-<p>The play_icon.ong image can be found on .docs/_static/resources</p>
-</div>
+```
 
 ### Recommended parameters:
 
-<div class="seealso">
-<p class="admonition-title">TIP</p>
-<ul>
-  <li>Resolution: 1920 x 1080</li>
-  <li>Format: .mp4</li>
-</ul>
-</div>
+* Resolution: 1920 x 1080
+* Format: .mp4
 
 ### Recommended software:
 
-<div class="seealso">
-<p class="admonition-title">TIP</p>
-<ul>
-  <li>Record screen: <a href="https://obsproject.com/">OBS</a></li>
-  <li>Edit video: <a href="https://www.shotcut.org/">Shotcut</a></li>
-</ul>
-</div>
+* [Record screen](https://obsproject.com/)
+* [Edit video](https://www.shotcut.org/)
