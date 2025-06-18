@@ -18,7 +18,9 @@ When the user tries to save changes to a project file, a macro that checks wheth
 <img src="../_static/viewers/qgis_project_files_user_side.png" class="align-center" alt="QGIS Project Files Flowchart - User Side">
 </a>
 <br>
+
 ## How It Works on the Administrator Side
+
 For the project to work correctly, the QGIS administrator must save the project files in the <a href="https://vistacaretech.sharepoint.com/sites/engineering/Lists/QGIS%20Project%20Files/AllItems.aspx" target="_blank">QGIS Project Files</a> Sharepoint list and fill in the necessary data. When this is done, the **QGIS Project Files [Automatic]** flow is activated, starting the process that will update the **projects table** in the database with the new project file. This table is used by the macro to check if the user is using the current version of the project file.
 
 <a data-fancybox="QGIS Project Files - User Side" href="../../_static/viewers/qgis_project_files_admin_side.mp4" data-caption="QGIS Project Files - User Side">
