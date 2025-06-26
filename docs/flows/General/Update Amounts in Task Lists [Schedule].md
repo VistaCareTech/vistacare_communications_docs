@@ -93,5 +93,7 @@ B. Second End:
 
 ## Example of Execution
 
-<a class="" data-lightbox="Update Amounts in Task Lists [Schedule]" href="../../../_static/flows/Update Amounts in Task Lists [Schedule].gif" title="Update Amounts in Task Lists [Schedule]" data-title="Update Amounts in Task Lists [Schedule]"><img src="../../../_static/flows/Update Amounts in Task Lists [Schedule].gif" class="align-center" width="800px" height="500px" alt="Update Amounts in Task Lists [Schedule]">
+<a data-fancybox="Update Amounts in Task Lists [Schedule]" href="../../../_static/flows/Update Amounts in Task Lists [Schedule].mp4" data-caption="Update Amounts in Task Lists [Schedule]">
+  <img src="../../../_static/flows/update_amounts_in_task_lists_[schedule]_thumbnail.jpg" alt="Update Amounts in Task Lists [Schedule]" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
