@@ -60,5 +60,9 @@ There is no excel spreadsheets involved in the process.
 <p>Triggering and executing Flow takes a few minutes to complete, although in the demonstrations below it appears to take less time.</p>
 </div>
 
-<a class="" data-lightbox="Adding new Jobs to the Job List" href="../../../_static/flows/Bell - Bracebridge UBF - Job List [Automatic]_Adding New Jobs.gif" title="Adding new Jobs to the Job List" data-title="Adding new Jobs to the Job List"><img src="../../../_static/flows/Bell - Bracebridge UBF - Job List [Automatic]_Adding New Jobs.gif" class="align-center" width="800px" height="500px" alt="Adding new Jobs to the Job List">
+<a data-fancybox="Adding new Jobs to the Job List" href="../../../_static/flows/job_list/bell_-_bracebridge_ubf_-_job_list_[automatic]_adding_new_jobs.mp4" data-caption="Adding new Jobs to the Job List">
+  <img src="../../../_static/flows/job_list/bell_-_bracebridge_ubf_-_job_list_[automatic]_adding_new_jobs_thumbnail.jpg" alt="Adding new Jobs to the Job List" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+
+<br>

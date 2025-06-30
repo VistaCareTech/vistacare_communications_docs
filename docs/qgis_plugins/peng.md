@@ -20,8 +20,12 @@ The following steps will allow you to execute Vertical Separation:
 <p>If <b>Output Folder Location</b> is empty, output files will be save at input json folder location </p>
 </div>
 
-<a class="" data-lightbox="Vertical Separation" href="../_static/qgis_plugins/peng/vertical_separation_gif.gif" title="Vertical Separation" data-title="Vertical Separation"><img src="../_static/qgis_plugins/peng/vertical_separation_gif.gif" class="align-center" width="800px" height="500px" alt="Vertical Separation">
+<a data-fancybox="Span Clearance and Vertical Separation" href="../_static/qgis_plugins/peng/span_clearance_and_vertical_separation.mp4" data-caption="KML Script">
+  <img src="../_static/qgis_plugins/peng/span_clearance_and_vertical_separation_thumbnail.jpg" alt="Span Clearance and Vertical Separation" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+
+<br>
 
 ### Span Clearance and Vertical Separation Errors
 

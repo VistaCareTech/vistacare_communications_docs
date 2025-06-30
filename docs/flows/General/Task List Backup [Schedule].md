@@ -87,5 +87,10 @@ A. First End:
 <p>This Flow is scheduled to trigger automatically every day, however in the demonstration below it was triggered manually.</p>
 </div>
 
-<a class="" data-lightbox="Task List Backup" href="../../../_static/flows/Bell - Bracebridge UBF - Task List Backup [Schedule].gif" title="Task List Backup" data-title="Task List Backup"><img src="../../../_static/flows/Bell - Bracebridge UBF - Task List Backup [Schedule].gif" class="align-center" width="800px" height="500px" alt="Task List Backup">
+
+<a data-fancybox="Task List Backup" href="../../../_static/flows/task_list_backup/bell_-_st_charles_-_task_list_backup_[schedule].mp4" data-caption="Task List Backup">
+  <img src="../../../_static/flows/task_list_backup/bell_-_st_charles_-_task_list_backup_[schedule]_thumbnail.jpg" alt="Task List Backup" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+
+<br>

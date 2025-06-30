@@ -48,8 +48,8 @@ There is no decision point.
 
 
 ## Related Flows
-* [Update of Lists related to Field Survey [Dependent]](../General/Update%20of%20Lists%20Related%20to%20Field%20Survey%20[Dependent].md)
-* [Get SharePoint Lists IDs [Dependent]](../General/Get%20SharePoint%20Lists%20IDs%20[Dependent].md)
+* [Update of Lists related to Field Survey [Dependent]](Update%20of%20Lists%20Related%20to%20Field%20Survey%20[Dependent].md)
+* [Get SharePoint Lists IDs [Dependent]](Get%20SharePoint%20Lists%20IDs%20[Dependent].md)
 
 
 ## Workflow End

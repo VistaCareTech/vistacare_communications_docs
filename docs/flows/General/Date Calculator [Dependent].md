@@ -139,5 +139,9 @@ E. Fifth End:
 <p>This Flow is only triggered by "Task Capacities [Dependent]", while this other is only triggered by "Job List [Automatic]" or by "Task List [Automatic]".</p>
 </div>
 
-<a class="" data-lightbox="Adding a Job and its Tasks to the Task List" href="../../../_static/flows/Bell - Bracebridge UBF - Job List [Automatic]_Adding New Tasks.gif" title="Adding a Job and its Tasks to the Task List" data-title="Adding a Job and its Tasks to the Task List"><img src="../../../_static/flows/Bell - Bracebridge UBF - Job List [Automatic]_Adding New Tasks.gif" class="align-center" width="800px" height="500px" alt="Adding a Job and its Tasks to the Task List">
+<a data-fancybox="Adding a Job and its Tasks to the Task List" href="../../../_static/flows/job_list/bell_-_bracebridge_ubf_-_job_list_[automatic]_adding_new_tasks.mp4" data-caption="Adding a Job and its Tasks to the Task List">
+  <img src="../../../_static/flows/job_list/bell_-_bracebridge_ubf_-_job_list_[automatic]_adding_new_tasks_thumbnail.jpg" alt="Adding new Jobs to the Job List" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+
+<br>

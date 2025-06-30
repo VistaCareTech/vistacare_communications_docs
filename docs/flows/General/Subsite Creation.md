@@ -6,8 +6,12 @@ Below is a step-by-step guide on how to do this.
 
 1. Inside the <a href="https://vistacaretech.sharepoint.com/sites/engineering/xplore/_layouts/15/viewlsts.aspx?view=15" target="_blank">Xplore subsite</a>, click on **Site Contents**, then click on **New** and click on **Subsite**. This will redirect you to a new page.
 
-<a class="" data-lightbox="Sharepoint Subsite Creation - Step 1" href="../../../_static/flows/subsite_creation/subsite_creation_step_1.gif" title="Sharepoint Subsite Creation - Step 1" data-title="Sharepoint Subsite Creation - Step 1"><img src="../../../_static/flows/subsite_creation/subsite_creation_step_1.gif" class="align-center" width="800px" height="500px" alt="Sharepoint Subsite Creation - Step 1">
+<a data-fancybox="Sharepoint Subsite Creation - Step 1" href="../../../_static/flows/subsite_creation/subsite_creation_step_1.mp4" data-caption="Sharepoint Subsite Creation - Step 1">
+  <img src="../../../_static/flows/subsite_creation/subsite_creation_step_1_thumbnail.jpg" alt="Sharepoint Subsite Creation - Step 1" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+
+<br>
 
 2. On the new page, fill in the following fields:
 
@@ -25,38 +29,66 @@ Below is a step-by-step guide on how to do this.
 
 After filling in the fields, click on **Create** button to be redirected to the newly created subsite.
 
-<a class="" data-lightbox="Sharepoint Subsite Creation - Step 2" href="../../../_static/flows/subsite_creation/subsite_creation_step_2.gif" title="Sharepoint Subsite Creation - Step 2" data-title="Sharepoint Subsite Creation - Step 2"><img src="../../../_static/flows/subsite_creation/subsite_creation_step_2.gif" class="align-center" width="800px" height="500px" alt="Sharepoint Subsite Creation - Step 2">
+<a data-fancybox="Sharepoint Subsite Creation - Step 2" href="../../../_static/flows/subsite_creation/subsite_creation_step_2.mp4" data-caption="Sharepoint Subsite Creation - Step 2">
+  <img src="../../../_static/flows/subsite_creation/subsite_creation_step_2_thumbnail.jpg" alt="Sharepoint Subsite Creation - Step 2" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+
+<br>
 
 3. In the new subsite, click on **Site Contents**, then click on **Return to classic SharePoint** at the bottom left of the screen to create new lists using pre-made templates.
 
-<a class="" data-lightbox="Sharepoint Subsite Creation - Step 3" href="../../../_static/flows/subsite_creation/subsite_creation_step_3.gif" title="Sharepoint Subsite Creation - Step 3" data-title="Sharepoint Subsite Creation - Step 3"><img src="../../../_static/flows/subsite_creation/subsite_creation_step_3.gif" class="align-center" width="800px" height="500px" alt="Sharepoint Subsite Creation - Step 3">
+<a data-fancybox="Sharepoint Subsite Creation - Step 3" href="../../../_static/flows/subsite_creation/subsite_creation_step_3.mp4" data-caption="Sharepoint Subsite Creation - Step 3">
+  <img src="../../../_static/flows/subsite_creation/subsite_creation_step_3_thumbnail.jpg" alt="Sharepoint Subsite Creation - Step 3" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+
+<br>
 
 4. Click on **add an app**, then type **Job List** in the search bar and select the app/list called **Job List**. In the window that opens, type **Job List** as the name.
 
-<a class="" data-lightbox="Sharepoint Subsite Creation - Step 4" href="../../../_static/flows/subsite_creation/subsite_creation_step_4.gif" title="Sharepoint Subsite Creation - Step 4" data-title="Sharepoint Subsite Creation - Step 4"><img src="../../../_static/flows/subsite_creation/subsite_creation_step_4.gif" class="align-center" width="800px" height="500px" alt="Sharepoint Subsite Creation - Step 4">
+<a data-fancybox="Sharepoint Subsite Creation - Step 4" href="../../../_static/flows/subsite_creation/subsite_creation_step_4.mp4" data-caption="Sharepoint Subsite Creation - Step 4">
+  <img src="../../../_static/flows/subsite_creation/subsite_creation_step_4_thumbnail.jpg" alt="Sharepoint Subsite Creation - Step 4" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+
+<br>
 
 5. Click on **add an app** again, type **Task List** in the search bar, select the app/list called **Task List**. In the window that opens type **Task List** as the name.
 
-<a class="" data-lightbox="Sharepoint Subsite Creation - Step 5" href="../../../_static/flows/subsite_creation/subsite_creation_step_5.gif" title="Sharepoint Subsite Creation - Step 5" data-title="Sharepoint Subsite Creation - Step 5"><img src="../../../_static/flows/subsite_creation/subsite_creation_step_5.gif" class="align-center" width="800px" height="500px" alt="Sharepoint Subsite Creation - Step 5">
+<a data-fancybox="Sharepoint Subsite Creation - Step 5" href="../../../_static/flows/subsite_creation/subsite_creation_step_5.mp4" data-caption="Sharepoint Subsite Creation - Step 5">
+  <img src="../../../_static/flows/subsite_creation/subsite_creation_step_5_thumbnail.jpg" alt="Sharepoint Subsite Creation - Step 5" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+
+<br>
 
 6. Click on **add an app** again, type **Task Capacities** in the search bar, and select **Task Capacities Xplore**. In the window that opens, type **Task Capacities** as the name. After this, you can return to the modern version of SharePoint by clicking on **Exit classic experience** at the bottom left of the screen.
 
-<a class="" data-lightbox="Sharepoint Subsite Creation - Step 6" href="../../../_static/flows/subsite_creation/subsite_creation_step_6.gif" title="Sharepoint Subsite Creation - Step 6" data-title="Sharepoint Subsite Creation - Step 6"><img src="../../../_static/flows/subsite_creation/subsite_creation_step_6.gif" class="align-center" width="800px" height="500px" alt="Sharepoint Subsite Creation - Step 6">
+<a data-fancybox="Sharepoint Subsite Creation - Step 6" href="../../../_static/flows/subsite_creation/subsite_creation_step_6.mp4" data-caption="Sharepoint Subsite Creation - Step 6">
+  <img src="../../../_static/flows/subsite_creation/subsite_creation_step_6_thumbnail.jpg" alt="Sharepoint Subsite Creation - Step 6" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+
+<br>
 
 7. Access the **Task Capacities** list, click on the **Subsequent Tasks** column > **Column Settings** > **Edit**. In **Select a list as a source**, select **Task Capacities**, then in **Select a column from the list above** select the **Task** column. Click on Save button.
 
-<a class="" data-lightbox="Sharepoint Subsite Creation - Step 7" href="../../../_static/flows/subsite_creation/subsite_creation_step_7.gif" title="Sharepoint Subsite Creation - Step 7" data-title="Sharepoint Subsite Creation - Step 7"><img src="../../../_static/flows/subsite_creation/subsite_creation_step_7.gif" class="align-center" width="800px" height="500px" alt="Sharepoint Subsite Creation - Step 7">
+<a data-fancybox="Sharepoint Subsite Creation - Step 7" href="../../../_static/flows/subsite_creation/subsite_creation_step_7.mp4" data-caption="Sharepoint Subsite Creation - Step 7">
+  <img src="../../../_static/flows/subsite_creation/subsite_creation_step_7_thumbnail.jpg" alt="Sharepoint Subsite Creation - Step 7" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+
+<br>
 
 8. Again click on the **Subsequent Tasks** column > **Column Settings** > **Edit**. Expand **More Options**, and under **Add additional columns from source list** select **#**. Click on **Save** button.
 
-<a class="" data-lightbox="Sharepoint Subsite Creation - Step 8" href="../../../_static/flows/subsite_creation/subsite_creation_step_8.gif" title="Sharepoint Subsite Creation - Step 8" data-title="Sharepoint Subsite Creation - Step 8"><img src="../../../_static/flows/subsite_creation/subsite_creation_step_8.gif" class="align-center" width="800px" height="500px" alt="Sharepoint Subsite Creation - Step 8">
+<a data-fancybox="Sharepoint Subsite Creation - Step 8" href="../../../_static/flows/subsite_creation/subsite_creation_step_8.mp4" data-caption="Sharepoint Subsite Creation - Step 8">
+  <img src="../../../_static/flows/subsite_creation/subsite_creation_step_8_thumbnail.jpg" alt="Sharepoint Subsite Creation - Step 8" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+
+<br>
 
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>
@@ -66,8 +98,12 @@ If you do not have access, please contact the <b>programming team</b> so that a 
 
 9. Access the <a href="https://make.powerautomate.com/environments/Default-a5273f41-687e-4e5e-9fba-18c6ce465b41/flows/shared/f1dd99c5-fc23-47b9-8368-ba816d4137da/details" target="_blank">Job List [Automatic]</a> Flow, click on edit, and click on the trigger action **When an item is created or modified**. In **Site Address**, select the subsite you just created. In **List Name**, select **Job List**. Click on Save button.
 
-<a class="" data-lightbox="Sharepoint Subsite Creation - Step 9" href="../../../_static/flows/subsite_creation/subsite_creation_step_9.gif" title="Sharepoint Subsite Creation - Step 9" data-title="Sharepoint Subsite Creation - Step 9"><img src="../../../_static/flows/subsite_creation/subsite_creation_step_9.gif" class="align-center" width="800px" height="500px" alt="Sharepoint Subsite Creation - Step 9">
+<a data-fancybox="Sharepoint Subsite Creation - Step 9" href="../../../_static/flows/subsite_creation/subsite_creation_step_9.mp4" data-caption="Sharepoint Subsite Creation - Step 9">
+  <img src="../../../_static/flows/subsite_creation/subsite_creation_step_9_thumbnail.jpg" alt="Sharepoint Subsite Creation - Step 9" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+
+<br>
 
 10. Access the **Job List**, then add the FSAs for the newly created Xplore project area to activate the **Job List [Automatic]** Flow that adds tasks for each FSA in the **Task List**.
 
@@ -80,8 +116,12 @@ If you do not have access, please contact the <b>programming team</b> so that a 
 </ul>
 </div>
 
-<a class="" data-lightbox="Sharepoint Subsite Creation - Step 10" href="../../../_static/flows/subsite_creation/subsite_creation_step_10.gif" title="Sharepoint Subsite Creation - Step 10" data-title="Sharepoint Subsite Creation - Step 10"><img src="../../../_static/flows/subsite_creation/subsite_creation_step_10.gif" class="align-center" width="800px" height="500px" alt="Sharepoint Subsite Creation - Step 10">
+<a data-fancybox="Sharepoint Subsite Creation - Step 10" href="../../../_static/flows/subsite_creation/subsite_creation_step_10.mp4" data-caption="Sharepoint Subsite Creation - Step 10">
+  <img src="../../../_static/flows/subsite_creation/subsite_creation_step_10_thumbnail.jpg" alt="Sharepoint Subsite Creation - Step 10" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+
+<br>
 
 11.  After the Flow completes and tasks are added for an FSA, indent tasks within their respective groups. Go to the **Task List**, click on **edit**, select tasks related to an FSA using **Shift key**, expand the **Tasks** tab at the top of the screen, and click on **Indent**. Repeat to group tasks.
 This way, all the selected items should be moved one level below the item at the top of the list that was not selected.
@@ -92,8 +132,12 @@ The same procedure should be repeated to group each group of tasks.
 <p> Undo mistakes by selecting incorrectly indented items and clicking <b>Outdent</b> at the top of the screen.</p>
 </div>
 
-<a class="" data-lightbox="Sharepoint Subsite Creation - Step 11" href="../../../_static/flows/subsite_creation/subsite_creation_step_11.gif" title="Sharepoint Subsite Creation - Step 11" data-title="Sharepoint Subsite Creation - Step 11"><img src="../../../_static/flows/subsite_creation/subsite_creation_step_11.gif" class="align-center" width="800px" height="500px" alt="Sharepoint Subsite Creation - Step 11">
+<a data-fancybox="Sharepoint Subsite Creation - Step 11" href="../../../_static/flows/subsite_creation/subsite_creation_step_11.mp4" data-caption="Sharepoint Subsite Creation - Step 11">
+  <img src="../../../_static/flows/subsite_creation/subsite_creation_step_11_thumbnail.jpg" alt="Sharepoint Subsite Creation - Step 11" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+
+<br>
 
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>
@@ -104,10 +148,18 @@ The same procedure should be repeated to group each group of tasks.
 Change the **Name** of the new list to make it match the related Job. Check the **Show in the site navigation** option and click on **Create**.
 Repeat for each **Permit List**.
 
-<a class="" data-lightbox="Sharepoint Subsite Creation - Step 12" href="../../../_static/flows/subsite_creation/subsite_creation_step_12.gif" title="Sharepoint Subsite Creation - Step 12" data-title="Sharepoint Subsite Creation - Step 12"><img src="../../../_static/flows/subsite_creation/subsite_creation_step_12.gif" class="align-center" width="800px" height="500px" alt="Sharepoint Subsite Creation - Step 12">
+<a data-fancybox="Sharepoint Subsite Creation - Step 12" href="../../../_static/flows/subsite_creation/subsite_creation_step_12.mp4" data-caption="Sharepoint Subsite Creation - Step 12">
+  <img src="../../../_static/flows/subsite_creation/subsite_creation_step_12_thumbnail.jpg" alt="Sharepoint Subsite Creation - Step 12" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+
+<br>
 
 13. Configure the new subsite navigation layout: Go to **Site Contents** and click on **Site Settings** in the top right of the screen. Click **Navigation** under **Look and Feel**. Select **Display the same navigation items as the parent site** for both **Global Navigation** and **Current Navigation**. Use the panel buttons in **Structural Navigation: Editing and Sorting** to remove unnecessary links, add missing links, and sort them. Keep links to **Documents**, **Permit Lists**, **Task List**, and **Site contents**. Finally, click on **OK** button.
 
-<a class="" data-lightbox="Sharepoint Subsite Creation - Step 13" href="../../../_static/flows/subsite_creation/subsite_creation_step_13.gif" title="Sharepoint Subsite Creation - Step 13" data-title="Sharepoint Subsite Creation - Step 13"><img src="../../../_static/flows/subsite_creation/subsite_creation_step_13.gif" class="align-center" width="800px" height="500px" alt="Sharepoint Subsite Creation - Step 13">
+<a data-fancybox="Sharepoint Subsite Creation - Step 13" href="../../../_static/flows/subsite_creation/subsite_creation_step_13.mp4" data-caption="Sharepoint Subsite Creation - Step 13">
+  <img src="../../../_static/flows/subsite_creation/subsite_creation_step_13_thumbnail.jpg" alt="Sharepoint Subsite Creation - Step 13" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+
+<br>

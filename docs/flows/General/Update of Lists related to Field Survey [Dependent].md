@@ -1,4 +1,4 @@
-# Update of Lists related to Field Survey [Dependent]
+# Update of Lists Related to Field Survey [Dependent]
 
 <div class="warning">
 <p class="admonition-title">WARNING</p>

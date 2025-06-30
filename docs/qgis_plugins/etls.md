@@ -12,7 +12,7 @@ SpidaCalc to DB allows us to extract the information from the SpidaCalc JSON fil
 
 The following steps will allow you to execute the SpidaCalc to DB functionality:
 
-1. On the VistaCare Communications Plugin go to `ETLs ==> SpidaCalc To DB`.
+1. On the VistaCare Communications Plugin go to **ETLs ==> SpidaCalc To DB**.
 2. Fill the following options:
 
     * Anchor P Eng: Line Layer with the Archor P Eng structure.
@@ -21,15 +21,16 @@ The following steps will allow you to execute the SpidaCalc to DB functionality:
     * Anchors Angle: Tolerance angle to define possible duplicates.
     * Radius: Tolerance radius to define possible duplicates.
 
-3. Click on `Load Temp Anchor` and wait until the module loads the temporal anchors to be imported.
-4. Click on `Next`. 
-5. Click on `Load Table` to discover the possible duplicates.
-6. Check which are the duplicate anchors and select the `Temp Anchors` or `Anchors` to remove from the database.
-7. Click on `Import and Remove Duplicates`.
+3. Click on **Load Temp Anchor** and wait until the module loads the temporal anchors to be imported.
+4. Click on **Next**. 
+5. Click on **Load Table** to discover the possible duplicates.
+6. Check which are the duplicate anchors and select the **Temp Anchors** or **Anchors** to remove from the database.
+7. Click on **Import and Remove Duplicates**.
 
 <a class="" data-lightbox="SpidaCalc To DB" href="../_static/spidacalc_to_db.gif" title="SpidaCalc To DB" data-title="SpidaCalc To DB"><img src="../_static/spidacalc_to_db.gif" class="align-center" width="800px" height="500px" alt="SpidaCalc To DB">
 </a>
 -->
+
 
 ## <img src="../_static/qgis_plugins/icons/etls/anchor_spida_to_db.png" alt="Anchor Spida to DB" width="24px"> Anchor Spida to DB
 
@@ -55,22 +56,22 @@ The **Anchor Spida to DB** functionality provides a solution for importing and m
 
 ## <img src="../_static/qgis_plugins/icons/etls/extract_and_pack.png" alt="Extract and Pack" width="24px"> Extract and Pack
 
-The Extract and Pack module as the name implies filters the selected layers by the feature in the boundary layer, extracts the information with the methods *intersect* or *within* and packs this data on a specific folder defined by the user.
+The **Extract and Pack** module as the name implies filters the selected layers by the feature in the boundary layer, extracts the information with the methods *intersect* or *within* and packs this data on a specific folder defined by the user.
 
 ### How It Works
 
 The following steps will allow you to execute the Extract and Pack functionality:
 
-1. On the VistaCare Communications Plugin go to `Tools --> Extract and Pack`.
+1. On the VistaCare Communications Plugin go to **ETLs --> Extract and Pack**.
 2. Fill the following options:
 
-    * Boundary Layer: A Polygon layer with the features will be used as a boundary.
-    * Boundary Feature: Define the feature that will be the borders of the information extracted.
-    * Layers to Extract: Choose all the layers that are required to be exported.
-    * Selection Type: Select one option to match the information (Intersect or Within).
-    * Folder for export: Choose the place where they will be located the information extracted.
+    * **Boundary Layer**: A Polygon layer with the features will be used as a boundary.
+    * **Boundary Feature**: Define the feature that will be the borders of the information extracted.
+    * **Layers to Extract**: Choose all the layers that are required to be exported.
+    * **Selection Type**: Select one option to match the information (Intersect or Within).
+    * **Folder for export**: Choose the place where they will be located the information extracted.
 
-3. Click on `OK` and wait until the module finishes the execution. 
+3. Click on **OK** and wait until the module finishes the execution. 
 
 <a class="" data-lightbox="Extract and Pack" href="../_static/qgis_plugins/etls/extract_and_pack.gif" title="Extract and Pack" data-title="Extract and Pack"><img src="../_static/qgis_plugins/etls/extract_and_pack.gif" class="align-center" width="800px" height="500px" alt="Extract and Pack">
 </a>
@@ -78,24 +79,24 @@ The following steps will allow you to execute the Extract and Pack functionality
 
 ## <img src="../_static/qgis_plugins/icons/etls/katapult_importer.png" alt="Katapult Importer" width="24px"> Katapult Importer
 
-The Katapult module allow the user to transfor and load  information from Katapult to the database. this operation is soported for *Poles, Anchors, Civics, Spans*.
+The **Katapult Importer** module allow the user to transfor and load  information from Katapult to the database. this operation is soported for *Poles, Anchors, Civics, Spans*.
 
 ### How It Works
 
 The following steps will allow you to execute the Katapult Importer functionality:
 
-1. On the VistaCare Communications Plugin go to `Tools --> Katapult Importer`.
+1. On the VistaCare Communications Plugin go to **ETLs --> Katapult Importer**.
 2. Choose the project where you want to import the data.
 3. Choose which kind of Layer are you going to import (Anchors example).
 4. Fill the options available for each Layer case (Anchors example):
 
-    * Shapefile Anchors: Information extracted from Katapult that contain the Anchors data.
-    * Shapefile Guys: Information extracted from Katapult that contain the Guys data.
-    * Anchors: Anchors Layer with the database structure.
-    * Guys: Guys Layer with the database structure.
+    * **Shapefile Anchors**: Information extracted from Katapult that contain the Anchors data.
+    * **Shapefile Guys**: Information extracted from Katapult that contain the Guys data.
+    * **Anchors**: Anchors Layer with the database structure.
+    * **Guys**: Guys Layer with the database structure.
 
-3. Click on `Import Data` and wait until the module finishes the execution. 
-4. Click on `Finish`.
+3. Click on **Import Data** and wait until the module finishes the execution. 
+4. Click on **Finish**.
 
 <a class="" data-lightbox="Katapult Importer" href="../_static/qgis_plugins/etls/katapult_importer.gif" title="Katapult Importer" data-title="Katapult Importer"><img src="../_static/qgis_plugins/etls/katapult_importer.gif" class="align-center" width="800px" height="500px" alt="Katapult Importer">
 </a>
@@ -103,7 +104,30 @@ The following steps will allow you to execute the Katapult Importer functionalit
 
 ## <img src="../_static/qgis_plugins/icons/etls/kml_script.png" alt="KML Script" width="24px"> KML Script
 
+The **KML Script** module allows the user to export QGIS layers to kml format, which is the format used in **Google Earth** software.
+
 ### How It Works
+
+The following steps will allow you to execute the Katapult Importer functionality:
+
+1. Open the project that has the layers you want to export.
+2. On the VistaCare Communications Plugin go to **ETLs --> KML Script**.
+3. Fill the options available:
+
+    * **Select FSA Layer**: Select the layer that contains the desired FSA boundary.
+    * **Select Peng Scope Layer**: Select the layer that contains the peng_scope.
+    * **Select Poles H1 Layer**: Select the layer that contains the poles related to the FSA selected in the Select FSA Layer field.
+    * **Folder to Export**: Select the folder where you want to save the generated files.
+
+4. Click on **OK** and wait until the module finishes the execution. 
+
+<a data-fancybox="KML Script" href="../_static/qgis_plugins/etls/kml_script.mp4" data-caption="KML Script">
+  <img src="../_static/qgis_plugins/etls/kml_script_thumbnail.jpg" alt="KML Script" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
+</a>
+
+<br>
+
 
 ## <img src="../_static/qgis_plugins/icons/etls/mr_importer.png" alt="MR Importer" width="24px"> MR Importer
 

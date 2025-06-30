@@ -59,8 +59,12 @@ Correct execution of the following steps is necessary in order to map Sharepoint
 <p>In the step-by-step process above, SubSite <b>Engineering</b> was mapped, however, to map any other SharePoint SubSite, simply follow the same steps and use the path corresponding to the desired SubSite.</p>
 </div>
 
-<a class="" data-lightbox="Map SharePoint" href="../../../_static/flows/map_sharepoint/map_sharepoint.gif" title="Map SharePoint" data-title="Map SharePoint"><img src="../../../_static/flows/map_sharepoint/map_sharepoint.gif" class="align-center" width="800px" height="500px" alt="Map SharePoint">
+<a data-fancybox="Map SharePoint" href="../../../_static/flows/map_sharepoint/map_sharepoint.mp4" data-caption="Map SharePoint">
+  <img src="../../../_static/flows/map_sharepoint/map_sharepoint_thumbnail.jpg" alt="Map SharePoint" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+
+<br>
 
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>
