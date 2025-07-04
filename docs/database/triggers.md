@@ -2,7 +2,7 @@
 
 Below you will find the list of triggers currently implemented in the database. 
 
-## Elgin
+## Elgin(postgres_public)
 
 **Folder location:** `K:\ENGINEERING\Xplornet Communications Inc (XCI)\Ontario\QGIS\Scripts\Triggers`
 
@@ -26,7 +26,7 @@ Below you will find the list of triggers currently implemented in the database.
 |     ug_structure      |    trigger_insert_and_update_location_ug    |     X      |     X      |            |
 |      wire_limits      |    trigger_insert_and_update_wire_limits    |     X      |     X      |            |
 
-## Big Bay and Patterson Lake
+## Big Bay and Patterson Lake(postgres-xci_bigbay_pattersonlake)
 
 **Folder location:** `K:\ENGINEERING\Xplornet Communications Inc (XCI)\Ontario\QGIS\Scripts\Triggers`
 
@@ -46,7 +46,7 @@ Below you will find the list of triggers currently implemented in the database.
 |        strand         |  trigger_insert_and_update_location_strand  |     X      |     X      |            |
 |     ug_structure      |        trigger_insert_and_update_ug         |     X      |     X      |            |
 
-## Newfoundland
+## Newfoundland(nl-public)
 
 **Folder location:** `K:\ENGINEERING\Xplornet Communications Inc (XCI)\Ontario\QGIS\Scripts\Triggers`
 
@@ -58,9 +58,11 @@ Below you will find the list of triggers currently implemented in the database.
 |        cables         | trigger_insert_and_update_location_cables |     X      |     X      |            |
 |        counts         |           trigger_delete_counts           |            |            |     X      |
 |        counts         |     trigger_insert_and_update_counts      |     X      |     X      |            |
-|      peng_scope       |    trigger_update_civiccount_pengscope    |     X      |     X      |            |
+|    fdsa_boundaries    | trigger_insert_and_update_fdsa_boundaries |     X      |     X      |            |
 |      peng_scope       |  trigger_update_pengscope_from_pengscope  |     X      |     X      |            |
+|         slack         |             set_slack_length              |     X      |     X      |            |
 |         spans         |        trigger_insert_update_spans        |     X      |     X      |            |
+|         spans         |   trigger_refresh_nl_poles_master_spans   |     X      |     X      |     X      |
 |         spans         |    trigger_update_pengscope_from_span     |     X      |     X      |            |
 |        splice         |     trigger_insert_and_update_splice      |     X      |     X      |            |
 |     ug_structure      |       trigger_insert_and_update_ug        |     X      |     X      |            |
