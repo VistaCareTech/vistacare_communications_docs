@@ -162,7 +162,12 @@ The following steps will allow you to execute Consumable List functionality:
 
 ### How it works
 
-<a class="" data-lightbox="Consumable List" href="_static/consumable_list.gif" title="Consumable List" data-title="Consumable List"><img src="_static/consumable_list.gif" class="align-center" width="800px" height="500px" alt="Consumable List">
+<!-- <a class="" data-lightbox="Consumable List" href="_static/consumable_list.gif" title="Consumable List" data-title="Consumable List"><img src="_static/consumable_list.gif" class="align-center" width="800px" height="500px" alt="Consumable List">
+</a> -->
+
+<a data-fancybox="Consumable List BOM" href="../../_static/consumable_list.mp4" data-caption="Consumable List BOM">
+  <img src="../../_static/consumable_list_thumbnail.jpg" alt="Consumable List BOM" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
 
 ## Span Clearance And Vertical Separation
