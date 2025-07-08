@@ -16,8 +16,14 @@ CAD Plan Block export is designed to streamline export of GIS information into C
 
 ### How It Works
 
-<a class="" data-lightbox="CAD Export" href="_static/cad_export.gif" title="CAD Export" data-title="CAD Export"><img src="_static/cad_export.gif" class="align-center" width="800px" height="500px" alt="CAD Export">
+<!-- <a class="" data-lightbox="CAD Export" href="_static/cad_export.gif" title="CAD Export" data-title="CAD Export"><img src="_static/cad_export.gif" class="align-center" width="800px" height="500px" alt="CAD Export">
+</a> -->
+
+<a data-fancybox="CAD Export" href="_static/cad_export.mp4" data-caption="CAD Export">
+  <img src="_static/cad_export_thumbnail.jpg" alt="CAD Export" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+<br>
 
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>

@@ -121,8 +121,11 @@ The following steps will allow you to execute BOM Report functionality:
 
 ### How it works
 
-<a class="" data-lightbox="BOM Report" href="_static/bom_report.gif" title="BOM Report" data-title="BOM Report"><img src="_static/bom_report.gif" class="align-center" width="800px" height="500px" alt="BOM Report">
+<a data-fancybox="BOM and BOL Report" href="_static/boms_report.mp4" data-caption="BOM and BOL Report">
+  <img src="_static/boms_report_thumbnail.jpg" alt="BOM and BOL Report" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+<br>
 
 ## Consumable List
 
@@ -162,8 +165,11 @@ The following steps will allow you to execute Consumable List functionality:
 
 ### How it works
 
-<a class="" data-lightbox="Consumable List" href="_static/consumable_list.gif" title="Consumable List" data-title="Consumable List"><img src="_static/consumable_list.gif" class="align-center" width="800px" height="500px" alt="Consumable List">
+<a data-fancybox="Consumable List BOM" href="_static/consumable_list.mp4" data-caption="Consumable List BOM">
+  <img src="_static/consumable_list_thumbnail.jpg" alt="Consumable List BOM" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+<br>
 
 ## Span Clearance And Vertical Separation
 
@@ -233,9 +239,11 @@ The following steps will allow you to execute Pole Profile
 <p>Additionally, make sure to open the related QGS project file and select the <code>Poles</code> layer or a related layer from <code>Pole Information Source Layer</code> drop down to capture the table information accurately.</p>
 </div>
 
-
-<a class="" data-lightbox="Pole Profile" href="_static/new_pole_profile_gif.gif" title="Pole Profile" data-title="Pole Profile"><img src="_static/new_pole_profile_gif.gif" class="align-center" width="800px" height="500px" alt="Pole Profile">
-</a> 
+<a data-fancybox="Pole Profiles" href="_static/new_pole_profile.mp4" data-caption="Pole Profiles">
+  <img src="_static/new_pole_profile_thumbnail.jpg" alt="Pole Profiles" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
+</a>
+<br>
 
 <div class="note">
 <p class="admonition-title">IMPORTANT</p>
@@ -296,8 +304,11 @@ The following steps will allow you to execute PAR Profile.
 5. **(Optional)** Choose folder location you want to save your profiles.
 6. Click `OK` button to generate the profiles.
 
-<a class="" data-lightbox="PAR Profile" href="_static/PAR_profile.gif" title="PAR Profile" data-title="PAR Profile"><img src="_static/PAR_profile.gif" class="align-center" width="800px" height="500px" alt="PAR Profile">
+<a data-fancybox="PAR Profiles" href="_static/PAR_profile.mp4" data-caption="PAR Profiles">
+  <img src="_static/PAR_profile_thumbnail.jpg" alt="PAR Profiles" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+<br>
 
 <div class="seealso">
 <p class="admonition-title">TIP</p>
@@ -324,8 +335,14 @@ The following steps will allow you to generate pole profiles using Katapult:
 
 ### How it Works
 
-<a class="" data-lightbox="Katapult Profiles" href="_static/katapult_profiles.gif" title="Katapult Profiles" data-title="Katapult Profiles"><img src="_static/katapult_profiles.gif" class="align-center" width="800px" height="500px" alt="Katapult Profiles">
+<!-- <a class="" data-lightbox="Katapult Profiles" href="_static/katapult_profiles.gif" title="Katapult Profiles" data-title="Katapult Profiles"><img src="_static/katapult_profiles.gif" class="align-center" width="800px" height="500px" alt="Katapult Profiles">
+</a> -->
+
+<a data-fancybox="Katapult Profiles" href="_static/katapult_profiles.mp4" data-caption="Katapult Profiles">
+  <img src="_static/katapult_profiles_thumbnail.jpg" alt="Katapult Profiles" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+<br>
 
 ## Counts Calculator
 
