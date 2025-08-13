@@ -42,6 +42,20 @@ The following steps will allow you to execute the Katapult Importer functionalit
 <a class="" data-lightbox="Katapult Importer" href="_static/katapult_importer.gif" title="Katapult Importer" data-title="Katapult Importer"><img src="_static/katapult_importer.gif" class="align-center" width="800px" height="500px" alt="Katapult Importer">
 </a>
 
+## Katapult Importer API Version
+
+The Katapult Importer API Plugin allows QGIS users to seamlessly import infrastructure data from Katapult into QGIS by entering a specific Katapult Job ID. The plugin leverages the Katapult API to retrieve job-related data, loading it directly into a database memory layer within QGIS. This supports *`Poles` and `Anchors`* layer.
+
+### Key Features
+1. Katapult API Integration: Retrieves detailed job data from Katapult using a job ID input.
+2. Memory Layer Loading: Automatically imports data into a temporary database memory layer within QGIS
+3.  QGIS Integration: Works smoothly with QGIS’s layer structure, allowing further geospatial analysis and editing.
+
+### How It Works
+
+<a class="" data-lightbox="Katapult Importer API Version" href="_static/katapult_inporter_api.gif" title="Katapult Importer API Version" data-title="Katapult Importer API Version"><img src="_static/katapult_inporter_api.gif" class="align-center" width="800px" height="500px" alt="Zoom to Feature">
+</a>
+
 ## SpidaCalc Validator
 
 Plugin to extract information from SPIDACALC JSON and generate PDF, XLS report for required missing information.
