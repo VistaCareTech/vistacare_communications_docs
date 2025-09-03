@@ -355,3 +355,22 @@ The following steps will allow you to execute the Counts Calculator functionalit
 <a class="" data-lightbox="Counts calculator" href="_static/counts_calculator.gif" title="Counts calculator" data-title="Counts calculator"><img src="_static/counts_calculator.gif" class="align-center" width="800px" height="500px" alt="Counts calculator">
 
 </a>
+
+## Spans Generator
+
+This module allows the user to generate `Spans` feature using information from `Strand` feature and poles layer (Point geometry) as endpoint. 
+
+The following steps will allow you to generate `Spans` feature:
+1. In the VistaCare Communications Plugin go to `Tools --> Spans Generator`.
+2. Select the Pole information layer from Layers table.
+3. Select the Strand Information source layer.
+4. In Generate Span Distance groupbox, select which layer where you want to save the spans feature (`Spans`).
+5. Click `OK` button to generate the spans.
+
+### How it Works
+
+<a data-fancybox="Spans Generator" href="_static/spans_generator.mp4" data-caption="Spans Generator">
+  <img src="_static/spans_generator.jpg" alt="Spans Generator" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
+</a>
+<br>
