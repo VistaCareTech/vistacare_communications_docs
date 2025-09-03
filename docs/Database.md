@@ -27,8 +27,11 @@ The following steps will allow you to execute `Database Functions`:
    
 7. **Execution:** Click `Run` triggers evaluation and execution of the database function. 
 
-<a class="" data-lightbox="Database Functions" href="_static/database_function.gif" title="Database Functions" data-title="Database Functions"><img src="_static/database_function.gif" class="align-center" width="800px" height="500px" alt="Database Functions">
-</a> 
+<a data-fancybox="Database Functions" href="_static/database_functions.mp4" data-caption="Database Functions">
+  <img src="_static/database_functions_thumbnail.jpg" alt="CAD Export" 
+      class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
+</a>
+<br>
 
 <div class="seealso">
 <p class="admonition-title">TIP</p>
