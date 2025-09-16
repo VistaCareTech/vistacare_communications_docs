@@ -1,11 +1,8 @@
 {
-  "navigationFallback": {
-    "rewrite": "/index.html"
-  },
   "routes": [
     {
       "route": "/*",
-      "allowedRoles": [ "authenticated" ]
+      "allowedRoles": ["authenticated"]
     }
   ],
   "responseOverrides": {
