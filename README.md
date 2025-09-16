@@ -1,6 +1,6 @@
 # Vistacare Communications Docs
 
-This is the repository for the documentation of the developments builded on VistaCare Communications.
+This is the repository for the documentation of the developments and procedures builded on VistaCare Communications.
 
 ## Online Documentation
 
