@@ -2,7 +2,7 @@
 
 This is the repository for the documentation of the developments and procedures builded on VistaCare Communications.
 
-## Online Documentation
+## Online Documentation URL
 
 https://gentle-ground-0bd1c310f.3.azurestaticapps.net/
 
