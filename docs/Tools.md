@@ -390,4 +390,98 @@ The following steps will allow you to generate `Spans` feature:
   <img src="_static/spans_generator.jpg" alt="Spans Generator" 
       class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
+
+## Strand Automate
+
+The **Strand Automate** tool creates continuous strand lines from your span network with one click. It groups spans based on their type (case field), follows the network, and outputs properly segmented strand lines.
+
+**What the tool does:**
+- Reads and filters your spans based on their *case* (New Strand, Overlash, Existing, etc.).
+- Follows the spans and automatically traces each continuous route.
+- Breaks and starts new strands when the angle between spans is too sharp (tight corner).
+- Produces a temporary strand layer
+
+**How to use:**
+1. Open the plugin and select **Tools → Strand Automate**.
+2. Select your *Spans* layer.
+3. Adjust angle tolerance if needed.
+4. Click **OK**.
+
+**Output:**
+- A new memory layer named **strands_automate** containing strand features.
+
+---
+
+## Anchor Automate
+
+The **Anchor Automate** tool analyzes your span geometry and automatically generates anchor lines at the poles where anchors are required. It only works where spans have New Strand in their case and has different
+behavior when New Strand is touching Existing Strand since they have existing anchors.
+
+**What the tool does:**
+- Detects each junction where spans meet.
+- Measures the angle between incoming/outgoing spans.
+- Decides the correct anchor configuration based on angle thresholds:
+  - **Single span touching pole** → 1 dead end anchor opposite the span  
+  - **Two spans touching pole** → outward bisector anchor (or two anchors, when appropriate)   
+- Draws the anchor line at the correct offset distance from the pole.
+
+**How to use:**
+1. Open the plugin and go to **Tools → Anchor Automate**.
+2. Select your *Spans* layer.
+3. Choose angle settings or use defaults.
+4. Click **OK**.
+
+**Output:**
+- A memory layer named **anchor_lines** containing anchors placed at the correct junction angles.
+
+---
+
+## Splicing Test Sheet Generator
+
+The **Splicing Test Sheet Generator** tool automatically creates standardized *Testing <FSA>.xlsx* workbooks used by field technicians during fiber testing.
+
+It gathers all splices, terminals, and fiber routes for each selected FDSA, then builds a structured Excel workbook based on the VistaCare testing template.
+
+**What the tool does:**
+- Identifies the CSP inside the selected FDSA.
+- Follows the distribution cables to every splice in the FDSA.
+- Creates one testing sheet per splice using your provided Excel template.
+- Fills in:
+  - Fiber numbers  
+  - Cable names  
+  - Terminal assignments  
+  - Required testing notes  
+- Produces a clean, technician-ready package.
+
+**How to use:**
+1. Go to **Tools → Splicing Test Sheet Generator**.
+2. Pick your output folder.
+3. Before running the tool, select one or many FDSA boundaries.
+4. Click **OK**.
+
+**Output:**
+- Completed Excel workbooks named **Testing_<FSA>.xlsx** for each FSA
+
+---
+
+## Splicing Package Generator
+
+The **Splicing Package Generator** automatically builds full splice packages, combining splice data, cable routing, and fiber assignments into a standardized Excel deliverable.
+
+**What the tool does:**
+- Extracts all splice points and their connected cables.
+- Fills in splice details based on VistaCare’s fiber routing logic.
+- Generates per-splice worksheets showing:
+  - Cable-to-cable fiber mapping  
+  - Fiber assignment tables    
+
+**How to use:**
+1. Navigate to **Tools → Splicing Package Generator**.
+2. Pick your output folder.
+3. Before running the tool, select one or many FDSA boundaries
+4. Click **OK**.
+
+**Output:**
+- A complete Excel splicing package ready for construction crews.
+
 <br>
