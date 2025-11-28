@@ -438,7 +438,7 @@ behavior when New Strand is touching Existing Strand since they have existing an
 
 ## Splicing Test Sheet Generator
 
-The **Splicing Test Sheet Generator** tool automatically creates standardized *Testing <FSA>.xlsx* workbooks used by field technicians during fiber testing.
+The **Splicing Test Sheet Generator** tool automatically creates standardized *`Testing <FSA>.xlsx`* workbooks used by field technicians during fiber testing.
 
 It gathers all splices, terminals, and fiber routes for each selected FDSA, then builds a structured Excel workbook based on the VistaCare testing template.
 
@@ -460,7 +460,7 @@ It gathers all splices, terminals, and fiber routes for each selected FDSA, then
 4. Click **OK**.
 
 **Output:**
-- Completed Excel workbooks named **Testing_<FSA>.xlsx** for each FSA
+- Completed Excel workbooks named **`Testing_<FSA>.xlsx`** for each FSA
 
 ---
 
@@ -482,6 +482,6 @@ The **Splicing Package Generator** automatically builds full splice packages, co
 4. Click **OK**.
 
 **Output:**
-- A complete Excel splicing package ready for construction crews.
+- A complete Excel splicing package **`<FSA>_Splice_Package_<yyyymmdd>.xlsx`** for each FSA ready for construction crews.
 
 <br>
