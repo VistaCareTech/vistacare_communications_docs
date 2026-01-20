@@ -17,7 +17,7 @@ The following steps will allow you to execute the Extract and Pack functionality
 
 3. Click on `OK` and wait until the module finishes the execution. 
 
-<a class="" data-lightbox="Extract and Pack" href="_static/extract_and_pack.gif" title="Extract and Pack" data-title="Extract and Pack"><img src="_static/extract_and_pack.gif" class="align-center" width="800px" height="500px" alt="Extract and Pack">
+<a class="" data-lightbox="Extract and Pack" href="_static/extract_and_pack.mp4" title="Extract and Pack" data-title="Extract and Pack"><img src="_static/extract_and_pack.gif" class="align-center" width="800px" height="500px" alt="Extract and Pack">
 </a>
 
 ## Katapult Importer
@@ -39,7 +39,7 @@ The following steps will allow you to execute the Katapult Importer functionalit
 3. Click on `Import Data` and wait until the module finishes the execution. 
 4. Click on `Finish`.
 
-<a class="" data-lightbox="Katapult Importer" href="_static/katapult_importer.gif" title="Katapult Importer" data-title="Katapult Importer"><img src="_static/katapult_importer.gif" class="align-center" width="800px" height="500px" alt="Katapult Importer">
+<a class="" data-lightbox="Katapult Importer" href="_static/katapult_importer.mp4" title="Katapult Importer" data-title="Katapult Importer"><img src="_static/katapult_importer.gif" class="align-center" width="800px" height="500px" alt="Katapult Importer">
 </a>
 
 ## SpidaCalc Validator
@@ -59,7 +59,7 @@ The following steps will allow you to execute the SpidaCalc Validator functional
 4. **(Optional)** Choose folder location you want to save your reports.
 5. Click `OK` button to generate table
 
-<a class="" data-lightbox="Spidacalc Validator" href="_static/spidacalc_validator_gif.gif" title="Spidacalc Validator" data-title="Spidacalc Validator"><img src="_static/spidacalc_validator_gif.gif" class="align-center" width="800px" height="500px" alt="Spidacalc Validator">
+<a class="" data-lightbox="Spidacalc Validator" href="_static/spidacalc_validator_gif.mp4" title="Spidacalc Validator" data-title="Spidacalc Validator"><img src="_static/spidacalc_validator_gif.gif" class="align-center" width="800px" height="500px" alt="Spidacalc Validator">
 </a>
 
 <div class="seealso">
@@ -183,7 +183,7 @@ The following steps will allow you to execute the Span Clearance And Vertical Se
 4. **(Optional)** Choose folder location you want to save the files.
 5. Click `OK` button to generate table
 
-<a class="" data-lightbox="Span Clearance" href="_static/span_clearance_vert_separation.gif" title="Span Clearance" data-title="Span Clearance"><img src="_static/span_clearance_vert_separation.gif" class="align-center" width="800px" height="500px" alt="Span Clearance">
+<a class="" data-lightbox="Span Clearance" href="_static/span_clearance_vert_separation.mp4" title="Span Clearance" data-title="Span Clearance"><img src="_static/span_clearance_vert_separation.gif" class="align-center" width="800px" height="500px" alt="Span Clearance">
 </a>
 
 ### Span Clearance And Vertical Separation Errors
@@ -369,7 +369,7 @@ The following steps will allow you to execute the Counts Calculator functionalit
 
 3. Click on `OK` and wait until the module finishes the execution. 
 
-<a class="" data-lightbox="Counts calculator" href="_static/counts_calculator.gif" title="Counts calculator" data-title="Counts calculator"><img src="_static/counts_calculator.gif" class="align-center" width="800px" height="500px" alt="Counts calculator">
+<a class="" data-lightbox="Counts calculator" href="_static/counts_calculator.mp4" title="Counts calculator" data-title="Counts calculator"><img src="_static/counts_calculator.gif" class="align-center" width="800px" height="500px" alt="Counts calculator">
 
 </a>
 
