@@ -390,6 +390,8 @@ The following steps will allow you to generate `Spans` feature:
       class="align-center" style="width: 700px; height: 400px; cursor: pointer;">
 </a>
 
+---
+
 ## Strand Automate
 
 The **Strand Automate** tool creates continuous strand lines from your span network with one click. It groups spans based on their type (case field), follows the network, and outputs properly segmented strand lines.
@@ -482,5 +484,66 @@ The **Splicing Package Generator** automatically builds full splice packages, co
 
 **Output:**
 - A complete Excel splicing package **`<FSA>_Splice_Package_<yyyymmdd>.xlsx`** for each FSA ready for construction crews.
+
+---
+
+## Add Plus Code & Lat/Long to Layer
+
+This tool populates **WGS84 latitude, longitude, and Plus Codes** for point layers.  
+It automatically detects existing fields, transforms coordinates to EPSG:4326, and safely writes values without overwriting existing data unless explicitly enabled.
+
+The tool only writes to fields that already exist in the layer and supports working on selected features only.
+
+The following steps will allow you to execute the Add Plus Code & Lat/Long to Layer functionality:
+
+1. On the VistaCare Communications Plugin go to `Tools --> Add Plus Code & Lat/Long to Layer`.
+2. Select a **Point Layer** from the dropdown list.
+3. (Optional) Enable **Use only selected features** to process only selected points.
+4. (Optional) Enable **Overwrite existing values** to replace populated fields.
+5. Adjust precision settings if required:
+   * **Plus code length** (default: 11)
+   * **Lat/Long precision (decimals)** (default: 8)
+6. Click `Run` and wait for the tool to complete.
+
+A detailed execution log will be displayed showing updated and skipped features.
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>
+
+**Accepted field names (case-insensitive):**
+
+* Latitude: `lat`, `latitude`  
+* Longitude: `lon`, `lng`, `long`, `longitude`  
+* Plus Code: `pluscode`, `plus_code`, `pluscodes`, `plus_codes`
+
+If a field is not found, that value will be skipped and reported in the log.
+
+</p>
+</div>
+
+<div class="note">
+<p class="admonition-title">IMPORTANT</p>
+<p>
+
+* Coordinates are always calculated in **WGS84 (EPSG:4326)** regardless of the layer CRS.
+* Multipart and single-point geometries are supported.
+* Features with missing geometry are skipped.
+* All edits are grouped into a single undoable edit operation.
+
+</p>
+</div>
+
+### Precision Reference
+
+| Plus Code Length | Approximate Area |
+| ---------------- | ---------------- |
+| 10               | ~14 × 14 m       |
+| 11               | ~2.8 × 3.5 m     |
+| 12               | ~0.56 × 0.87 m   |
+
+Typical values:
+* **Plus Code Length:** 11  
+* **Lat/Long Precision:** 8 decimals
 
 <br>
