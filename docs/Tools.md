@@ -487,6 +487,102 @@ The **Splicing Package Generator** automatically builds full splice packages, co
 
 ---
 
+## Tube Sheet Generator
+
+The **Tube Sheet Generator** creates standardized **fiber tube sheet Excel workbooks** for one or more selected FDSAs.  
+It analyzes the cable and splice network starting from the CSP, follows fiber routing through splices, and generates a clear ribbon-by-ribbon representation of fiber usage.
+
+This tool is designed specifically for **NWT projects** and follows VistaCare’s NWT tube sheet standards.
+
+### How to use
+
+1. Open the VistaCare Communications Plugin and go to  
+   `Tools --> Tube Sheet Generator`
+2. Select the required layers:
+   * **FDSA Layer**
+   * **Cables Layer**
+   * **Splice Layer**
+   * **CSP Layer**
+3. Choose an **Export Folder**.
+4. Select one or more **FDSA features** in the FDSA layer.
+5. Click `OK` and wait for the process to complete.
+
+A summary of generated files and skipped FDSAs will be displayed after completion.
+
+---
+
+<div class="note">
+<p class="admonition-title">IMPORTANT</p>
+<p>
+
+⚠️ This tool is **NWT-only** and follows NWT-specific tube sheet rules and layouts.
+
+</p>
+</div>
+
+---
+
+### Required layer fields
+
+The tool validates required fields before processing and will skip an FDSA if any are missing.
+
+**Cables layer**
+- `category`
+- `plan_id`
+- `fiber_capacity`
+- `count`
+
+**Splice layer**
+- `location`
+- `sp_id` (optional, used for labeling)
+
+**CSP layer**
+- `size`
+- `name` or `csp_name` (optional, used for labeling)
+- `location` (optional, used for labeling)
+- `CLLI` (optional, used for labeling)
+
+**FDSA layer**
+- `name`
+
+---
+
+### CSP behavior by size
+
+| CSP Size | Behavior |
+|--------|---------|
+| 144 / 288 | CSP Stub tables generated |
+| 576 | Dual-stub logic (Stub A / Stub B) |
+| 1008+ | Full CSP table with feeder block |
+
+---
+
+### Output
+
+- One Excel file per selected FDSA
+- File naming format:  
+  **`<FDSA_NAME>_Tube_Sheet_<YYYYMMDD_HHMM>.xlsx`**
+- Each workbook contains:
+  - CSP table or CSP stub tables
+  - One table per cable generation
+  - Ribbon-level fiber allocation
+  - Clear splice labeling (`SPLICE @ LOCATION`)
+
+---
+
+### Skipped FDSAs
+
+An FDSA may be skipped if:
+- It has no geometry
+- No CSP is found inside the boundary
+- No cables intersect the FDSA
+- Required fields are missing
+- **CSP size is 576 and exactly two CSP stub cables cannot be identified within the FDSA**
+
+Skipped FDSAs and reasons are reported in the results panel.
+
+---
+
 ## Add Plus Code & Lat/Long to Layer
 
 This tool populates **WGS84 latitude, longitude, and Plus Codes** for point layers.  
