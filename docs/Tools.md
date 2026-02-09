@@ -477,9 +477,9 @@ The **Splicing Package Generator** automatically builds full splice packages, co
   - Fiber assignment tables    
 
 **How to use:**
-1. Navigate to **Tools → Splicing Package Generator**.
-2. Pick your output folder.
-3. Before running the tool, select one or many FDSA boundaries
+1. Before running the tool, select one or many FDSA boundaries
+2. Navigate to **Tools → Splicing Package Generator**.
+3. Pick your output folder.
 4. Click **OK**.
 
 **Output:**
@@ -489,23 +489,18 @@ The **Splicing Package Generator** automatically builds full splice packages, co
 
 ## Tube Sheet Generator
 
-The **Tube Sheet Generator** creates standardized **fiber tube sheet Excel workbooks** for one or more selected FDSAs.  
+The **Tube Sheet Generator** creates standardized **fiber tube sheet Excel deliverables** for one or more selected FDSAs.  
 It analyzes the cable and splice network starting from the CSP, follows fiber routing through splices, and generates a clear ribbon-by-ribbon representation of fiber usage.
 
-This tool is designed specifically for **NWT projects** and follows VistaCare’s NWT tube sheet standards.
+This tool is designed specifically for **NWT projects** and follows NWT tube sheet standards.
 
 ### How to use
 
-1. Open the VistaCare Communications Plugin and go to  
+1. Select one or more **FDSA features** in the FDSA layer.
+2. Open the VistaCare Communications Plugin and go to  
    `Tools --> Tube Sheet Generator`
-2. Select the required layers:
-   * **FDSA Layer**
-   * **Cables Layer**
-   * **Splice Layer**
-   * **CSP Layer**
 3. Choose an **Export Folder**.
-4. Select one or more **FDSA features** in the FDSA layer.
-5. Click `OK` and wait for the process to complete.
+4. Click `OK` and wait for the process to complete.
 
 A summary of generated files and skipped FDSAs will be displayed after completion.
 
