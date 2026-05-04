@@ -439,7 +439,7 @@ behavior when New Strand is touching Existing Strand since they have existing an
 
 ## Splicing Test Sheet Generator
 
-The **Splicing Test Sheet Generator** tool automatically creates standardized *`Testing <FSA>.xlsx`* workbooks used by field technicians during fiber testing.
+The **Splicing Test Sheet Generator** tool automatically creates standardized *`Testing <FSA>_YYYYMMDD_HHMM.xlsx`* workbooks used by field technicians during fiber testing.
 
 It gathers all splices, terminals, and fiber routes for each selected FDSA, then builds a structured Excel workbook based on the VistaCare testing template.
 
@@ -539,7 +539,7 @@ The tool validates required fields before processing and will skip an FDSA if an
 
 **FDSA layer**
 - `name`
-
+- `clli_code` (optional, used for labeling)
 ---
 
 ### CSP behavior by size
