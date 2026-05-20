@@ -44,7 +44,7 @@ The following steps will allow you to execute the Katapult Importer functionalit
 
 ## SpidaCalc Validator
 
-Plugin to extract information from SPIDACALC JSON and generate PDF, XLS report for required missing information.
+Tool to extract information from SPIDACALC JSON and generate PDF, XLS report for required missing information.
 
 The following steps will allow you to execute the SpidaCalc Validator functionality:
 
@@ -82,7 +82,7 @@ The following steps will allow you to execute the SpidaCalc Validator functional
 
 ## BOM Report
 
-This plugin extract BOM and BOL information and generates a report in .xlxs format. 
+This tool extracts BOM and BOL information and generates a report in .xlxs format. 
 
 The following steps will allow you to execute BOM Report functionality:
 
@@ -129,7 +129,7 @@ The following steps will allow you to execute BOM Report functionality:
 
 ## Consumable List
 
-This plugin extract BOM Consumable list and generates individual .xlxs per fsa selected.
+This tool extracts BOM Consumable list and generates individual .xlxs per fsa selected.
 
 The following steps will allow you to execute Consumable List functionality:
 
@@ -214,7 +214,7 @@ The following steps will allow you to execute the Span Clearance And Vertical Se
 <p>If output folder location is empty, output files will be save at input json folder location </p>
 </div>
  
-Image generator for Pole Profile P'Eng Reports. This plugin lets you create a 2D image for pole profile
+Image generator for Pole Profile P'Eng Reports. This tool lets you create a 2D image for pole profile
 in an SVG or DXF format. SVG format gives the user a scalable vector graphic that maintains high quality 
 image and can be easily edited with various vector graphic software. DXF format provides compatibility 
 with numerous CAD applications.
@@ -312,7 +312,7 @@ The following steps will allow you to execute PAR Profile.
 
 <div class="seealso">
 <p class="admonition-title">TIP</p>
-<p>The plugin performs the following actions:</p>
+<p>The tool performs the following actions:</p>
 <ul>
     <li>Generates a side-by-side image of the selected poles in a single AutoCAD file (named the same as the JSON file)</li>
     <li>Creates individual AutoCAD files for each selected pole (pole label), if two layer exist for the pole it will name as (pole label_layer name)</li>
@@ -640,7 +640,7 @@ Typical values:
 <br>
 ## Cable Labeling Plan ID [NWT]
 
-This plugin labels feeder, distribution, preterm, terminal, and drop cables for the selected FDSA polygons and writes `plan_id` values directly back to the cables layer.
+This tool labels feeder, distribution, preterm, terminal, and drop cables for the selected FDSA polygons and writes `plan_id` values directly back to the cables layer.
 
 <div class="note">
 <p class="admonition-title">WARNING</p>
@@ -681,7 +681,7 @@ Behavior:
 
 ## Counts Calculator [NWT]
 
-This plugin assigns fiber counts to cables and writes the results to the counts table.
+This tool assigns fiber counts to cables and writes the results to the counts table.
 
 <div class="note">
 <p class="admonition-title">WARNING</p>
@@ -725,7 +725,7 @@ Behavior:
 
 ## QGIS Labels [NWT]
 
-This plugin validates cables inside a selected FSA using splice demand information and network topology. It also builds multi-line `qgis_label` values and adds them to the cables layer.
+This tool validates cables inside a selected FSA using splice demand information and network topology. It also builds multi-line `qgis_label` values and adds them to the cables layer.
 
 <div class="note">
 <p class="admonition-title">WARNING</p>
@@ -769,7 +769,7 @@ Common Errors:
 
 ## Cable Spec Report (CSR) [NWT]
 
-This plugin exports one Cable Spec Report per selected FSA. The report summarizes routed cable paths, poles, slack, and terminals.
+This tool exports one Cable Spec Report per selected FSA. The report summarizes routed cable paths, poles, slack, and terminals.
 
 The following steps will allow you to output the Cable Spec Report:
 
@@ -811,7 +811,7 @@ Default output folder:
 
 ## Major Materials Order Form [NWT]
 
-This plugin generates a Major Materials Cable Order Form workbook for selected FDSAs.
+This tool generates a Major Materials Cable Order Form workbook for selected FDSAs.
 
 The following steps will allow you to execute the Major Materials Order Form functionality:
 
@@ -829,8 +829,7 @@ Features:
 * Generates formatted Excel order forms
 * Supports single-FSA and multi-FSA exports
 * Automatically creates timestamped filenames
-* Uses the NWT BOM template workbook
-* Includes cable pricing and quantity summaries
+* Uses the NWT BOM template
 
 Default output folder:
 `C:\Temp\CablesBOM`
@@ -840,7 +839,7 @@ Default output folder:
 
 ## BOM Report [NWT]
 
-This plugin exports the NWT Bill of Materials (BOM) and Bill of Labour (BOL) for the currently selected FDSA polygons.
+This tool exports the NWT Bill of Materials (BOM) and Bill of Labour (BOL) for the currently selected FDSA polygons.
 
 The following steps will allow you to execute the BOM Report functionality:
 
