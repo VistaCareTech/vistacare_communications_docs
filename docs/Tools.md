@@ -638,3 +638,237 @@ Typical values:
 * **Lat/Long Precision:** 8 decimals
 
 <br>
+## Cable Labeling Plan ID [NWT]
+
+This plugin labels feeder, distribution, preterm, terminal, and drop cables for the selected FDSA polygons and writes `plan_id` values directly back to the cables layer.
+
+<div class="note">
+<p class="admonition-title">WARNING</p>
+<p>This tool edits existing layers directly and cannot be undone.</p>
+</div>
+
+The following steps will allow you to execute the Cable Labeling Plan ID functionality:
+
+1. Open `fdsa_boundaries` attribute table and select one FDSA polygon.
+2. On the VistaCare Communications Plugin go to `Tools --> Cable Labeling Plan ID [NWT]`.
+3. Fill in the required layers:
+
+    * Cables Layer
+    * Splice Layer
+    * CSP Layer
+    * FDSA Boundaries Layer
+
+4. Set optional parameters:
+
+    * Starting Distribution Letter
+
+5. Click `OK`.
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>
+
+Behavior:
+* Feeders are numbered by splice depth from the FSA CSP.
+* Distribution and preterm cables are treated as branch-carrying cables.
+* 576 CSPs reserve the first two branch letters for the two longest CSP-side stubs.
+* Terminals inherit their parent branch and are ordered by distance along parent branch.
+* Drops inherit their terminal label.
+* Any cable that cannot be labeled is written as `UNCONNECTED`.
+
+</p>
+</div>
+
+## Counts Calculator [NWT]
+
+This plugin assigns fiber counts to FlexNAP-labeled cables and writes the results to the counts table.
+
+<div class="note">
+<p class="admonition-title">WARNING</p>
+<p>This tool edits existing layers directly and cannot be undone.</p>
+</div>
+
+The following steps will allow you to execute the Counts Calculator functionality:
+
+1. Open `fdsa_boundaries` attribute table and select one FDSA polygon.
+2. On the VistaCare Communications Plugin go to `Tools --> Counts Calculator [NWT]`.
+3. Fill in the required layers:
+
+    * Cables Layer
+    * CSP Layer
+    * Splice Layer
+    * Boundary Layer
+    * Counts Layer
+
+4. Set optional parameters:
+
+    * Count Prefix
+    * Feeder Prefix
+    * Start at Selected Splice
+    * Splice Start Count
+
+5. Click `OK`.
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>
+
+Behavior:
+* Uses existing `plan_id` values to build the branch hierarchy.
+* Treats distribution and preterm as branch cables.
+* Drops are ignored.
+* Rows with `manual=true` are preserved.
+* Supports optional splice-start mode for downstream subtree recalculation.
+
+</p>
+</div>
+
+## QGIS Labels [NWT]
+
+This plugin validates cables inside a selected FSA using splice demand information and network topology. It also builds multi-line `qgis_label` values and adds them to the cables layer.
+
+<div class="note">
+<p class="admonition-title">WARNING</p>
+<p>This tool edits existing layers directly and cannot be undone.</p>
+</div>
+
+The following steps will allow you to execute the QGIS Labels functionality:
+
+1. Open `fdsa_boundaries` attribute table and select one FDSA polygon.
+2. On the VistaCare Communications Plugin go to `Tools --> QGIS Labels [NWT]`.
+3. Fill in the required layers:
+
+    * Cables Layer
+    * FSA Layer
+    * CSP Layer
+    * Splice Layer
+
+4. Set optional parameters:
+
+    * Label Field Name
+    * Count Label Mode (Show all counts, Live counts, No counts)
+
+5. Click `OK`.
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>
+
+Behavior:
+* Distribution and preterm cables are splice-validated before labels are written.
+* Midspan preterm attachments are supported.
+* Unreachable cables inside the selected FSA have labels cleared.
+
+Common Errors:
+* `Cable not connected.`
+* `No splice located at cable branch.`
+* `Splice data does not match feeding cable.`
+
+</p>
+</div>
+
+## Cable Spec Report (CSR) [NWT]
+
+This plugin exports one Cable Spec Report per selected FSA. The report summarizes routed cable paths, poles, slack, and terminals.
+
+The following steps will allow you to output the Cable Spec Report:
+
+1. Open `fdsa_boundaries` attribute table and select one or more FSA polygons.
+2. On the VistaCare Communications Plugin go to `Tools --> Cable Spec Report (CSR) [NWT]`.
+3. Fill in the required layers:
+
+    * Cables Layer
+    * Counts Layer
+    * Spans Layer
+    * Poles Layer
+    * Splice Layer
+    * CSP Layer
+    * FSA Layer
+    * Slack Layer
+    * Strand Layer
+    * Conduit Layer
+    * UG Structure Layer
+
+5. Select the output folder.
+6. Click `OK`.
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>
+
+The report includes:
+* Distribution and preterm branch summaries
+* Pole-to-pole routing distances
+* Slack locations and endpoint slack
+* Terminal and tether details
+* Start/end location labels resolved from poles, splices, CSPs, and structures
+
+Default output folder:
+`C:\Temp\CSR`
+
+</p>
+</div>
+
+## Major Materials Order Form [NWT]
+
+This plugin generates a Major Materials Cable Order Form workbook for selected FDSAs.
+
+The following steps will allow you to execute the Major Materials Order Form functionality:
+
+1. Open `fdsa_boundaries` attribute table and select one or more FSA polygons.
+2. On the VistaCare Communications Plugin go to `Tools --> Major Materials Order Form [NWT]`.
+3. Select the BOM template Excel file (autofilled).
+4. Select the output folder.
+5. Click `OK`.
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>
+
+Features:
+* Generates formatted Excel order forms
+* Supports single-FSA and multi-FSA exports
+* Automatically creates timestamped filenames
+* Uses the NWT BOM template workbook
+* Includes cable pricing and quantity summaries
+
+Default output folder:
+`C:\Temp\CablesBOM`
+
+</p>
+</div>
+
+## BOM Report [NWT]
+
+This plugin exports the NWT Bill of Materials (BOM) and Bill of Labour (BOL) for the currently selected FDSA polygons.
+
+The following steps will allow you to execute the BOM Report functionality:
+
+1. Open `fdsa_boundaries` attribute table and select one or more FSA polygons.
+2. On the VistaCare Communications Plugin go to `Tools --> BOM Report [NWT]`.
+3. Fill in the following options:
+
+    * FDSA boundaries layer: Select the polygon layer containing the selected FDSA features.
+    * BOM/BOL template path: Select the NWT BOM/BOL template Excel file (autofilled).
+    * Output folder: Choose where the generated `.xlsx` file will be saved.
+
+4. Click `OK`.
+
+<div class="seealso">
+<p class="admonition-title">TIP</p>
+<p>
+
+Required project setup:
+* The FDSA layer must contain `clli_code` and `name` fields.
+* The project must contain every layer referenced in the template `Sort Codes` sheet.
+* The project must contain every layer referenced in the template `Key Indicators` sheet.
+* Any fields referenced by template filter expressions, sum fields, or unique fields must exist.
+
+Default template:
+`K:\ENGINEERING\Programming\NWT_BOM_BOL_TEMPLATE_V3.xlsx`
+
+Default output folder:
+`C:\Temp\NWTBOMBOL`
+
+</p>
+</div>
