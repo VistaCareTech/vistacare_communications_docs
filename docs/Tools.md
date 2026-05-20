@@ -638,6 +638,7 @@ Typical values:
 * **Lat/Long Precision:** 8 decimals
 
 <br>
+
 ## Cable Labeling Plan ID [NWT]
 
 This tool labels feeder, distribution, preterm, terminal, and drop cables for the selected FDSA polygons and writes `plan_id` values directly back to the cables layer.
