@@ -681,7 +681,7 @@ Behavior:
 
 ## Counts Calculator [NWT]
 
-This plugin assigns fiber counts to FlexNAP-labeled cables and writes the results to the counts table.
+This plugin assigns fiber counts to cables and writes the results to the counts table.
 
 <div class="note">
 <p class="admonition-title">WARNING</p>
