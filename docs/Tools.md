@@ -672,7 +672,9 @@ The following steps will allow you to execute the Cable Labeling Plan ID functio
 Behavior:
 * Feeders are numbered by splice depth from the FSA CSP.
 * Distribution and preterm cables are treated as branch-carrying cables.
-* 576 CSPs reserve the first two branch letters for the two longest CSP-side stubs.
+* Labeling starts at the CSP and follows the longest reachable path, then labels the rest of that subtree before returning to the CSP for the next longest path.
+* Preterm cables are assigned the next available branch letter.
+* Dual-stub CSPs reserve the first two branch letters for the two longest stubs.
 * Terminals inherit their parent branch and are ordered by distance along parent branch.
 * Drops inherit their terminal label.
 * Any cable that cannot be labeled is written as `UNCONNECTED`.
@@ -720,6 +722,7 @@ Behavior:
 * Drops are ignored.
 * Rows with `manual=true` are preserved.
 * Supports optional splice-start mode for downstream subtree recalculation.
+* Supports optional only write counts for entered plan IDs.
 
 </p>
 </div>
